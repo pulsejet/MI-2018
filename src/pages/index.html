@@ -139,7 +139,7 @@
         </div>
         <br>
         <div class="stats-title">OVER THE YEARS</div>
-        <div class="stats-table-container">
+        <div class="stats-table-container scrollify-standard-scroll">
           <table class="stats-table">
             <col width="15%" />
             <col width="85%" />
@@ -189,6 +189,7 @@
     $.scrollify({
       section:".panel",
       scrollbars:false,
+      standardScrollElements:'.scrollify-standard-scroll',
       before:function(i,panels) {
         var ref = panels[i].attr("data-section-name");
         $(".pagination .active").removeClass("active");
