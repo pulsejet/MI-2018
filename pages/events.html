@@ -47,38 +47,6 @@
     transform: translateX(-50%);
   }
 
-  #evt-siema-next {
-    position:fixed; top:50%; right: 30px;
-    height: 40px; width: 40px; z-index:1;
-    cursor: pointer;
-  }
-
-  #evt-siema-prev {
-    position:fixed; top:50%; left: 30px;
-    height: 40px; width: 40px; z-index:1;
-    transform: rotate(180deg);
-    cursor: pointer;
-  }
-
-  .mi-evt-indices {
-    position:fixed; bottom:5%; left: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateX(-50%);
-    z-index: 1;
-  }
-
-  .mi-evt-num-template {
-    display: inline-block;
-    width: 1.1em; height: 1.1em;
-    text-align: center; vertical-align: middle;
-    padding: 6px;
-    margin: 10px;
-    border-radius: 50%;
-    border: solid white 1px;
-    cursor:pointer;
-  }
-
   .mi-evt-num-template.active {
     background-color: white;
     color: #ff0e48;
@@ -112,27 +80,14 @@
       top: 10%;
       height: 90%;
     }
-
-    #evt-siema-next {
-      right: 3px;
-      height: 15px; width: 15px;
-    }
-    #evt-siema-prev {
-      left: 3px;
-      height: 15px; width: 15px;
-    }
-
-    .mi-evt-indices {
-      bottom: 3px;
-    }
   }
 
 </style>
 
-<div id="evt-siema-next">
+<div id="evt-siema-next" class="siema-next">
   <img src="images/arrow_right.svg" />
 </div>
-<div id="evt-siema-prev">
+<div id="evt-siema-prev" class="siema-prev">
   <img src="images/arrow_right.svg" />
 </div>
 
@@ -188,8 +143,8 @@
     </div>
   </div>
 
-  <div class="mi-evt-indices">
-    <div class="mi-evt-num-template">1</div>
+  <div class="mi-evt-indices siema-indices">
+    <div class="mi-evt-num-template siema-num-template">1</div>
   </div>
 </div>
 

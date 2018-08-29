@@ -66,25 +66,6 @@
     cursor: pointer;
   }
 
-  .mi-acco-indices {
-    position:fixed; bottom:5%; left: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateX(-50%);
-    z-index: 1;
-  }
-
-  .mi-acco-num-template {
-    display: inline-block;
-    width: 1.1em; height: 1.1em;
-    text-align: center; vertical-align: middle;
-    padding: 6px;
-    margin: 10px;
-    border-radius: 50%;
-    border: solid white 1px;
-    cursor:pointer;
-  }
-
   .mi-acco-num-template.active {
     background-color: white;
     color: rgb(70, 64,126);
@@ -135,27 +116,14 @@
     .mi-acco-left-content {
       max-height: 200000px;
     }
-
-    #acco-siema-next {
-      right: 3px;
-      height: 15px; width: 15px;
-    }
-    #acco-siema-prev {
-      left: 3px;
-      height: 15px; width: 15px;
-    }
-
-    .mi-acco-indices {
-      bottom: 3px;
-    }
   }
 
 </style>
 
-<div id="acco-siema-next">
+<div id="acco-siema-next" class="siema-next">
   <img src="images/arrow_right.svg" />
 </div>
-<div id="acco-siema-prev">
+<div id="acco-siema-prev" class="siema-prev">
   <img src="images/arrow_right.svg" />
 </div>
 
@@ -211,8 +179,8 @@
 
   </div>
 
-  <div class="mi-acco-indices">
-    <div class="mi-acco-num-template">1</div>
+  <div class="mi-acco-indices siema-indices">
+    <div class="mi-acco-num-template siema-num-template">1</div>
   </div>
 
 </div>

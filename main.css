@@ -415,3 +415,54 @@ body {
 		display: none;
 	}
 }
+
+
+/* OTHER PAGES */
+
+.siema-num-template {
+	display: inline-block;
+    width: 1.1em; height: 1.1em;
+    text-align: center; vertical-align: middle;
+    padding: 6px;
+    margin: 10px;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border: solid white 1px;
+    cursor:pointer;
+}
+
+.siema-next {
+	position:fixed; top:50%; right: 30px;
+    height: 40px; width: 40px; z-index:1;
+    cursor: pointer;
+}
+
+.siema-prev {
+	position:fixed; top:50%; left: 30px;
+    height: 40px; width: 40px; z-index:1;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.siema-indices {
+	position:fixed; bottom:5%; left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+@media (max-width: 900px) {
+	.siema-next {
+		right: 3px;
+		height: 15px; width: 15px;
+	}
+	.siema-prev {
+		left: 3px;
+		height: 15px; width: 15px;
+	}
+	.siema-indices {
+		bottom: 3px;
+	}
+}
