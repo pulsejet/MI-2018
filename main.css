@@ -429,7 +429,12 @@ body {
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
     border: solid white 1px;
-    cursor:pointer;
+	cursor:pointer;
+	opacity: 0.8;
+}
+
+.siema-num-template:hover, .siema-num-template.active {
+	opacity: 1;
 }
 
 .siema-next {
