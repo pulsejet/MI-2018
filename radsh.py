@@ -18,26 +18,40 @@ regexnotdollar = r"\$!(.*?)!\$"
 
 current_row = {}
 
-# Check arguments
-if len(sys.argv) not in [4, 5]:
-    print("Wrong number of arguments!\nUsage: python radsh.py <data-csv> <template> <extension>")
-    quit()
+STATIC_CONFIG = True
+DATA_CSV = 'data.csv'
+TEMPLATE = 'template.html'
+EXTENSION = 'html'
+PRODUCTION = False
 
-for i in range(1,3):
-    if not os.path.isfile(sys.argv[i]):
-        print("File not found --", sys.argv[i])
+# Check arguments
+if not STATIC_CONFIG:
+    if len(sys.argv) not in [4, 5]:
+        print("Wrong number of arguments!\nUsage: python radsh.py <data-csv> <template> <extension>")
         quit()
+    else:
+        for i in range(1,3):
+            if not os.path.isfile(sys.argv[i]):
+                print("File not found --", sys.argv[i])
+                quit()
+
+        DATA_CSV = sys.argv[1]
+        TEMPLATE = sys.argv[2]
+        EXTENSION = sys.argv[3]
+        PRODUCTION = len(sys.argv) == 5 and sys.argv[4] == '-p'
+else:
+    PRODUCTION = len(sys.argv) == 2 and sys.argv[1] == '-p'
 
 # Read the data
 print('Reading data')
-with open(sys.argv[1], 'r') as csvfile:
+with open(DATA_CSV, 'r') as csvfile:
     data_rows = list(csv.reader(csvfile, delimiter=',', quotechar='"'))
     data_columns = data_rows[0]
     del data_rows[0]
 
 # Read the template file
 print('Reading template')
-with open(sys.argv[2]) as template_file:
+with open(TEMPLATE) as template_file:
     template = template_file.read()
 
 # Replace any unsafe characters for http links
@@ -134,17 +148,21 @@ for index, raw_row in enumerate(data_rows):
         continue;
 
     # Get the file to save to
-    filename = current_row['filename'] + '.' + sys.argv[3]
+    filename = current_row['filename'] + '.' + EXTENSION
     print(' ------------ Now working on ', filename, '------------')
 
     # Start working
     final = re.sub(regexcurl, compile, re.sub(regexsquare, preprocess, template))
 
-    if len(sys.argv) == 5 and sys.argv[4] == 'p':
+    if PRODUCTION:
         final = final.replace('index@@HTML@@', '')
         final = final.replace('@@HTML@@', '')
     final = final.replace('@@HTML@@', '.html')
 
+    # Append build directory to path and create dirs
+    filename = 'build/' + filename
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    
     # Write out everything when done
     with open(filename, 'w') as output_file:
         output_file.write(final)
