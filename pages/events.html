@@ -1,0 +1,233 @@
+<style>
+  .maindiv {
+    color: white;
+    background: linear-gradient(50deg,#ff0e48,#e99787);
+  }
+
+  .mi-siema-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
+  .mi-evt-title {
+    font-size: 5em;
+    font-family: 'Lato';
+    font-weight: 900;
+    margin-bottom: 0.7em;
+  }
+
+  .mi-evt-left {
+    position: absolute;
+    right: 50%;
+    width: 35%;
+    top: 20%;
+  }
+
+  .mi-evt-right {
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    top: 20%;
+    height: 80%;
+  }
+
+  .mi-evt-left-content {
+    font-family: 'Lato';
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+
+  .mi-evt-right-img {
+    z-index: -2;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #evt-siema-next {
+    position:fixed; top:50%; right: 30px;
+    height: 40px; width: 40px; z-index:1;
+    cursor: pointer;
+  }
+
+  #evt-siema-prev {
+    position:fixed; top:50%; left: 30px;
+    height: 40px; width: 40px; z-index:1;
+    transform: rotate(180deg);
+    cursor: pointer;
+  }
+
+  .mi-evt-indices {
+    position:fixed; bottom:5%; left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  .mi-evt-num-template {
+    display: inline-block;
+    width: 1.1em; height: 1.1em;
+    text-align: center; vertical-align: middle;
+    padding: 6px;
+    margin: 10px;
+    border-radius: 50%;
+    border: solid white 1px;
+    cursor:pointer;
+  }
+
+  .mi-evt-num-template.active {
+    background-color: white;
+    color: #ff0e48;
+  }
+
+  .exp-img-container {
+    height: 60vh;
+    position: absolute;
+    top: 45%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    .mi-evt-title {
+      font-size: 2.5em;
+    }
+
+    .mi-evt-left {
+      font-size: 0.85em;
+      left: 0;
+      width: 80%;
+      top: 5%;
+      padding: 20px;
+    }
+
+    .mi-evt-right {
+      position: absolute;
+      left: 10%;
+      width: 90%;
+      top: 10%;
+      height: 90%;
+    }
+
+    #evt-siema-next {
+      right: 3px;
+      height: 15px; width: 15px;
+    }
+    #evt-siema-prev {
+      left: 3px;
+      height: 15px; width: 15px;
+    }
+
+    .mi-evt-indices {
+      bottom: 3px;
+    }
+  }
+
+</style>
+
+<div id="evt-siema-next">
+  <img src="images/arrow_right.svg" />
+</div>
+<div id="evt-siema-prev">
+  <img src="images/arrow_right.svg" />
+</div>
+
+<div class="full-body maindiv">
+  <div class="evt-siema">
+    <div>
+      <div class="mi-siema-container">
+        <div class="mi-evt-left">
+          <div class="mi-evt-title">HORIZONS</div>
+          <p class="mi-evt-left-content">Horizons and Workshops is devoted to creating an unforgettable experience for all the visitors, by presenting the best showcases and provides a massive platform for global cultural exchange. Dive into the sea of music and dance, make an expedition to the highest peaks of literature and poetry, take a voyage to the horizons of theater and what not, the profusion of events that we provide would take you to infinity and beyond. Also get a real life experience of all these artforms at the professional workshops conducted throughout the 4 days.</p>
+        </div>
+
+        <div class="mi-evt-right">
+          <img class="mi-evt-right-img" src="images/horizons.png" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="mi-siema-container">
+        <div class="mi-evt-left">
+          <div class="mi-evt-title">PRONITES</div>
+          <p class="mi-evt-left-content">
+              As the flagship event of Mood Indigo that culminates each day of the festival, Pronites stands for three principles: exclusivity, uniqueness, and spectacle. From critically acclaimed prog acts like Porcupine Tree and Haken, to chartbusters like Shankar Ehsaan Loy and Amit Trivedi, to musical maestros like Zakir Hussain and Karsh Kale; Mood Indigo's concerts truly have it all.
+              <br><br>
+              With state-of-the-art production, a rock-solid reputation in the Indian music industry, a drive to feature upcoming Indian talent through the Livewire initiative; and a history of featuring the most exclusive international acts, Mood Indigo has established itself as India's premier stage: a stalwart to industry titans, and an aspiration for upcoming artists.
+          </p>
+        </div>
+
+        <div class="mi-evt-right">
+          <img class="mi-evt-right-img" src="images/pronites.png" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="mi-siema-container">
+        <div class="mi-evt-left">
+          <div class="mi-evt-title">INFORMALS, STREETS AND LOUNGES</div>
+          <p class="mi-evt-left-content">
+              Spontaneous and unconventional are the perfect words to describe this part of Mood Indigo.
+              <br>
+              A flamboyant touch of spontaneity and vast entertainment awaits your entry to the 550-acres of merriment!
+              <br>
+              We’ve got something up our sleeve for you, no matter who you are; we're here to celebrate your craziness, so let your wild side loose, and join in the fun! To be launched soon! Stay tuned to our FB page for more
+          </p>
+        </div>
+
+        <div class="mi-evt-right">
+          <img class="mi-evt-right-img" src="images/informals.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mi-evt-indices">
+    <div class="mi-evt-num-template">1</div>
+  </div>
+</div>
+
+<script>
+  var numtempl = $(".mi-evt-num-template");
+  data = [1,2,3]
+  for (const point in data) {
+    var newnode = numtempl.clone();
+    newnode.html((Number(point) + 1).toString());
+    newnode.attr("id", "mi-evt-ind-" + point);
+    newnode.on("click", () => {
+      evt_siema.goTo(point);
+    });
+    newnode.appendTo(".mi-evt-indices");
+  }
+  numtempl.remove();
+
+  // Numbers
+  var onSlideSiema = () => {
+    $('.mi-evt-num-template').removeClass('active');
+    var elem = $("#mi-evt-ind-" + evt_siema.currentSlide);
+    elem.addClass('active');
+  };
+
+  // Make siema
+  var evt_siema = new Siema({
+    selector: '.evt-siema',
+    duration: 500,
+    loop: true,
+    onChange: onSlideSiema,
+  });
+
+  onSlideSiema();
+
+  $('#evt-siema-next').click(function() {
+    evt_siema.next();
+  });
+  $('#evt-siema-prev').click(function() {
+    evt_siema.prev();
+  });
+</script>

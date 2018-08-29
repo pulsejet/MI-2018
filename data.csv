@@ -1,0 +1,8 @@
+filename,content
+index,file=pages/index.html
+experience,file=pages/experience.html
+events,file=pages/events.html
+competitions,file=pages/competitions.html
+accomodation,file=pages/accomodation.html
+contact,file=pages/contact.html
+register,file=pages/register.html

@@ -1,0 +1,417 @@
+* {
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mi-top-right-buttons {
+	font-size: 0.8em;
+	position: fixed;
+	right: 57px;
+	top: 27px;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+
+.mi-top-right-buttons > div {
+	margin-right: 15px;
+}
+
+.mi-bottom-right-buttons {
+	font-size: 0.8em;
+	position: fixed;
+	right: 35px;
+	bottom: 27px;
+	z-index: 1;
+}
+
+.logo-main {
+	position: fixed;
+	top: 1em; left: 1em;
+	z-index: 1;
+	transition: filter 0.5s ease, -webkit-filter 0.5s ease;
+	will-change: transform;
+}
+
+.logo-main img {
+	width: 100px;
+	height: auto;
+}
+
+.main-social-buttons {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	z-index: 1;
+	transition: color 0.5s ease;
+	will-change: transform;
+}
+
+.tv-head {
+	height: 80vh;
+}
+
+.baloon-head {
+	height: 90vh;
+}
+
+.hat-paint {
+	width: 50%;
+	max-width: 470px;
+	padding-top: 70px;
+}
+
+.title {
+	font-family: 'Lato';
+	font-size: 5em;
+	font-weight: 900;
+	margin-bottom: 5vh;
+}
+
+#about-us-title {
+	position: absolute;
+	top: 18%;
+	right: 40%;
+	transform: translateX(-40%);
+}
+
+#mi-theme {
+	width: 100%;
+	height: 100%;
+	padding-top: 10vh;
+	text-align: center;
+}
+
+.main-img {
+	margin: 0 auto;
+	display: block;
+}
+
+.xunk-inner {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.xunk-center-bottom {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -1px;
+}
+
+.xunk-left-bottom {
+	position: absolute;
+	left: 33%;
+	transform: translateX(-50%);
+	bottom: -1px;
+}
+
+.xunk-left-center {
+	position: absolute;
+	left: 33%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.xunk-right-center {
+	position: absolute;
+	right: 24%;
+	top: 50%;
+	transform: translateX(50%) translateY(-40%);
+}
+
+.xunk-right-stats {
+	right: 32%;
+}
+
+.right-text{
+	width: 24%;
+	line-height: 1.2em;
+}
+
+.center-text {
+	width: 50%;
+	margin: 0 auto;
+	line-height: 1.4em;
+	font-size: 1.1em;
+	text-align: left;
+}
+
+.text-body{
+	font-size: 1em;
+	font-weight: 400;
+	margin-bottom: 0.7em;
+}
+
+.xunk-right-stats {
+	top: 40% !important;
+}
+
+@media (max-width: 1200px) {
+	.logo-main {
+		display: none;
+	}
+
+	.title {
+		width: 100%;
+		text-align: center;
+		font-size: 4em;
+		margin: 0;
+	}
+
+	#about-us-title {
+		top: 8%;
+		left: 0;
+		transform: none;
+	}
+
+	.xunk-left-bottom, .xunk-left-center {
+		display: none;
+	}
+
+	.right-text, .center-text {
+		position: absolute;
+		margin: 0;
+		width: 75%;
+		left: 50%;
+		top: 48%;
+		transform: translateX(-52%) translateY(-35%);
+	}
+}
+
+@media (max-width: 600px) {
+	.title {
+		font-size: 3em;
+	}
+
+	.right-text, .center-text {
+		width: 80%;
+		left: 50%;
+		top: 48%;
+		font-size: 0.85em;
+		line-height: 1.2em;
+	}
+}
+
+/* STATISTICS*/
+.stats-title {
+	font-size: 2.7em;
+	font-weight: bold;
+	line-height: 1.3em;
+	white-space: nowrap;
+}
+
+.stats-content {
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+
+.bold {
+	font-weight: 900;
+}
+
+@media (max-width: 600px) {
+	.stats-title { font-size: 1.7em; }
+	.stats-table-container { max-height: 40vh; }
+	.mi-top-right-buttons { display: none; }
+	.mi-bottom-right-buttons { display: none; }
+}
+
+.stats-table-container {
+	max-height: 50vh;
+	overflow: auto;
+}
+
+.stats-table {
+	table-layout:fixed;
+}
+
+.stats-table td {
+	font-size: 0.7em;
+}
+
+.stats-table td:nth-child(1) {
+	font-weight: 900;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****** Main ********/
+
+body {
+	color:white;
+	font-family: 'Lato', sans-serif;
+}
+
+.vertical-center {
+	text-align:center;
+	width:100%;
+	position: absolute;
+	top: 47%;
+	transform: translateY(-47%);
+}
+.vertical-center p {
+	margin-top:23px;
+}
+
+.inner {
+	position: relative;
+	height:100%;
+	width:80%;
+	margin:0 auto;
+}
+
+.home {
+	background: rgb(60, 254, 219); /*linear-gradient(30deg,#06d1a3,#15eebd);*/
+}
+.panel1 {
+	background: linear-gradient(30deg,#13d5fe,#3793fd);
+}
+.panel2 {
+	background: url(/images/hair.png), linear-gradient(30deg,#7837f1,#f807c0);
+	background-size: cover;
+	background-position: center;
+}
+.panel-social {
+	background: linear-gradient(36deg,rgb(174,42,125),rgb(226,56,82));
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.panel3 {
+	background: linear-gradient(30deg,#3fe470,#8d9c02);
+}
+.panel4 {
+	background: linear-gradient(30deg,#000,#535050);
+}
+
+.pagination {
+	color: black;
+	position:fixed;
+	left: 35px;
+	top: 50%;
+  	transform: translateY(-50%);
+
+	font-size:1.5em;
+	z-index: 10;
+	transition: color 0.5s ease;
+}
+
+.pagination a {
+	color: inherit;
+	display:block;
+	height:20px;
+	margin-bottom:5px;
+	position:relative;
+	padding:4px;
+}
+
+.pagination a .hover-text {
+	width: auto;
+	white-space: nowrap;
+	text-align: right;
+	font-size: 0.7em;
+	position:absolute;
+	left:15px;
+	top:5px;
+	opacity: 0.6;
+	-webkit-transition: opacity 0.2s ease;
+	transition: opacity 0.2s ease;
+	padding-right: 15px;
+}
+
+.pagination a.active .hover-text {
+	opacity: 1;
+}
+
+.pagination a:hover .hover-text {
+	opacity: 1;
+}
+
+.vertical-center p.cta {
+	margin-top:5px;
+}
+.vertical-center a:link,
+.vertical-center a:visited {
+	color:white;
+	text-decoration:none;
+
+	font-size:0.6em;
+}
+.vertical-center a:hover {
+	text-decoration: underline;
+}
+.arrow {
+	position: relative;
+	padding-right:15px;
+}
+
+.arrow:before,
+.arrow:after {
+	content:'';
+	position: absolute;
+	right:0;
+	top:7px;
+
+	width:2px;
+	height:12px;
+	background: white;
+}
+.arrow:before {
+	transform: rotate(45deg);
+	top:15px;
+}
+.arrow:after {
+	transform: rotate(-45deg);
+}
+
+@media (max-width:800px) {
+	.pagination {
+		display: none;
+	}
+}
