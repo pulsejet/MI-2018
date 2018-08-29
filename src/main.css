@@ -52,7 +52,7 @@
 }
 
 .tv-head {
-	height: 80vh;
+	height: 90vh;
 }
 
 .baloon-head {
@@ -196,6 +196,11 @@
 		top: 48%;
 		font-size: 0.85em;
 		line-height: 1.2em;
+	}
+
+	.tv-head {
+		height: auto;
+		width: 98%;
 	}
 }
 
