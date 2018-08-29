@@ -11,8 +11,8 @@
 .mi-top-right-buttons {
 	font-size: 0.8em;
 	position: fixed;
-	right: 57px;
-	top: 27px;
+	right: 72px;
+	top: 37px;
 	transform: translateY(-50%);
 	z-index: 1;
 }
@@ -31,7 +31,7 @@
 
 .logo-main {
 	position: fixed;
-	top: 1em; left: 1em;
+	top: 1.5em; left: 1.5em;
 	z-index: 1;
 	transition: filter 0.5s ease, -webkit-filter 0.5s ease;
 	will-change: transform;
