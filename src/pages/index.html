@@ -1,4 +1,17 @@
 <style>
+  #mi-mp-next, #mi-mp-prev {
+    position: fixed;
+    left: 50%;
+	  height: 30px; width: 30px; z-index:2;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+  }
+
+  #mi-mp-next { bottom: 20px; transform: translateX(-50%) rotate(90deg); }
+  #mi-mp-prev { top: 20px;transform: translateX(-50%) rotate(-90deg); }
+  #mi-mp-prev.at-start, #mi-mp-prev.at-end { opacity: 0; cursor: unset;}
+  #mi-mp-next.at-end { transform: translateX(-50%) rotate(-90deg); }
+
   .tv-backdrop {
     position: absolute;
     z-index: 0;
@@ -105,7 +118,7 @@
   }
 
   @media (max-width: 900px) {
-    .tv-backdrop p { display: none; }
+    .tv-backdrop p, #mi-mp-next, #mi-mp-prev { display: none; }
     .tv-backdrop {
       top: 4vh; left: 45%;
       transform: translateX(-50%);
@@ -128,6 +141,12 @@
 </style>
 
 <section class="panel home" data-section-name="HOME">
+  <span id="mi-mp-next">
+    <img src="images/arrow_right.svg" />
+  </span>
+  <span id="mi-mp-prev">
+    <img src="images/arrow_right.svg" />
+  </span>
   <div class="xunk-inner" id="particles-js">
     <div class="tv-backdrop">
         <img src="images/logo_horizontal.png" />
@@ -286,6 +305,12 @@
 <script>
   $.scrollify.enable();
   $.scrollify.destroy();
+
+  var currentScrollifySection = 0;
+  var lastScrollifySection = 5;
+
+  $("#mi-mp-prev, #mi-mp-next").addClass("at-start");
+
   $(function() {
     $.scrollify({
       section:".panel",
@@ -293,17 +318,22 @@
       standardScrollElements: (window.innerWidth<=800||window.innerHeight<=600)?'.scrollify-standard-scroll':'',
       before:function(i,panels) {
         var ref = panels[i].attr("data-section-name");
+        currentScrollifySection = i;
         $(".pagination .active").removeClass("active");
         $(".pagination").find("a[href=\"#" + ref + "\"]").addClass("active");
         if (i == 0) {
+          $("#mi-mp-prev, #mi-mp-next").addClass("at-start");
           $(".pagination").css('color', 'black');
           addInvert();
         } else {
+          $("#mi-mp-prev, #mi-mp-next").removeClass("at-start");
           removeInvert();
         }
-        if (i == 5) {
+        if (i == lastScrollifySection) {
+          $("#mi-mp-prev, #mi-mp-next").addClass("at-end");
           $(".logo-main").addClass("sitemap");
         } else {
+          $("#mi-mp-prev, #mi-mp-next").removeClass("at-end");
           $(".logo-main").removeClass("sitemap");
         }
       },
@@ -325,5 +355,16 @@
   pagination += "</ul>";
   $(".home").append(pagination);
   $(".pagination a").on("click",$.scrollify.move);
+
+  $("#mi-mp-next").on("click", () => {
+    if (currentScrollifySection == lastScrollifySection) {
+      $.scrollify.previous();
+    } else {
+      $.scrollify.next();
+    }
+  });
+  $("#mi-mp-prev").on("click", () => {
+    $.scrollify.previous();
+  });
 
 </script>

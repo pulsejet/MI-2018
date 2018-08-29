@@ -8,6 +8,10 @@
     user-select: none;
 }
 
+[sidebarjs] {
+	z-index: 100 !important;
+}
+
 bld {
 	font-weight: 900;
 }
