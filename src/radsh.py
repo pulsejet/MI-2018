@@ -161,7 +161,7 @@ for index, raw_row in enumerate(data_rows):
     final = final.replace('@@HTML@@', '.html')
 
     # Append build directory to path and create dirs
-    filename = 'build/' + filename
+    filename = '../build/' + filename
     os.makedirs(os.path.dirname(filename), exist_ok=True)
 
     # Write out everything when done
@@ -181,6 +181,6 @@ def copyanything(src, dst):
         else: raise
 
 for file in ['images', 'main.css', 'sidebar.css', 'script']:
-    copyanything(file, "build/" + file)
+    copyanything(file, "../build/" + file)
 
 print('Everything done')
