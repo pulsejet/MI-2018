@@ -437,18 +437,18 @@ body {
 	opacity: 1;
 }
 
-.siema-next {
-	position:fixed; top:50%; right: 30px;
-    height: 40px; width: 40px; z-index:1;
+.siema-next, .siema-prev {
+	position:fixed; top:50%;
+	height: 40px; width: 40px; z-index:1;
+	transition: transform 0.3s ease;
     cursor: pointer;
 }
 
-.siema-prev {
-	position:fixed; top:50%; left: 30px;
-    height: 40px; width: 40px; z-index:1;
-    transform: rotate(180deg);
-    cursor: pointer;
-}
+.siema-next { right: 30px; }
+.siema-prev { left: 30px; transform: rotate(180deg); }
+
+.siema-next:hover { transform: scale(1.1); }
+.siema-prev:hover { transform: rotate(180deg) scale(1.15); }
 
 .siema-indices {
 	position:fixed; bottom:5%; left: 50%;
