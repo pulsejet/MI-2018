@@ -33,8 +33,12 @@
 	position: fixed;
 	top: 1.5em; left: 1.5em;
 	z-index: 1;
-	transition: filter 0.5s ease, -webkit-filter 0.5s ease;
+	transition: filter 0.5s ease, -webkit-filter 0.5s ease, transform 0.8s ease;
 	will-change: transform;
+}
+
+.logo-main.sitemap {
+	transform: translateX(calc(50vw - 50% - 1.5em)) translateY(calc(15vh - 50% - 1.5em)) scale(1.7);
 }
 
 .logo-main img {

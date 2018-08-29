@@ -68,6 +68,42 @@
     transform: translateX(-50%);
   }
 
+  .mi-sitemap-logounit {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .mi-sitemap-logounit p:first-child { color: #ccc; }
+  .mi-sitemap-logounit p {
+    letter-spacing: 0.1em;
+    margin-bottom: 0.2em;
+  }
+
+  .mi-sitemap-links-container {
+    position: absolute;
+    left: 12%; top: 38%;
+  }
+
+  .mi-sitemap-follow-container {
+    position: absolute;
+    right: 12%; top: 38%;
+  }
+
+  .mi-sitemap-links-table a {
+    color: grey;
+    text-decoration: none;
+  }
+  .mi-sitemap-links-table a:hover { color: white; }
+  .mi-sitemap-links-table td { padding: 0.4em 2em 0.4em 0; }
+  .mi-sitemap-links-table.fm tr:first-child td { padding: 1em 0; }
+
+  .mi-small-title {
+    font-size: 2.8em;
+    font-weight: 900;
+    margin-bottom: 0.7em;
+  }
+
   @media (max-width: 900px) {
     .tv-backdrop p { display: none; }
     .tv-backdrop {
@@ -77,6 +113,17 @@
     .tv-backdrop img {
       width: 60vw
     }
+  }
+
+  @media (max-width: 1200px) {
+    .mi-sitemap-logounit { display: none; }
+    .mi-small-title { font-size: 1.5em; margin-bottom: 0.2em; }
+    .mi-sitemap-links-container, .mi-sitemap-follow-container {
+      position: relative; top: unset; left: unset; right: unset;
+      margin-top: 0.6em;
+    }
+    .mi-sitemap-links-table td { padding: 0.1em 1em 0.1em 0; }
+    .mi-sitemap-links-table.fm tr:first-child td { padding: 0.4em 0; }
   }
 </style>
 
@@ -171,9 +218,62 @@
 
 <section class="panel panel4" data-section-name="SITE_MAP">
   <div class="inner">
-    <div class="vertical-center">
-      <h2>A MONTAGE OF DREAMS</h2>
+    <div class="mi-sitemap-logounit">
+      <p>A MONTAGE OF DREAMS</p>
       <p>27-30 DECEMBER 2018</p>
+    </div>
+    <br>
+    <div class="mi-sitemap-links-container">
+      <div class="mi-small-title">LINKS</div>
+      <table class="mi-sitemap-links-table fm">
+        <tr>
+          <td><a href="/">REGISTER</a></td>
+          <td><a href="/">CONTACT US</a></td>
+        </tr>
+        <tr>
+          <td><a href="/">HOME</a></td>
+          <td><a href="/">COMPETITIONS</a></td>
+        </tr>
+        <tr>
+          <td><a href="/">ABOUT US</a></td>
+          <td><a href="/">ACCOMODATION &amp; ASSISTANCE</a></td>
+        </tr>
+        <tr>
+          <td><a href="/">THEME</a></td>
+          <td><a href="/">CR PORTAL</a></td>
+        </tr>
+        <tr>
+          <td><a href="/">STATISTICS</a></td>
+          <td><a href="/">CONTACT US</a></td>
+        </tr>
+        <tr>
+          <td><a href="/">SOCIAL CAUSE</a></td>
+          <td><a href="/">FAQs</a></td>
+        </tr>
+        <tr>
+          <td><a href="/">THE EXPERIENCE</a></td>
+          <td><a href="/">AFTERMOVIE</a></td>
+        </tr>
+        <tr>
+          <td><a href="/">EVENTS</a></td>
+          <td><a href="/">BLOG</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="mi-sitemap-follow-container">
+      <div class="mi-small-title">FOLLOW US</div>
+      <table class="mi-sitemap-links-table">
+          <tr><td><a href="/">FACEBOOK</a></td></tr>
+          <tr><td><a href="/">INSTAGRAM</a></td></tr>
+          <tr><td><a href="/">TWITTER</a></td></tr>
+          <tr><td><a href="/">LINKEDIN</a></td></tr>
+      </table>
+      <br>
+      <table class="mi-sitemap-links-table">
+          <tr><td><a href="/">TERMS AND CONDITIONS</a></td></tr>
+          <tr><td><a href="/">PRIVACY POLICY</a></td></tr>
+      </table>
     </div>
   </div>
 </section>
@@ -200,6 +300,11 @@
           addInvert();
         } else {
           removeInvert();
+        }
+        if (i == 5) {
+          $(".logo-main").addClass("sitemap");
+        } else {
+          $(".logo-main").removeClass("sitemap");
         }
       },
     });
