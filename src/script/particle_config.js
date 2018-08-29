@@ -11,7 +11,6 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
-if (!(window.innerWidth <= 800 && window.innerHeight <= 600))
 particlesJS('particles-js',
 
 {
@@ -19,7 +18,7 @@ particlesJS('particles-js',
     "number": {
       "value": 160,
       "density": {
-        "enable": true,
+        "enable": false,
         "value_area": 800
       }
     },
@@ -36,7 +35,7 @@ particlesJS('particles-js',
         "nb_sides": 5
       },
       "image": {
-        "src": "img/github.svg",
+        "src": "",
         "width": 100,
         "height": 100
       }
@@ -69,7 +68,7 @@ particlesJS('particles-js',
       "width": 1
     },
     "move": {
-      "enable": true,
+      "enable": !(window.innerWidth <= 800 && window.innerHeight <= 600),
       "speed": 1,
       "direction": "none",
       "random": true,

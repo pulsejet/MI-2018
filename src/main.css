@@ -53,6 +53,7 @@
 
 .tv-head {
 	height: 90vh;
+	z-index: 1;
 }
 
 .baloon-head {
@@ -474,5 +475,12 @@ body {
 	}
 	.siema-indices {
 		bottom: 3px;
+	}
+
+	/* Patches */
+	.particles-js-canvas-el {
+		position: absolute;
+		height: 100vmax !important;
+		z-index: 0;
 	}
 }
