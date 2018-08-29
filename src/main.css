@@ -222,13 +222,6 @@
 	font-weight: 900;
 }
 
-@media (max-width: 600px) {
-	.stats-title { font-size: 1.7em; }
-	.stats-table-container { max-height: 40vh; }
-	.mi-top-right-buttons { display: none; }
-	.mi-bottom-right-buttons { display: none; }
-}
-
 .stats-table-container {
 	max-height: 50vh;
 	overflow: auto;
@@ -244,6 +237,13 @@
 
 .stats-table td:nth-child(1) {
 	font-weight: 900;
+}
+
+@media (max-width: 600px) {
+	.stats-title { font-size: 1.7em; }
+	.stats-table-container { max-height: 40vh; }
+	.mi-top-right-buttons { display: none; }
+	.mi-bottom-right-buttons { display: none; }
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
