@@ -8,6 +8,7 @@ import re
 import sys
 import os
 import csv
+import shutil, errno
 
 # Regex to be used
 regexsquare = r"\[(.*?)\]"
@@ -78,7 +79,7 @@ def preprocess(match):
 
     print(com, ' -- no match')
     return ''
-    
+
 def preprocess_col(col, com):
     if current_row[col] == '1':
         # Answer if true
@@ -86,7 +87,7 @@ def preprocess_col(col, com):
     else:
         # Answer if false
         return preprocess_answer(regexnotdollar, com, "false")
-            
+
 def preprocess_answer(rx, com, message):
     if len(re.findall(rx, com)) > 0:
         print(col, ' == ' + message + '-- ', re.findall(rx, com)[0])
@@ -125,7 +126,7 @@ def get_file(col):
 
     # Recursively process the file
     return re.sub(regexcurl,compile, re.sub(regexsquare, preprocess, temp))
-        
+
 def escape_http(col):
     # Replace special characters if http link
     # Look for http links and replace special characters
@@ -162,9 +163,24 @@ for index, raw_row in enumerate(data_rows):
     # Append build directory to path and create dirs
     filename = 'build/' + filename
     os.makedirs(os.path.dirname(filename), exist_ok=True)
-    
+
     # Write out everything when done
     with open(filename, 'w') as output_file:
         output_file.write(final)
+
+print('Running post-build tasks')
+
+def copyanything(src, dst):
+    try:
+        if os.path.exists(dst):
+            shutil.rmtree(dst)
+        shutil.copytree(src, dst)
+    except OSError as exc: # python >2.5
+        if exc.errno == errno.ENOTDIR:
+            shutil.copy(src, dst)
+        else: raise
+
+for file in ['images', 'main.css', 'sidebar.css', 'script']:
+    copyanything(file, "build/" + file)
 
 print('Everything done')
