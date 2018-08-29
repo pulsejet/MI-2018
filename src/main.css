@@ -8,6 +8,10 @@
     user-select: none;
 }
 
+bld {
+	font-weight: 900;
+}
+
 .mi-top-right-buttons {
 	font-size: 0.8em;
 	position: fixed;
