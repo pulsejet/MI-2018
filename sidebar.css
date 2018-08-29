@@ -163,9 +163,3 @@
 	}
 	.main-social-buttons { display: none; }
 }
-
-/* Effects only for desktop */
-@media (min-width: 600px) {
-	.mi-close-sidebar:hover{ transform: rotateZ(-8deg); }
-	#sb-toggle:hover{ transform: rotateZ(8deg); }
-}

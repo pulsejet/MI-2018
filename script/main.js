@@ -1,5 +1,10 @@
 var sidebarvisible = false;
 
+tiltConfig = { maxTilt: 50, perspective: 10000 }
+$('#sb-toggle').tilt(tiltConfig);
+$('.mi-close-sidebar').tilt(tiltConfig);
+$('.logo-main').tilt();
+
 function MoodIndigoReInit() {
   links = [
     {sel: '.fa-facebook-f', href: 'https://www.facebook.com/iitb.moodindigo/'},
