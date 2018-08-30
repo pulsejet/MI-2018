@@ -6,3 +6,4 @@ competitions,file=pages/competitions.html,
 accomodation,file=pages/accomodation.html,
 contact,file=pages/contact.html,file=pages/contact.js
 register,file=pages/register.html,
+sponsors,file=pages/sponsors.html,
