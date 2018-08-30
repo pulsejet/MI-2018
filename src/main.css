@@ -166,11 +166,11 @@ bld {
 	top: 40% !important;
 }
 
-@media (max-width: 1200px) {
-	.logo-main {
-		display: none;
-	}
+@media (max-width: 900px) {
+	.logo-main { display: none; }
+}
 
+@media (max-width: 1200px) {
 	.title {
 		width: 100%;
 		text-align: center;
@@ -436,10 +436,9 @@ body {
 	transform: rotate(-45deg);
 }
 
-@media (max-width:800px) {
-	.pagination {
-		display: none;
-	}
+@media (max-width:1200px) {
+	.pagination { display: none; }
+	.min-1200px { display: none; }
 }
 
 
