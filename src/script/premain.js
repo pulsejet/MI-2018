@@ -29,3 +29,10 @@ function initIFrameSub(iframe, url) {
     if (sub != null) { url += sub; }
     $(iframe).attr("src", url);
 }
+
+/* FB share */
+function fbshareCurrentPage() {
+        window.open("https://www.facebook.com/sharer.php?u="+escape(window.location.href)+"&t="+document.title, '',
+    'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+    return false;
+}
