@@ -235,6 +235,7 @@ bld {
 }
 
 .stats-table-container {
+	overscroll-behavior: none;
 	max-height: 50vh;
 	overflow: auto;
 	mask-image: -webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.6)));
