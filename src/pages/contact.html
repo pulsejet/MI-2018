@@ -68,8 +68,18 @@
     font-size: 1.4em;
   }
 
-  .mi-cu-img a { text-decoration: none; color: black; }
+  .mi-cu-img a, .mi-cu-num-template { text-decoration: none; color: black; }
   .mi-cu-img a:hover { text-decoration: underline; }
+
+  .mi-cu-num-template {
+    border: none;
+    color: #555;
+    transition: 0.3s ease;
+  }
+  .mi-cu-num-template.active {
+    background-color: white;
+    color: black;
+  }
 
   @media (max-width: 900px) {
     #mi-cu-title { top: 40px; font-size: 2.5em; }
@@ -85,6 +95,7 @@
       padding: 0;
       width: auto;
     }
+    .mi-cu-indices { display: none; }
   }
 </style>
 
@@ -113,6 +124,11 @@
 
   <!-- Main container -->
   <div id="mi-cu-container" class="h-middle"></div>
+
+  <!-- Numbering -->
+  <div class="mi-cu-indices siema-indices">
+    <a class="mi-cu-num-template siema-num-template"></a>
+  </div>
 </div>
 
 <script>
@@ -133,6 +149,7 @@
     if (top.attr('id') != currentElem.attr('id')) {
       console.log(top.attr('id'));
       currentElem = top;
+      $('.mi-cu-num-template').removeClass('active');
       $('.cu-section').removeClass('active');
       $('a[href="#' + top.attr('id') + '"]').addClass('active');
     }
@@ -142,7 +159,9 @@
 
   var templ = $(".mi-cu-img-template");
   var sectempl = $('#cu-section-template');
+  var numtempl = $('.mi-cu-num-template');
   var activeDone = false;
+  var index = 1;
 
   for (const team of teams) {
     var section = document.createElement('div');
@@ -167,13 +186,25 @@
 
     $(section).appendTo($("#mi-cu-container"));
 
-    var secnode = sectempl.clone()
+    var secnode = sectempl.clone();
     secnode.find('.cu-section').attr('href', '#cu-' + team.short_name);
     secnode.find('.cu-section').html(team.name);
-    if (!activeDone) { secnode.find('.cu-section').addClass('active'); activeDone = true; }
     secnode.appendTo($('#cu-sections-ul'))
+
+    var numnode = numtempl.clone();
+    numnode.html(index);
+    numnode.attr('href', '#cu-' + team.short_name);
+    index++;
+    numnode.appendTo('.mi-cu-indices');
+
+    if (!activeDone) {
+      activeDone = true;
+      secnode.find('.cu-section').addClass('active');
+      numnode.addClass('active');
+    }
   }
   templ.remove();
   sectempl.remove();
+  numtempl.remove();
 
 </script>
