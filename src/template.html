@@ -26,11 +26,17 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900"/>
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="sidebar.css" />
-
     <link rel="stylesheet" href="script/sidebarjs.min.css">
+
+    <script src="script/jquery-3.3.1.min.js"></script>
+
+    <script>
+      $(window).on('load', function() {
+        $(".se-pre-con").fadeOut("slow");;
+      });
+    </script>
   </head>
   <body>
-      <script src="script/jquery-3.3.1.min.js"></script>
       <script src="script/scrollify.js"></script>
       <script src="script/particles.min.js"></script>
       <script src="script/siema.min.js"></script>
@@ -38,6 +44,10 @@
 
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
       <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.js"></script>
+
+      <div class="se-pre-con">
+        <img src="images/logo.png" />
+      </div>
 
       <div id="sb-toggle" sidebarjs-toggle>
         <img src="images/hamburger.svg" />
