@@ -9,13 +9,153 @@
     top: 15%; left: 50%;
     transform: translateX(-50%);
   }
+
+  #mi-cu-container {
+    position: absolute;
+    top: 33%; left: 50%;
+    width: 120vw; height: 40vh;
+    transform: translateX(-50%);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .mi-cu-panel {
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .mi-cu-panel .mi-cu-img {
+    height: 40vh;
+    padding: 0.4em;
+    display: inline-block;
+  }
+
+  .cu-sections {
+    position: absolute;
+    top: 50%; right: 3em;
+    transform: translateY(-40%);
+    z-index: 2;
+  }
+
+  a.cu-section {
+    font-size: 0.9em;
+    color: gray;
+    line-height: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .cu-section.active {
+    color: black;
+  }
+
+  @media (max-width: 1200px) {
+    #mi-cu-title { top: 40px; font-size: 2.5em; }
+    .cu-sections { display: none; }
+    .mi-cu-panel { white-space: normal; text-align: left;}
+    .mi-cu-panel, .mi-cu-img {
+      box-sizing: border-box;
+      width: 100%;
+    }
+    .mi-cu-img  { height: auto !important; }
+    #mi-cu-container {
+      top: calc(40px + 3.2em);
+      height: calc(100vh - 40px - 3.2em);
+      padding: 0;
+      width: 100vw;
+    }
+  }
 </style>
 
 <div class="full-body maindiv">
   <div id="mi-cu-title" class="title">CONTACT US</div>
 
+  <div class="cu-sections">
+    <ul>
+      <li><a class="cu-section active" href="#cu-compi">COMPETITIONS &amp; LYP</a></li>
+      <li><a class="cu-section" href="#cu-creatives">CREATIVES</a></li>
+      <li><a class="cu-section" href="#cu-fnb">FOOD &amp; BEVERAGES</a></li>
+      <li><a class="cu-section" href="#cu-hospitality">HOSPITALITY &amp; PR</a></li>
+      <li><a class="cu-section" href="#cu-horizons">HORIZONS</a></li>
+      <li><a class="cu-section" href="#cu-informals">INFORMALS</a></li>
+      <li><a class="cu-section" href="#cu-marketing">MARKETING</a></li>
+      <li><a class="cu-section" href="#cu-media">MEDIA</a></li>
+      <li><a class="cu-section" href="#cu-pronites">PRONITES</a></li>
+      <li><a class="cu-section" href="#cu-services">SERVICES</a></li>
+      <li><a class="cu-section" href="#cu-oc">OVERALL COORDINATORS</a></li>
+    </ul>
+  </div>
+
+  <div id="mi-cu-container">
+    <div class="mi-cu-panel" id="cu-compi">
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+    </div>
+    <div class="mi-cu-panel" id="cu-creatives">
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+    </div>
+    <div class="mi-cu-panel" id="cu-fnb">
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+    </div>
+    <div class="mi-cu-panel" id="cu-hospitality">
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+    </div>
+    <div class="mi-cu-panel" id="cu-horizons">
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+    </div>
+    <div class="mi-cu-panel" id="cu-informals">
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+    </div>
+    <div class="mi-cu-panel" id="cu-marketing">
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+    </div>
+    <div class="mi-cu-panel" id="cu-media">
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+    </div>
+    <div class="mi-cu-panel" id="cu-pronites">
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+    </div>
+    <div class="mi-cu-panel" id="cu-services">
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+    </div>
+    <div class="mi-cu-panel" id="cu-oc">
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+    </div>
+  </div>
 </div>
 
 <script>
   addInvert();
+
+  var currentElem = $('#cu-compi');
+
+  $('#mi-cu-container').on('scroll', function() {
+    var top = $(this).children().first();
+    $(this).children().each(function(){
+        var offset = $(this).offset().top;
+        if(offset >= 0 && offset < $(this).height()){
+            top = $(this);
+            return false;
+        }
+    });
+
+    if (top.attr('id') != currentElem.attr('id')) {
+      console.log(top.attr('id'));
+      currentElem = top;
+      $('.cu-section').removeClass('active');
+      $('a[href="#' + top.attr('id') + '"]').addClass('active');
+    }
+  });
 </script>
