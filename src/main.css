@@ -12,6 +12,10 @@ body, html {
 	overflow: hidden;
 }
 
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: white; }
+
 [sidebarjs] {
 	z-index: 100 !important;
 }
