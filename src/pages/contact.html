@@ -81,6 +81,26 @@
     color: black;
   }
 
+  .mi-cu-name { max-width: 100%; white-space: normal; }
+
+  .mi-cu-dep-name { display: none; }
+
+  @media (max-width: 1200px) {
+    .mi-cu-dep-name {
+      position: relative;
+      left: calc(50% - 100px);
+      width: 200px;
+      text-align: center;
+      display: inline-block;
+      margin: 10px;
+      font-size: 1.2em; font-weight: 900;
+    }
+
+    #mi-cu-container {
+      height: calc(40vh + 20px + 1.3em);
+    }
+  }
+
   @media (max-width: 900px) {
     #mi-cu-title { top: 40px; font-size: 2.5em; }
     .mi-cu-panel { white-space: normal; text-align: center;}
@@ -167,6 +187,10 @@
     var section = document.createElement('div');
     $(section).addClass('mi-cu-panel')
               .attr('id', 'cu-' + team.short_name);
+
+    $(document.createElement('div')).addClass('mi-cu-dep-name')
+                                    .html(team.name)
+                                    .appendTo('#mi-cu-container');
 
     for (const cg of team.people) {
       var newnode = templ.clone();
