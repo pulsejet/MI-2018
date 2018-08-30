@@ -30,7 +30,7 @@
 
 #sb-toggle {
 	position: fixed;
-	z-index: 1;
+	z-index: 3;
 	right: 20px; top: 12px;
 	width: 50px; height: 50px;
 	cursor: pointer;
