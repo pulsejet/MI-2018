@@ -83,7 +83,7 @@
 
   .mi-cu-name { max-width: 100%; white-space: normal; }
 
-  .mi-cu-dep-name { display: none; }
+  .mi-cu-dep-name { height: 0; }
 
   @media (max-width: 1200px) {
     .mi-cu-dep-name {
@@ -184,13 +184,17 @@
   var index = 1;
 
   for (const team of teams) {
-    var section = document.createElement('div');
-    $(section).addClass('mi-cu-panel')
-              .attr('id', 'cu-' + team.short_name);
+    var outerSection = document.createElement('div');
+    $(outerSection).attr('id', 'cu-' + team.short_name)
+                   .appendTo($("#mi-cu-container"));
 
     $(document.createElement('div')).addClass('mi-cu-dep-name')
                                     .html(team.name)
-                                    .appendTo('#mi-cu-container');
+                                    .appendTo($(outerSection));
+
+    var section = document.createElement('div');
+    $(section).addClass('mi-cu-panel')
+              .appendTo($(outerSection));
 
     for (const cg of team.people) {
       var newnode = templ.clone();
@@ -207,8 +211,6 @@
       newnode.find('.mi-cu-email').attr('href', 'email:' + cg.email);
       newnode.appendTo($(section));
     }
-
-    $(section).appendTo($("#mi-cu-container"));
 
     var secnode = sectempl.clone();
     secnode.find('.cu-section').attr('href', '#cu-' + team.short_name);
