@@ -70,6 +70,7 @@ Barba.Pjax.getTransition = function() {
   }
   $.scrollify.destroy();
   removeInvert();
+  $(".logo-main").removeClass("sitemap");
   MoodIndigoReInit();
   return FadeTransition;
 };
