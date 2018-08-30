@@ -30,7 +30,7 @@
 
   .cu-sections {
     position: absolute;
-    top: 50%; right: 3em;
+    top: 50%; right: 4%;
     transform: translateY(-40%);
     z-index: 2;
   }
@@ -71,10 +71,9 @@
   .mi-cu-img a { text-decoration: none; color: black; }
   .mi-cu-img a:hover { text-decoration: underline; }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 900px) {
     #mi-cu-title { top: 40px; font-size: 2.5em; }
-    .cu-sections { display: none; }
-    .mi-cu-panel { white-space: normal; text-align: left;}
+    .mi-cu-panel { white-space: normal; text-align: center;}
     .mi-cu-panel, .mi-cu-img {
       box-sizing: border-box;
       width: 100%;
@@ -84,7 +83,7 @@
       top: calc(40px + 3.2em);
       height: calc(100vh - 40px - 3.2em);
       padding: 0;
-      width: 100vw;
+      width: auto;
     }
   }
 </style>
@@ -92,7 +91,7 @@
 <div class="full-body maindiv">
   <div id="mi-cu-title" class="title h-middle">CONTACT US</div>
 
-  <div class="cu-sections">
+  <div class="cu-sections min-1200px">
     <ul>
       <li><a class="cu-section active" href="#cu-compi">COMPETITIONS &amp; LYP</a></li>
       <li><a class="cu-section" href="#cu-creatives">CREATIVES</a></li>
