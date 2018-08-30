@@ -12,6 +12,25 @@
 	z-index: 100 !important;
 }
 
+.h-middle {
+	position: absolute;
+	left: 50%;
+    transform: translateX(-50%);
+}
+
+.v-middle {
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+}
+
+.vh-middle {
+	position: absolute;
+	top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+}
+
 bld {
 	font-weight: 900;
 }

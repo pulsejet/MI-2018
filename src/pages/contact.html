@@ -6,15 +6,13 @@
 
   #mi-cu-title {
     position: absolute;
-    top: 15%; left: 50%;
-    transform: translateX(-50%);
+    top: 15%;
   }
 
   #mi-cu-container {
     position: absolute;
-    top: 33%; left: 50%;
+    top: 33%;
     width: 120vw; height: 40vh;
-    transform: translateX(-50%);
     overflow-y: scroll;
     scroll-behavior: smooth;
   }
@@ -49,6 +47,30 @@
     color: black;
   }
 
+  .mi-cu-img { position: relative; }
+
+  .mi-cu-img .middle {
+    transition: .3s ease;
+    opacity: 0;
+    line-height: 1.5em;
+  }
+
+  .mi-cu-img img {
+    height: calc(100% - 0.8em);
+    transition: .3s ease;
+  }
+
+  .mi-cu-img:hover img { opacity: 0.3; }
+  .mi-cu-img:hover .middle { opacity: 1; }
+
+  .mi-cu-name {
+    font-weight: 900;
+    font-size: 1.4em;
+  }
+
+  .mi-cu-img a { text-decoration: none; color: black; }
+  .mi-cu-img a:hover { text-decoration: underline; }
+
   @media (max-width: 1200px) {
     #mi-cu-title { top: 40px; font-size: 2.5em; }
     .cu-sections { display: none; }
@@ -68,7 +90,7 @@
 </style>
 
 <div class="full-body maindiv">
-  <div id="mi-cu-title" class="title">CONTACT US</div>
+  <div id="mi-cu-title" class="title h-middle">CONTACT US</div>
 
   <div class="cu-sections">
     <ul>
@@ -86,10 +108,22 @@
     </ul>
   </div>
 
-  <div id="mi-cu-container">
+  <div id="mi-cu-container" class="h-middle">
     <div class="mi-cu-panel" id="cu-compi">
-      <img class="mi-cu-img" src="images/people/pranil.JPG" />
-      <img class="mi-cu-img" src="images/people/pranil.JPG" />
+      <div class="mi-cu-img">
+        <img src="images/people/pranil.JPG" />
+        <div class="middle vh-middle">
+          <div class="mi-cu-name">PRANIL JAIN</div>
+          <p>COMPETITIONS &amp; LYP</p> <br />
+          <p>
+            <a href="tel:+91-9876543210">+91-9876543210</a><br/>
+            <a href="mailto:pranil@moodi.org">pranil@moodi.org</a>
+          </p>
+        </div>
+      </div>
+      <div class="mi-cu-img">
+        <img src="images/people/pranil.JPG" />
+      </div>
     </div>
     <div class="mi-cu-panel" id="cu-creatives">
       <img class="mi-cu-img" src="images/people/pranil.JPG" />
