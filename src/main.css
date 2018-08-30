@@ -8,6 +8,10 @@
     user-select: none;
 }
 
+body, html {
+	overflow: hidden;
+}
+
 [sidebarjs] {
 	z-index: 100 !important;
 }
