@@ -191,7 +191,10 @@ body, html {
 }
 
 #mi-theme .text-body { text-align: center; }
-#mi-theme .center-text { width: 40%; }
+
+@media (min-width: 1201px) {
+	#mi-theme .center-text { width: 40%; }
+}
 
 .xunk-right-stats {
 	top: 40% !important;
@@ -224,7 +227,7 @@ body, html {
 		margin: 0;
 		width: 75%;
 		left: 50%;
-		top: 48%;
+		top: 35%;
 		transform: translateX(-52%) translateY(-35%);
 	}
 }
