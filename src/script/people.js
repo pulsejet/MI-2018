@@ -1,4 +1,4 @@
-teams = [
+var teams = [
     {
         name: 'COMPETITIONS &amp; LYP',
         short_name: 'compi',
@@ -45,3 +45,5 @@ teams = [
         ]
     }
 ];
+
+export { teams };

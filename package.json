@@ -1,0 +1,43 @@
+{
+  "name": "moodi-2018",
+  "version": "1.0.0",
+  "description": "Official Moodi Indigo Website for 2018",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "core-js": "^2.5.7",
+    "jquery": "^3.3.1",
+    "jquery-scrollify": "^1.0.19",
+    "particles.js": "^2.0.0",
+    "sidebarjs": "^5.2.1",
+    "siema": "^1.5.1",
+    "simplebar": "^3.0.0-beta.4",
+    "tilt.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "barba.js": "^1.0.0",
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-nunjucks-render": "^2.2.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulsejet/mi-2018.git"
+  },
+  "keywords": [
+    "mood-indigo"
+  ],
+  "author": "Varun Patil <radialapps@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pulsejet/mi-2018/issues"
+  },
+  "homepage": "https://github.com/pulsejet/mi-2018#readme"
+}

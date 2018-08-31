@@ -1,4 +1,10 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
 <iframe id="compi-iframe" class="full-iframe" style="height: 102vh;"></iframe>
 <script>
-    initIFrameSub("#compi-iframe", "https://compi.moodi.org/")
+    MoodI.initIFrameSub("#compi-iframe", "https://compi.moodi.org/");
 </script>
+
+{% endblock %}
