@@ -5,7 +5,15 @@
     #compi-iframe-container {
         background-image: url('/images/compi-back.png'), linear-gradient(248deg, #14d0fd, #22c0fd);
         background-position: bottom;
-        background-size: cover;
+        background-size: 60%, 100%;
+        background-repeat: no-repeat;
+    }
+
+    @media (max-width: 900px) {
+        #compi-iframe-container {
+            background: linear-gradient(248deg, #14d0fd, #22c0fd);
+            background-size: unset;
+        }
     }
 </style>
 
