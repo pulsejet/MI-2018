@@ -400,16 +400,16 @@ body {
 	color: inherit;
 	display:block;
 	height:20px;
-	margin-bottom:5px;
+	margin-bottom:0px;
 	position:relative;
-	padding:4px;
+	padding:0px;
 }
 
 .pagination a .hover-text {
 	width: auto;
 	white-space: nowrap;
 	text-align: right;
-	font-size: 0.7em;
+	font-size: 0.5em;
 	position:absolute;
 	left:15px;
 	top:5px;
