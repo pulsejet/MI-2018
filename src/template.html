@@ -23,20 +23,23 @@
     <meta name="msapplication-config" content="/images/icons/browserconfig.xml">
     <meta name="theme-color" content="#000000">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900"/>
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="sidebar.css" />
-    <link rel="stylesheet" href="script/sidebarjs.min.css">
+    <!-- CSS for loading animation -->
+    {{inline-css}}
 
-    <script src="script/jquery-3.3.1.min.js"></script>
-
-    <script>
-      $(window).on('load', function() {
-        $(".se-pre-con").fadeOut("slow");;
-      });
-    </script>
   </head>
   <body>
+      <!-- Loading animation -->
+      <div class="se-pre-con">
+        <img src="images/logo.png" />
+      </div>
+
+      <!-- CSS and JS -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900"/>
+      <link rel="stylesheet" href="main.css" />
+      <link rel="stylesheet" href="sidebar.css" />
+      <link rel="stylesheet" href="script/sidebarjs.min.css">
+
+      <script src="script/jquery-3.3.1.min.js"></script>
       <script src="script/scrollify.js"></script>
       <script src="script/particles.min.js"></script>
       <script src="script/siema.min.js"></script>
@@ -45,10 +48,7 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
       <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.js"></script>
 
-      <div class="se-pre-con">
-        <img src="images/logo.png" />
-      </div>
-
+      <!-- Sidebar and buttons -->
       <div id="sb-toggle" sidebarjs-toggle>
         <img src="images/hamburger.svg" />
       </div>
@@ -105,11 +105,9 @@
 
     <div id="barba-wrapper">
       <div class="barba-container">
-
-    <!-------------------- CONTENT HERE ---------------------------->
+    <!-- CONTENT HERE -->
 {{content}}
-    <!-------------------- CONTENT TILL HERE ---------------------------->
-
+    <!-- CONTENT TILL HERE -->
       </div>
     </div>
 

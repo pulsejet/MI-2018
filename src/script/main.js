@@ -5,6 +5,10 @@ $('#sb-toggle').tilt(tiltConfig);
 $('.mi-close-sidebar').tilt(tiltConfig);
 $('.logo-main img').tilt();
 
+$(window).on('load', function() {
+  $(".se-pre-con").fadeOut("slow");;
+});
+
 function MoodIndigoReInit() {
   links = [
     {sel: '.fa-facebook-f', href: 'https://www.facebook.com/iitb.moodindigo/'},
