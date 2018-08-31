@@ -12,9 +12,9 @@ body, html {
 	overflow: hidden;
 }
 
-::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar { width: 3px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: white; }
+::-webkit-scrollbar-thumb { background: white; border-radius: 1.5px; }
 
 [sidebarjs] {
 	z-index: 100 !important;
