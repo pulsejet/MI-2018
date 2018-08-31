@@ -185,10 +185,13 @@ body, html {
 }
 
 .text-body{
-	font-size: 1em;
+	font-size: 0.95em;
 	font-weight: 400;
 	margin-bottom: 0.7em;
 }
+
+#mi-theme .text-body { text-align: center; }
+#mi-theme .center-text { width: 40%; }
 
 .xunk-right-stats {
 	top: 40% !important;
