@@ -1,3 +1,5 @@
+const noop = require('gulp-noop');
+const htmlmin = require('gulp-htmlmin');
 var gulp = require('gulp');
 let cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
@@ -8,8 +10,9 @@ var webpack_config_prod = require('./webpack.config.prod.js');
 
 var browserSync = require('browser-sync').create();
 
-gulp.task('webpack-prod', function() { webpack(webpack_config_prod).run(); });
-gulp.task('webpack', function() { webpack(webpack_config).run(); });
+const isProd = process.env.NODE_ENV === 'production';
+
+gulp.task('webpack', function() { webpack(isProd ? webpack_config_prod : webpack_config).run(); });
 gulp.task('webpack-watch', ['webpack'], function (done) { browserSync.reload(); done(); });
 
 gulp.task('assets', function() {
@@ -28,14 +31,18 @@ gulp.task('nunjucks', function() {
     return gulp.src('src/pages/*.+(html|nunjucks)')
     .pipe(nunjucksRender({
         path: ['src/templates']
-      }))
+    }))
+    .pipe(isProd ? htmlmin({
+        collapseWhitespace: true,
+        minifyCSS: true,
+        minifyJS: true,
+        removeComments: true,
+    }) : noop())
     .pipe(gulp.dest('build/'))
 });
 gulp.task('nunjucks-watch', ['nunjucks'], function (done) { browserSync.reload(); done(); });
 
 gulp.task('build', ['webpack', 'styles', 'nunjucks', 'assets'], function(){});
-
-gulp.task('build-prod', ['webpack-prod', 'styles', 'nunjucks', 'assets'], function(){});
 
 gulp.task('serve', ['build'], function () {
     browserSync.init({
