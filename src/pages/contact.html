@@ -64,7 +64,7 @@
     transition: .3s ease;
   }
 
-  .mi-cu-img:hover img { opacity: 0.3; filter: blur(5px); }
+  .mi-cu-img:hover img { opacity: 0.3; filter: blur(4px); }
   .mi-cu-img:hover .middle { opacity: 1; }
 
   .mi-cu-name {
@@ -113,6 +113,11 @@
       box-sizing: border-box;
       width: 100%;
     }
+
+    .mi-cu-img:hover img { opacity: 0.2; filter: none; }
+    .mi-cu-img .middle { opacity: 1; }
+    .mi-cu-img img { opacity: 0.2; }
+
     .mi-cu-img  { height: auto !important; }
     #mi-cu-container {
       top: calc(40px + 3.2em);
