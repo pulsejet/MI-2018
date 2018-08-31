@@ -1,15 +1,13 @@
+var gulp = require('gulp');
 const noop = require('gulp-noop');
 const htmlmin = require('gulp-htmlmin');
-var gulp = require('gulp');
 let cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var nunjucksRender = require('gulp-nunjucks-render');
 var webpack = require('webpack');
 var webpack_config = require('./webpack.config.js');
 var webpack_config_prod = require('./webpack.config.prod.js');
-
 var browserSync = require('browser-sync').create();
-
 const isProd = process.env.NODE_ENV === 'production';
 
 gulp.task('webpack', function() { webpack(isProd ? webpack_config_prod : webpack_config).run(); });
