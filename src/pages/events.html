@@ -26,6 +26,7 @@
     right: 50%;
     width: 35%;
     top: 20%;
+    z-index: 1;
   }
 
   .mi-evt-right {
@@ -64,6 +65,23 @@
     text-align: center;
   }
 
+  .evt-h1 { font-size: 2em; font-weight: 900; }
+  .evt-h2 { font-size: 1.3em; font-weight: 900; }
+
+  .mi-evt-right-content {
+    position: absolute;
+    right: 0;
+    width: 90%;
+    height: 60vh; overflow-x: hidden;
+  }
+
+  .mi-evt-right-content p {
+    font-size: 1.1em; line-height: 1.2em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+  }
+
   @media (max-width: 900px) {
     .mi-evt-title {
       font-size: 2.5em;
@@ -73,8 +91,11 @@
       font-size: 0.85em;
       left: 4%;
       width: 80%;
-      top: 5%;
+      top: 5vh;
       padding: 20px;
+      height: calc(90vh - 70px);
+      overflow-y: scroll;
+      overflow-x: hidden;
     }
 
     .mi-evt-right {
@@ -84,6 +105,15 @@
       top: 10%;
       height: 90%;
     }
+
+    .mi-evt-right-content {
+      margin-top: 2em;
+      position: relative;
+      right: unset;
+      height: auto;
+      width: auto;
+    }
+    .mi-evt-right-content p { margin-right: 0; }
   }
 
 </style>
@@ -105,6 +135,63 @@
         </div>
 
         <div class="mi-evt-right">
+          <div class="mi-evt-right-content">
+              <p>
+                <span class="evt-h1">GENRES</span><br/>
+              </p>
+              <p>
+                  <span class="evt-h2">IMF (International Music Festival)</span><br/>
+                  We bring artists and performers from all around the world, who represent diverse culture and unite all of us with exquisite musical performances. Audiences are stretched and stimulated witnessing the amazing performances displayed by the bands and artists. We plan to have best of the music in this year’s IMF and take IMF to newer heights.
+              </p>
+              <p>
+                  <span class="evt-h2">Fringe Fest</span><br/>
+                  A series of thrilling high octane acts with the most unconventional and enthralling artists, fringe fest is the genre with energetic and unique performances. Street artists and performers from across the globe visit Mood Indigo to display their exclusive skills which includes dauntless stunts, never seen before skills and a lot of interaction.
+              </p>
+              <p>
+                  <span class="evt-h2">Theatrefest</span><br/>
+                  Theatrefest brings people from all aspects of theatre under one roof and celebrates the sheer brilliance of theatrical performances. It is a platform for theatrical exchange, for presenting some of the achievements of the greatest theatre practitioners from around the world, a gathering place for students and masters, where a dialogue despite ideological, culture and language differences is encouraged. It offers an enthusiastic environment for interaction between the performers and the masses.
+              </p>
+              <p>
+                  <span class="evt-h2">Humour Fest</span><br/>
+                  Every year the finest comedians fly in from all parts of the globe to perform at possibly the most favorite event of Mood Indigo, the Humour Fest. With performances like stand up comedy, one act plays, interactive workshops, improv comedies, clean roasts and what not, this fest creates a stress busting environment and engagement in top class comedy acts. Humour fest has been the flagship event of Mood Indigo. We plan to go bigger and better than ever to continue this legacy.
+              </p>
+              <p>
+                  <span class="evt-h2">Lit Fest (Literature Festival)</span><br/>
+                  An elite lineup of people who have an experience to share and a story to tell to all of you. Be it themed events, speaker sessions, storytelling sessions, experience sharing, panel discussions or thinkers’ meet, Lit Fest is ‘lit’erally the most ‘Lit’ fest of Mood Indigo.
+              </p>
+              <p>
+                  <span class="evt-h2">Talent Fiesta</span><br/>
+                  Showcasing performances on the lines of ‘India’s Got Talent’, this fest lines up all the thrilling dance acts to awe-stricken aerial acts, live arts, group acts and stunts. Any act apart from the rest of the listed genres fall here so all miscellaneous showcase events ideas will be curated. Be there to fathom the mysteries of the world's most intriguing talents.
+              </p>
+              <p>
+                  <span class="evt-h2">Vogue</span><br/>
+                  VOGUE is India’s biggest Inter College ‘Fashion Competition’. A feast for the eyes on the audience's side of the arena as the greatest modelling talents of the country come together and compete. As a prime platform to scour for the best uprising talent, VOGUE is unquestionably one of the the best launchpads for young and creative designers and aspiring models. If Fashion and glamour fascinates you, Vogue is the genre for you!
+              </p>
+              <p>
+                  <span class="evt-h2">Workshops</span><br/>
+                  The place which has it all! From gifted experts to enthusiastic learners, these can be of any genre-art, dramatics, music and much more. Planned to be conducted on a much bigger scale this year including non-conventional workshops, innovation and creativeness are the qualities to look out for in here.
+              </p>
+              <p>
+                  <span class="evt-h2">AfterNites</span><br/>
+                  Each day at Mood Indigo remains unaccomplished without AfterNites. With acts and ideas that leave an everlasting impact, events which you would have never seen before, these shows keep the viewers on the edge of their seats.
+              </p>
+              <p>
+                  <span class="evt-h2">Interactive Arenas</span><br/>
+                  With unique concepts like Jamming stages, musical lounges, audience involving performances and group activities, this will surely make your visit a memorable one.
+              </p>
+              <p>
+                  <span class="evt-h2">Exhibitions and live art</span><br/>
+                  Planned to be held at a much grander level, this comprises of  events which are interactive as well as eye-catching. Not just art it will have live food and any other possible live events which would surely be mesmerizing.
+              </p>
+              <p>
+                  <span class="evt-h2">MI Tour</span><br/>
+                  Providing all the first timers at Mood Indigo with the experience that they won't ever forget, we plan to tour them through different events, games, competitions and end it with the grandest of all, the Pronites events.
+              </p>
+              <p>
+                  <span class="evt-h2">Night Flea and Night Arena</span><br/>
+                  Night arena and flea market will be a perfect end to the day at Mood Indigo, with soft music, storytellers, interactive stalls and mesmerizing ambience. The best place where you can relax with your friends with a lot of interactive activities going on as well.
+              </p>
+          </div>
           <img class="mi-evt-right-img" src="images/horizons.png" />
         </div>
       </div>

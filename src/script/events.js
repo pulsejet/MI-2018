@@ -38,4 +38,15 @@ export default function() {
     $('#evt-siema-prev').click(function() {
         evt_siema.prev();
     });
+
+    // Fix for mobile
+    if (window.outerWidth <= 900) {
+        $('.mi-siema-container').each(function() {
+            const right = $(this).find('.mi-evt-right-content');
+            if (right.length) {
+                right.remove();
+                right.appendTo($(this).find('.mi-evt-left-content'));
+            }
+        });
+    }
 }
