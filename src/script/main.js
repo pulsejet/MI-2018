@@ -1,11 +1,22 @@
 import * as $ from 'jquery';
 import Barba from 'barba.js';
 import tilt from 'tilt.js';
+import lottie from 'lottie-web';
 import {SidebarElement } from 'sidebarjs';
+import animationData from './animation.json.js'
 import * as scrollify from 'jquery-scrollify';
 import 'simplebar';
 
 $.tilt = tilt;
+
+/* Loading animation */
+var lottieParams = {
+    container: document.getElementById('lottie'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    animationData: animationData
+};
 
 function addInvert() {
   $(".logo-main").addClass('invert-colors');
@@ -82,6 +93,9 @@ $(window).on('load', function() {
 });
 
 $(document).ready(() => {
+  /* Start animation */
+  lottie.loadAnimation(lottieParams);
+
   var tiltConfig = { maxTilt: 50, perspective: 10000 };
   $('#sb-toggle').tilt(tiltConfig);
   $('.mi-close-sidebar').tilt(tiltConfig);

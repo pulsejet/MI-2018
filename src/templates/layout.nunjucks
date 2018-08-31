@@ -31,15 +31,13 @@
   </head>
   <body>
       <!-- Loading animation -->
-      <div class="se-pre-con">
-        <img src="images/logo.png" />
-      </div>
+      <div id="lottie" class="se-pre-con"></div>
 
       <!-- CSS and JS -->
+      <script src="script.js"></script>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900"/>
       <link rel="stylesheet" href="styles.css" />
-      <script src="script.js"></script>
 
       <!-- Sidebar and buttons -->
       <div id="sb-toggle" sidebarjs-toggle>

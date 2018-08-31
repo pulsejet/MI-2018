@@ -7,6 +7,7 @@
     "core-js": "^2.5.7",
     "jquery": "^3.3.1",
     "jquery-scrollify": "^1.0.19",
+    "lottie-web": "^5.2.1",
     "particles.js": "^2.0.0",
     "sidebarjs": "^5.2.1",
     "siema": "^1.5.1",
