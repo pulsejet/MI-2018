@@ -71,17 +71,19 @@
     background-color: #ff0e48;
   }
 
-  img.social-coming-soon {
+  img.social-cause {
     position: absolute;
-    top: 35vh; left: 50%;
-    max-width: 90%;
+    top: 30vh; left: 50%;
+    width: 30vw;
     transform: translateX(-50%);
   }
 
-  p.social-coming-soon {
+  p.social-cause {
     position: absolute;
     bottom: 15%; left: 50%;
     transform: translateX(-50%);
+    font-size: 1.1em; line-height: 1.2em;
+    width: 60vw;
   }
 
   .mi-sitemap-logounit {
@@ -120,6 +122,14 @@
     margin-bottom: 0.7em;
   }
 
+  @media (max-width: 1200px) {
+    p.social-cause {
+      font-size: 1em;
+      line-height: 1.2em;
+      width: 75vw;
+    }
+  }
+
   @media (max-width: 900px) {
     .tv-backdrop p, #mi-mp-next, #mi-mp-prev { display: none; }
     .tv-backdrop {
@@ -129,9 +139,6 @@
     .tv-backdrop img {
       width: 60vw
     }
-  }
-
-  @media (max-width: 900px) {
     .mi-sitemap-logounit { display: none; }
     .mi-small-title { font-size: 1.5em; margin-bottom: 0.2em; }
     .mi-sitemap-links-container, .mi-sitemap-follow-container {
@@ -141,6 +148,19 @@
     .mi-sitemap-links-table td { padding: 0.1em 1em 0.1em 0; }
     .mi-sitemap-links-table.fm tr:first-child td { padding: 0.4em 0; }
   }
+
+  @media (max-width: 600px) {
+    img.social-cause { display: none; }
+    p.social-cause {
+      top: calc(60px + 10vh);
+      font-size: 1em;
+      line-height: 1.1em;
+      width: 90vw;
+      text-align: left;
+    }
+    .panel-social .title { font-size: 2.3em; }
+  }
+
 </style>
 
 <section class="panel home" data-section-name="HOME">
@@ -232,8 +252,8 @@
   <div class="xunk-inner">
     <div id="mi-theme">
       <div class="title">SOCIAL CAUSE</div>
-      <img class="social-coming-soon" src="images/eye.png" />
-      <p class="social-coming-soon">Coming Soon!</p>
+      <img class="social-cause" src="images/eye.png" />
+      <p class="social-cause">Ever appreciated the twinkle of the stars, the cheery laughter of a baby or the flourishing aroma of freshly cut roses? The shades of beauty of the world gets magnified with every sensation triggered. Imagine, a part of it is eclipsed and you are left with a blurry image of the mysteries that the world embraces. The feeling is crippling and pushes one to a vacuum -  a colourless vacuum where the tears roll down silently and the heart shouts for company. Look for people who can’t. Stand for them. See through my eyes aims at making the world brighter for the blind through an extensive eye donation camps being followed across the nation. With blindness gaining ground in the country, it comes as a  necessary step which should be taken by the youth of the country - the zeal to bring about a revolution.</p>
     </div>
   </div>
 </section>
