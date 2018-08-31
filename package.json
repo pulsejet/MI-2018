@@ -17,9 +17,8 @@
     "barba.js": "^1.0.0",
     "browser-sync": "^2.24.7",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^3.10.0",
     "gulp-concat": "^2.6.1",
-    "gulp-minify-css": "^1.2.4",
     "gulp-nunjucks-render": "^2.2.2",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0"

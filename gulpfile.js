@@ -1,6 +1,5 @@
 var gulp = require('gulp');
-var autoprefix = require('gulp-autoprefixer');
-var minifyCSS = require('gulp-minify-css');
+let cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var nunjucksRender = require('gulp-nunjucks-render');
 var webpack = require('webpack');
@@ -20,8 +19,7 @@ gulp.task('assets', function() {
 gulp.task('styles', function() {
    gulp.src(['src/styles/*.css'])
    .pipe(concat('styles.css'))
-   .pipe(autoprefix('last 2 versions'))
-   .pipe(minifyCSS())
+   .pipe(cleanCSS())
    .pipe(gulp.dest('build/'));
 });
 gulp.task('css-watch', ['styles'], function (done) { browserSync.reload(); done(); });
