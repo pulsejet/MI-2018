@@ -46,6 +46,19 @@ function fbshareCurrentPage() {
   return false;
 }
 
+function setShareOrRegister(share) {
+  const elem = $('#mi-bottom-right-register-button');
+  if (share) {
+    elem.html('SHARE THIS');
+    elem.attr('onclick', 'MoodI.fbshareCurrentPage()');
+    elem.removeAttr('href');
+  } else {
+    elem.html('REGISTER');
+    elem.attr('href', '/register');
+    elem.removeAttr('onclick');
+  }
+}
+
 function MoodIndigoReInit() {
   const links = [
     {sel: '.fa-facebook-f', href: 'https://www.facebook.com/iitb.moodindigo/'},
@@ -126,6 +139,7 @@ $(document).ready(() => {
     scrollify.destroy();
     removeInvert();
     $(".logo-main").removeClass("sitemap");
+    setShareOrRegister(false);
     MoodIndigoReInit();
     return FadeTransition;
   };
@@ -136,4 +150,7 @@ export {default as miInitExperience} from './experience.js';
 export {default as miInitAccomodation} from './accomodation.js';
 export {default as miInitContactUs} from './contact.js';
 export {default as miInitEvents} from './events.js';
-export {addInvert, removeInvert, getParameterByName, initIFrameSub, fbshareCurrentPage, MoodIndigoReInit};
+export {
+  addInvert, removeInvert, getParameterByName, initIFrameSub,
+  fbshareCurrentPage, MoodIndigoReInit, setShareOrRegister
+};

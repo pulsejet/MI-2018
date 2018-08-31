@@ -1,7 +1,7 @@
 import * as $ from 'jquery';
 import * as scrollify from 'jquery-scrollify';
 import particle from './particle_config.js';
-import { addInvert, removeInvert } from './main.js';
+import { addInvert, removeInvert, setShareOrRegister } from './main.js';
 
 export default function() {
   particle();
@@ -28,9 +28,11 @@ export default function() {
           $("#mi-mp-prev, #mi-mp-next").addClass("at-start");
           $(".pagination").css('color', 'black');
           addInvert();
+          setShareOrRegister(true);
         } else {
           $("#mi-mp-prev, #mi-mp-next").removeClass("at-start");
           removeInvert();
+          setShareOrRegister(false);
         }
         if (i == lastScrollifySection) {
           $("#mi-mp-prev, #mi-mp-next").addClass("at-end");
@@ -45,6 +47,7 @@ export default function() {
 
   /* Init and Create paginator */
   addInvert();
+  setShareOrRegister(true);
   var pagination = "<ul class=\"pagination\">";
   var activeClass = "";
   $(".panel").each(function(i) {
