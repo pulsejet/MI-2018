@@ -82,7 +82,7 @@ var teams = [
         ]
     },
     {
-        name: 'HOSPITALITY, ASSISTANCE &amp; PR',
+        name: 'HOSPITALITY<span class="min-1400px">, ASSISTANCE</span> &amp; PR',
         short_name: 'hospi',
         people: [
             {
@@ -100,7 +100,7 @@ var teams = [
         ]
     },
     {
-        name: 'INFORMALS, STREETS &amp; LOUNGES',
+        name: 'INFORMALS<span class="min-1400px">, STREETS &amp; LOUNGES</span>',
         short_name: 'informals',
         people: [
             {

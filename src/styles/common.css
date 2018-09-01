@@ -66,3 +66,6 @@ body, html {
 .bld {
 	font-weight: 900;
 }
+
+@media (max-width: 1366px) { .min-1366px { display: none; } }
+@media (max-width: 1400px) { .min-1400px { display: none; } }
