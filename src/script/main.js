@@ -93,6 +93,25 @@ $(window).on('load', function() {
 });
 
 $(document).ready(() => {
+  /* Listen for events */
+  var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+  var eventer = window[eventMethod];
+  var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+  // Listen to message from child window
+  eventer(messageEvent,function(e) {
+      console.log(e.data);
+      if (e.data.type == 1) {
+          for (const field in e.data.data) {
+              localStorage.setItem(field, e.data.data[field]);
+          }
+      } else if (e.data.type == 2) {
+          for (const key of e.data.data) {
+              localStorage.removeItem(key);
+          }
+      }
+  }, false);
+
   /* Start animation */
   lottie.loadAnimation(lottieParams);
 
