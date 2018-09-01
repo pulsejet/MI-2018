@@ -17,7 +17,7 @@
 
 #mi-sidebar-number, .mi-close-sidebar {
 	position: relative;
-	top: 3px; z-index: 2;
+	top: 4px; z-index: 2;
 	width: 22px; height: 22px;
 }
 
