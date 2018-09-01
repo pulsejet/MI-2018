@@ -234,15 +234,20 @@ body, html {
 
 @media (max-width: 600px) {
 	.title {
-		font-size: 3em;
+		font-size: 2.8em;
 	}
 
 	.right-text, .center-text {
 		width: 80%;
 		left: 50%;
-		top: 48%;
+		top: 6.8em;
+		transform: translateX(-50%);
 		font-size: 0.85em;
 		line-height: 1.2em;
+	}
+
+	#mi-theme .center-text {
+		top: calc(10vh + 8em);
 	}
 
 	.tv-head {
