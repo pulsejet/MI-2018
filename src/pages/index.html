@@ -27,6 +27,13 @@
   #mi-mp-prev.at-start, #mi-mp-prev.at-end { opacity: 0; cursor: unset;}
   #mi-mp-next.at-end { transform: translateX(-50%) rotate(-90deg); }
 
+  .mi-home-right-date {
+    position: absolute;
+    top: 46%; right: 45px;
+    transform: translateY(-50%);
+    width: 7vw;
+  }
+
   .tv-backdrop {
     position: absolute;
     z-index: 0;
@@ -144,6 +151,7 @@
   }
 
   @media (max-width: 900px) {
+    .mi-home-right-date { display: none; }
     .tv-backdrop p, #mi-mp-next, #mi-mp-prev { display: none; }
     .tv-backdrop {
       top: 4vh; left: 45%;
@@ -199,6 +207,8 @@
       <img src="images/tv_head.png" class="tv-head main-img" />
       <div id="tv-lottie" class="h-middle"></div>
     </div>
+
+    <img src="images/right-dates.svg" class="mi-home-right-date" />
 
     <div class="reg-button">
       <a href="/register">REGISTER</a>
