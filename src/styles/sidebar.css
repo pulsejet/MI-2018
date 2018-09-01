@@ -15,11 +15,21 @@
 	filter: invert(1);
 }
 
-.mi-close-sidebar {
+#mi-sidebar-number, .mi-close-sidebar {
 	position: relative;
-	top: 3px;
-	z-index: 2;
+	top: 3px; z-index: 2;
 	width: 22px; height: 22px;
+}
+
+#mi-sidebar-number {
+	float: left;
+	font-size: 1.2em;
+	margin-left: 30px;
+	margin-top: 27px;
+	white-space: nowrap;
+}
+
+.mi-close-sidebar {
 	cursor: pointer;
 	float: right;
 	margin-right: 30px;

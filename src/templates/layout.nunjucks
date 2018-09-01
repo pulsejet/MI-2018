@@ -70,6 +70,7 @@
 
       <div sidebarjs>
         <div id="mi-sidebar">
+          <div id="mi-sidebar-number"></div>
           <div sidebarjs-toggle class="mi-close-sidebar">
             <img src="images/close-button.svg" />
           </div>

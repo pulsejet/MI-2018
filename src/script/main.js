@@ -84,6 +84,18 @@ function MoodIndigoReInit() {
   }
 }
 
+/** Refresh the user's MI number */
+function RefreshUserInfo(google_id) {
+  if (google_id === null) {
+    $('#mi-sidebar-number').html('');
+  } else {
+    $.get('https://api2.moodi.org/user/' + google_id, (response) => {
+      console.log(response);
+      $('#mi-sidebar-number').html(response.mi_number);
+    })
+  }
+}
+
 /* Definitions end */
 
 var sidebarvisible = false;
@@ -93,6 +105,9 @@ $(window).on('load', function() {
 });
 
 $(document).ready(() => {
+  /* Init MI number */
+  RefreshUserInfo(localStorage.getItem('google_id'));
+
   /* Listen for events */
   var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
   var eventer = window[eventMethod];
@@ -110,6 +125,7 @@ $(document).ready(() => {
               localStorage.removeItem(key);
           }
       }
+      RefreshUserInfo(localStorage.getItem('google_id'));
   }, false);
 
   /* Start animation */
