@@ -143,7 +143,7 @@ var teams = [
     },
     {
         name: 'MEDIA &amp; PUBLICITY',
-        short_name: 'informals',
+        short_name: 'media',
         people: [
             {
                 name: 'KRITI KAMNA',
