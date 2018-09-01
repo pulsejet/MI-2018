@@ -64,7 +64,7 @@
 
       <div class="mi-bottom-right-buttons need-invert">
         <div class="xunk-transparent-round">
-          <a id="mi-bottom-right-register-button">REGISTER</a>
+          <a href="/register" id="mi-bottom-right-register-button">REGISTER</a>
         </div>
       </div>
 
