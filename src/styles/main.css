@@ -234,7 +234,7 @@ body, html {
 
 @media (max-width: 600px) {
 	.title {
-		font-size: 3em;
+		font-size: 2.8em;
 	}
 
 	.right-text, .center-text {
