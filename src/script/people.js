@@ -178,7 +178,7 @@ var teams = [
         ]
     },
     {
-        name: 'SERVICES',
+        name: 'OPERATIONS &amp; LOGISTICS',
         short_name: 'services',
         people: [
             {
