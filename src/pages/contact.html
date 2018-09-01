@@ -90,6 +90,14 @@
   .mi-cu-dep-name { height: 0; opacity: 0; }
 
   @media (max-width: 1366px) {
+    .cu-sections {
+      font-size: 0.75em;
+      line-height: 1em;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .cu-sections { display: none; }
     .mi-cu-dep-name {
       position: relative;
       left: calc(50% - 100px);
@@ -101,12 +109,6 @@
       opacity: 1;
     }
 
-    #mi-cu-container {
-      height: calc(40vh + 20px + 1.3em);
-    }
-  }
-
-  @media (max-width: 900px) {
     #mi-cu-title { top: 40px; font-size: 2.5em; }
     .mi-cu-panel { white-space: normal; text-align: center;}
     .mi-cu-panel, .mi-cu-img {
@@ -133,7 +135,7 @@
   <div id="mi-cu-title" class="title h-middle">CONTACT US</div>
 
   <!-- Side menu -->
-  <div class="cu-sections min-1366px">
+  <div class="cu-sections">
     <ul id="cu-sections-ul">
       <li id="cu-section-template"><a class="cu-section" href="#cu-compi">COMPETITIONS &amp; LYP</a></li>
     </ul>

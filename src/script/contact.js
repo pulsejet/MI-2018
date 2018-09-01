@@ -7,16 +7,17 @@ export default function() {
     var currentElem = $('#cu-compi');
 
     $('#mi-cu-container').on('scroll', function() {
-      var top = $(this).children().first();
+      var top = null;
+      const containerHeight = $(this).height();
       $(this).children().each(function(){
-          var offset = $(this).offset().top;
-          if(offset >= 0 && offset < $(this).height()){
+          var offset = $(this).position().top;
+          if (offset >= -10 && offset < containerHeight + 10) {
               top = $(this);
               return false;
           }
       });
 
-      if (top.attr('id') != currentElem.attr('id')) {
+      if (top !== null && top.attr('id') != currentElem.attr('id')) {
         console.log(top.attr('id'));
         currentElem = top;
         $('.mi-cu-num-template').removeClass('active');
