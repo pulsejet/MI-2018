@@ -1,10 +1,21 @@
 import * as $ from 'jquery';
 import * as scrollify from 'jquery-scrollify';
 import particle from './particle_config.js';
+import lottie from 'lottie-web';
+import tvAnimationData from './tv_head_animation.json.js'
 import { addInvert, removeInvert, setShareOrRegister } from './main.js';
 
 export default function() {
   particle();
+
+  /* Show TV animation */
+  lottie.loadAnimation({
+    container: document.getElementById('tv-lottie'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    animationData: tvAnimationData
+  });
 
   scrollify.enable();
   scrollify.destroy();

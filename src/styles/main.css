@@ -200,10 +200,11 @@
 		line-height: 1.2em;
 	}
 
-	.tv-head {
+	#tv-head-container {
 		height: auto;
 		width: 98%;
 	}
+	.tv-head { width: 100%; height: auto; }
 }
 
 /* STATISTICS*/
