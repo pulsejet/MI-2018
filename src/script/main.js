@@ -99,9 +99,16 @@ function RefreshUserInfo(google_id) {
 /* Definitions end */
 
 var sidebarvisible = false;
+var loader5s = false;
 
 $(window).on('load', function() {
-  $(".se-pre-con").fadeOut("slow");;
+  if (loader5s) {
+    $(".se-pre-con").fadeOut("slow");
+  } else {
+    setTimeout(() => {
+      $(".se-pre-con").fadeOut("slow");
+    }, 3000);
+  }
 });
 
 $(document).ready(() => {
@@ -130,6 +137,7 @@ $(document).ready(() => {
 
   /* Start animation */
   lottie.loadAnimation(lottieParams);
+  setTimeout(() => loader5s = true, 3000);
 
   var tiltConfig = { maxTilt: 50, perspective: 10000 };
   $('#sb-toggle').tilt(tiltConfig);
