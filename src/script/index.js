@@ -72,6 +72,7 @@ export default function() {
   pagination += "</ul>";
   $(".home").append(pagination);
   $(".pagination a").on("click",scrollify.move);
+  $(".local-link").on("click",scrollify.move);
 
   $("#mi-mp-next").on("click", () => {
     if (currentScrollifySection == lastScrollifySection) {
