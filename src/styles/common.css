@@ -14,7 +14,7 @@ body, html {
 }
 
 /* webkit scrollbar */
-::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar { width: 2px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: white; border-radius: 1.5px; }
 
