@@ -151,6 +151,8 @@
 }
 
 @media (max-width: 600px) {
+	#mi-sidebar-number { display: none; }
+
 	#sb-toggle {
 		top: 2px; right: 10px;
 		width: 40px; height: 40px;
