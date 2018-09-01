@@ -1,0 +1,68 @@
+/* Generic */
+* {
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body, html {
+	overflow: hidden;
+}
+
+/* webkit scrollbar */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: white; border-radius: 1.5px; }
+
+/* Sidebar */
+[sidebarjs] {
+	z-index: 100 !important;
+}
+
+/* Simplebar */
+[data-simplebar] .sb-cont {
+	width: calc(100% - 12px);
+}
+
+.simplebar-scrollbar {
+	width: 3px !important;
+	background: white;
+}
+
+.simplebar-scrollbar::before {
+	background: transparent !important;
+}
+
+@media (max-width: 600px) {
+	.simplebar-scrollbar { background: transparent; }
+	[data-simplebar] .sb-cont { width: 100%; }
+}
+
+/* Positioning */
+.h-middle {
+	position: absolute;
+	left: 50%;
+    transform: translateX(-50%);
+}
+
+.v-middle {
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+}
+
+.vh-middle {
+	position: absolute;
+	top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+}
+
+/* Bold */
+.bld {
+	font-weight: 900;
+}
