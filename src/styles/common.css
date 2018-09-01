@@ -28,6 +28,10 @@ body, html {
 	width: calc(100% - 12px);
 }
 
+.simplebar-track.horizontal {
+	visibility: hidden !important;
+}
+
 .simplebar-scrollbar {
 	width: 3px !important;
 	background: white;
