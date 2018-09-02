@@ -247,7 +247,7 @@
 @media (max-width: 600px) {
 	.stats-title { font-size: 1.7em; }
 	.mi-top-right-buttons { display: none; }
-	.mi-bottom-right-buttons { display: none; }
+	.mi-bottom-right-buttons { display: none !important; }
 	.stats-table-container {
 		max-height: 40vh;
 		mask-image: -webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
