@@ -160,8 +160,8 @@ var teams = [
         ]
     },
     {
-        name: 'PRONITES',
-        short_name: 'pronites',
+        name: 'CONCETYS',
+        short_name: 'concerts',
         people: [
             {
                 name: 'VINEET SRIVASTAVA',
