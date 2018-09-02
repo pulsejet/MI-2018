@@ -123,7 +123,7 @@ $(window).on('load', function() {
   } else {
     setTimeout(() => {
       $(".se-pre-con").fadeOut("slow");
-    }, 3000);
+    }, 2000);
   }
 });
 
@@ -156,7 +156,7 @@ $(document).ready(() => {
 
   /* Start animation */
   lottie.loadAnimation(lottieParams);
-  setTimeout(() => loader5s = true, 3000);
+  setTimeout(() => loader5s = true, 2000);
 
   /* Tilt on desktop only */
   if (window.outerWidth > 600) {
