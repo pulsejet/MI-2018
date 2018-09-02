@@ -155,9 +155,16 @@
   }
 
   @media (max-width: 900px) {
-    .mi-home-right-date { display: none; }
-    .tv-backdrop p, #mi-mp-next, #mi-mp-prev { display: none; }
+    .mi-home-right-date, #mi-mp-next, #mi-mp-prev { display: none; }
+
+    .tv-backdrop p {
+      font-size: 1em;
+      line-height: 1.1em;
+      width: 90vw;
+    }
+
     .tv-backdrop img { width: 80vw; }
+
     .mi-sitemap-logounit { display: none; }
     .mi-small-title { font-size: 1.5em; margin-bottom: 0.2em; }
     .mi-sitemap-links-container, .mi-sitemap-follow-container {
@@ -170,10 +177,12 @@
 
   @media (max-width: 600px) {
     .tv-backdrop {
-      top: 4vh; left: 45%;
+      top: 4vh; left: 50%;
       transform: translateX(-50%);
     }
     .tv-backdrop img { width: 60vw; }
+    .tv-backdrop p { margin-top: 1em; }
+
     img.social-cause { display: none; }
     p.social-cause {
       top: calc(84px + 13vh);
