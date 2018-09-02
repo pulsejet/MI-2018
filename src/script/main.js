@@ -59,6 +59,15 @@ function fbshareCurrentPage() {
 
 function setShareOrRegister(share) {
   const elem = $('#mi-bottom-right-register-button');
+
+  /* Hide on register */
+  if (window.location.href.includes('/register')) {
+    $('.mi-bottom-right-buttons').hide();
+  } else {
+    $('.mi-bottom-right-buttons').show();
+  }
+
+  /* Set text */
   if (share) {
     elem.html('SHARE THIS');
     elem.attr('onclick', 'MoodI.fbshareCurrentPage()');
