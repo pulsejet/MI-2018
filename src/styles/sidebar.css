@@ -104,6 +104,7 @@
 	height: 100%; width: 100%;
 	background: linear-gradient(45deg,#ff7300,#f8348c);
 	position: relative;
+	transform: translateZ(50px);
 }
 
 #mi-sidebar-inner {

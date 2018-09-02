@@ -139,10 +139,12 @@ $(document).ready(() => {
   lottie.loadAnimation(lottieParams);
   setTimeout(() => loader5s = true, 3000);
 
-  var tiltConfig = { maxTilt: 50, perspective: 10000 };
-  $('#sb-toggle').tilt(tiltConfig);
-  $('.mi-close-sidebar').tilt(tiltConfig);
-  $('.logo-main img').tilt();
+  if (window.outerWidth > 600) {
+    var tiltConfig = { maxTilt: 50, perspective: 10000 };
+    $('#sb-toggle').tilt(tiltConfig);
+    $('.mi-close-sidebar').tilt(tiltConfig);
+    $('.logo-main img').tilt();
+  }
 
   MoodIndigoReInit();
 
