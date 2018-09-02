@@ -139,6 +139,7 @@ $(document).ready(() => {
   lottie.loadAnimation(lottieParams);
   setTimeout(() => loader5s = true, 3000);
 
+  /* Tilt on desktop only */
   if (window.outerWidth > 600) {
     var tiltConfig = { maxTilt: 50, perspective: 10000 };
     $('#sb-toggle').tilt(tiltConfig);
