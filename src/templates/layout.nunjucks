@@ -89,7 +89,7 @@
             <div class="xunk-social"><i class="fab fa-twitter"></i></div>
             <div class="xunk-social"><i class="fab fa-linkedin-in"></i></div>
             <div class="xunk-transparent-round sidebar-reg-button">
-              <a href="/register">REGISTER</a>
+              <a id="mi-sidebar-reg" href="/register">REGISTER</a>
             </div>
           </div>
         </div>

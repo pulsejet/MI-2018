@@ -72,8 +72,15 @@ function setShareOrRegister(share) {
     elem.html('SHARE THIS');
     elem.attr('onclick', 'MoodI.fbshareCurrentPage()');
     elem.removeAttr('href');
+    $("#mi-sidebar-reg").html('REGISTER');
   } else {
-    elem.html('REGISTER');
+    if (localStorage.getItem('is_authenticated') === 'true') {
+      elem.html('PROFILE');
+      $("#mi-sidebar-reg").html('PROFILE');
+    } else {
+      elem.html('REGISTER');
+      $("#mi-sidebar-reg").html('REGISTER');
+    }
     elem.attr('href', '/register');
     elem.removeAttr('onclick');
   }
@@ -143,6 +150,7 @@ $(document).ready(() => {
       } else if (e.data.type == 3) {
         Barba.Pjax.goTo(window.data.data);
       }
+      setShareOrRegister(false);
       RefreshUserInfo(localStorage.getItem('google_id'));
   }, false);
 
