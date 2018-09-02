@@ -148,7 +148,7 @@ $(document).ready(() => {
             localStorage.removeItem(key);
         }
       } else if (e.data.type == 3) {
-        Barba.Pjax.goTo(window.data.data);
+        Barba.Pjax.goTo(e.data.data);
       }
       setShareOrRegister(false);
       RefreshUserInfo(localStorage.getItem('google_id'));
@@ -226,7 +226,7 @@ $(document).ready(() => {
 
 export {default as miInitIndex} from './index.js';
 export {default as miInitExperience} from './experience.js';
-export {default as miInitAccomodation} from './accomodation.js';
+export {default as miInitAccommodation} from './accommodation.js';
 export {default as miInitContactUs} from './contact.js';
 export {default as miInitEvents} from './events.js';
 export {
