@@ -117,6 +117,10 @@ function RefreshUserInfo(google_id) {
 var sidebarvisible = false;
 var loader5s = false;
 
+/* Start animation */
+lottie.loadAnimation(lottieParams);
+setTimeout(() => loader5s = true, 2000);
+
 $(window).on('load', function() {
   if (loader5s) {
     $(".se-pre-con").fadeOut("slow");
@@ -153,10 +157,6 @@ $(document).ready(() => {
       setShareOrRegister(false);
       RefreshUserInfo(localStorage.getItem('google_id'));
   }, false);
-
-  /* Start animation */
-  lottie.loadAnimation(lottieParams);
-  setTimeout(() => loader5s = true, 2000);
 
   /* Tilt on desktop only */
   if (window.outerWidth > 600) {
