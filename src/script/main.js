@@ -124,13 +124,15 @@ $(document).ready(() => {
   eventer(messageEvent,function(e) {
       console.log(e.data);
       if (e.data.type == 1) {
-          for (const field in e.data.data) {
-              localStorage.setItem(field, e.data.data[field]);
-          }
+        for (const field in e.data.data) {
+            localStorage.setItem(field, e.data.data[field]);
+        }
       } else if (e.data.type == 2) {
-          for (const key of e.data.data) {
-              localStorage.removeItem(key);
-          }
+        for (const key of e.data.data) {
+            localStorage.removeItem(key);
+        }
+      } else if (e.data.type == 3) {
+        Barba.Pjax.goTo(window.data.data);
       }
       RefreshUserInfo(localStorage.getItem('google_id'));
   }, false);
