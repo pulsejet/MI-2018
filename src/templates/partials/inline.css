@@ -6,3 +6,9 @@
 	background: rgb(60, 254, 219);
 	touch-action: none;
 }
+
+@media (max-width: 600px) {
+	#lottie {
+		transform: scale(2);
+	}
+}
