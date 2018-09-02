@@ -160,7 +160,7 @@ var teams = [
         ]
     },
     {
-        name: 'CONCETYS',
+        name: 'CONCERTS',
         short_name: 'concerts',
         people: [
             {
