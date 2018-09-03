@@ -40,7 +40,7 @@ export default function() {
     });
 
     // Fix for mobile
-    if (window.outerWidth <= 900) {
+    if (window.innerWidth <= 600) {
         $('.mi-siema-container').each(function() {
             const right = $(this).find('.mi-evt-right-content');
             if (right.length) {
