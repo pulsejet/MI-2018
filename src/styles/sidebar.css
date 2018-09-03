@@ -1,13 +1,21 @@
+body {
+	line-height: 1;
+	color:white;
+	font-family: 'Lato', sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
 .full-body {
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	overflow:auto;
-	position: absolute;
+	position: fixed;
 	top: 0; left: 0;
 }
 
 .full-iframe {
-	height: 99vh;
+	height: 99%;
 	width: 100%;
 	overflow:auto;
 }

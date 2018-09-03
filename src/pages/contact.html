@@ -8,6 +8,11 @@
     background: linear-gradient(25deg, rgb(201,202,204), rgb(234,234,234));
   }
 
+  .cu-main {
+    height: 100%;
+    overflow: hidden;
+  }
+
   #mi-cu-title {
     position: absolute;
     top: 15%;
@@ -127,7 +132,7 @@
     .mi-cu-img  { height: auto !important; }
     #mi-cu-container {
       top: calc(40px + 3.2em);
-      height: calc(100vh - 40px - 3.2em);
+      height: calc(100% - 40px - 3.2em);
       padding: 0;
       width: 98vw;
     }
@@ -137,7 +142,11 @@
 </style>
 
 <div class="full-body maindiv">
-  <div id="mi-cu-title" class="title h-middle">CONTACT US</div>
+  <!-- Main container -->
+  <div class="cu-main">
+    <div id="mi-cu-title" class="title h-middle">CONTACT US</div>
+    <div id="mi-cu-container" class="h-middle"></div>
+  </div>
 
   <!-- Side menu -->
   <div class="cu-sections">
@@ -158,9 +167,6 @@
       </p>
     </div>
   </div>
-
-  <!-- Main container -->
-  <div id="mi-cu-container" class="h-middle"></div>
 
   <!-- Numbering -->
   <div class="mi-cu-indices siema-indices">
