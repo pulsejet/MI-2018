@@ -33,6 +33,7 @@
   </head>
   <body>
       <!-- Loading animation -->
+      <div id="white-loader" class="se-pre-con"></div>
       <div id="lottie" class="se-pre-con"></div>
 
       <!-- CSS and JS -->

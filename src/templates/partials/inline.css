@@ -7,8 +7,16 @@
 	touch-action: none;
 }
 
+#white-loader {
+	filter: invert(1);
+	z-index: 2;
+	background: transparent;
+	display: none;
+	touch-action: auto;
+}
+
 @media (max-width: 600px) {
-	#lottie {
+	.se-pre-con {
 		transform: scale(2);
 	}
 }

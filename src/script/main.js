@@ -44,7 +44,37 @@ if (!results[2]) return '';
 return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
+function showWhiteLoader() {
+  lottie.loadAnimation(lottieParams = {
+    container: document.getElementById('white-loader'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    animationData: animationData
+  });
+  $('#white-loader').fadeIn();
+}
+
+function hideWhiteLoader() {
+  $('#white-loader').fadeOut();
+}
+
 function initIFrameSub(iframe, url) {
+  // Prepare for transition
+  $(iframe).hide();
+
+  // Show loading animation
+  showWhiteLoader();
+
+  // Fade out animation and fade in the frame
+  $(iframe).on('load', function() {
+    setTimeout(() => {
+      hideWhiteLoader();
+      $(iframe).fadeIn();
+    }, 1500);
+  });
+
+  // Load the iframe
   const sub = getParameterByName('sub');
   if (sub != null) { url += sub; }
   $(iframe).attr("src", url);
@@ -123,10 +153,10 @@ setTimeout(() => loader5s = true, 2000);
 
 $(window).on('load', function() {
   if (loader5s) {
-    $(".se-pre-con").fadeOut("slow");
+    $("#lottie").fadeOut("slow");
   } else {
     setTimeout(() => {
-      $(".se-pre-con").fadeOut("slow");
+      $("#lottie").fadeOut("slow");
     }, 2000);
   }
 });
@@ -237,6 +267,7 @@ $(document).ready(() => {
     $(".logo-main").removeClass("sitemap");
     setShareOrRegister(false);
     MoodIndigoReInit();
+    hideWhiteLoader();
     return FadeTransition;
   };
 })
