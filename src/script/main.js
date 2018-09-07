@@ -60,9 +60,6 @@ function hideWhiteLoader() {
 }
 
 function initIFrameSub(iframe, url) {
-  // Prepare for transition
-  $(iframe).hide();
-
   // Show loading animation
   showWhiteLoader();
 
@@ -70,7 +67,7 @@ function initIFrameSub(iframe, url) {
   $(iframe).on('load', function() {
     setTimeout(() => {
       hideWhiteLoader();
-      $(iframe).fadeIn();
+      $(iframe).css('opacity', 1);
     }, 1500);
   });
 
