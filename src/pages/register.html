@@ -9,7 +9,11 @@
 </style>
 
 <div id="compi-iframe-container" class="full-body">
-    <iframe class="full-iframe" allowtransparency="true" src="https://reg18.moodi.org"></iframe>
+    <iframe id="reg-iframe" class="full-iframe opacity-fadein" allowtransparency="true"></iframe>
 </div>
+
+<script>
+    MoodI.initIFrameSub("#reg-iframe", "https://reg18.moodi.org");
+</script>
 
 {% endblock %}
