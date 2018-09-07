@@ -144,15 +144,32 @@ $(document).ready(() => {
   eventer(messageEvent,function(e) {
       console.log(e.data);
       if (e.data.type == 1) {
+        /* Set local storage */
         for (const field in e.data.data) {
             localStorage.setItem(field, e.data.data[field]);
         }
       } else if (e.data.type == 2) {
+        /* Remove local storage */
         for (const key of e.data.data) {
             localStorage.removeItem(key);
         }
       } else if (e.data.type == 3) {
+        /* Redirect */
         Barba.Pjax.goTo(e.data.data);
+      } else if (e.data.type == 4) {
+        /* Get local storage */
+        const message = {}
+        for (const key of e.data.data) {
+          if (localStorage.getItem(key) !== null) {
+            message[key] = localStorage.getItem(key);
+          }
+        }
+        document.getElementById(e.data.target).contentWindow.postMessage(
+          {
+            type: 1,
+            data: message
+          }, '*');
+        return;
       }
       setShareOrRegister(false);
       RefreshUserInfo(localStorage.getItem('google_id'));

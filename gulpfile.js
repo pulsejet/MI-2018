@@ -15,6 +15,7 @@ gulp.task('webpack-watch', ['webpack'], function (done) { browserSync.reload(); 
 
 gulp.task('assets', function() {
     gulp.src(['src/images/**/*']).pipe(gulp.dest('build/images/'));
+    gulp.src(['src/assets/**/*']).pipe(gulp.dest('build/assets/'));
 });
 
 gulp.task('styles', function() {

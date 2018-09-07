@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head></head>
+
+<body style="background:transparent">
+    <script>
+        /* Listen for events */
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+        // Listen to message from child window
+        eventer(messageEvent,function(e) {
+            console.log(e.data);
+            if (e.data.type == 1) {
+                for (const field in e.data.data) {
+                    localStorage.setItem(field, e.data.data[field]);
+                }
+                window.location.href = 'https://compi.moodi.org/'
+            }
+        }, false);
+
+        // All valid keys
+        var keys = ['google_id', 'is_authenticated'];
+
+        // Clear preexisting keys
+        for (const key of keys) {
+            localStorage.removeItem(key);
+        }
+
+        // Get our keys
+        window.parent.postMessage({
+            type: 4,
+            data: keys,
+            target: 'compi-iframe'
+        }, '*')
+    </script>
+</body>
+
+</html>
