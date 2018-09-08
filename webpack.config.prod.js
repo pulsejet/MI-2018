@@ -8,5 +8,19 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     libraryTarget: 'var',
     library: 'MoodI'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
+      }
+    ]
   }
 };
