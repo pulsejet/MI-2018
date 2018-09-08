@@ -29,7 +29,7 @@ var teams = [
                 department: 'Design'
             },
             {
-                name: 'Arsh Akthar Ansari',
+                name: 'Arsh Akhtar Ansari',
                 image: 'arsh.jpg',
                 tel: '+91-9819751710',
                 email: 'arsh@moodi.org',
