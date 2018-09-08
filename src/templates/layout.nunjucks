@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mood Indigo | IIT Bombay</title>
+    <title>{% block title %}Mood Indigo | IIT Bombay{% endblock %}</title>
     <meta name="description" content="Mood Indigo | IIT Bombay | Asia's Largest College Cultural Festival">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta property="og:title" content="Mood Indigo | IIT Bombay">
