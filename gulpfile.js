@@ -4,7 +4,8 @@ const htmlmin = require('gulp-htmlmin');
 let cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var nunjucksRender = require('gulp-nunjucks-render');
-var webpack = require('webpack');
+var compiler = require('webpack');
+var webpack = require('webpack-stream');
 var webpack_config = require('./webpack.config.js');
 var webpack_config_prod = require('./webpack.config.prod.js');
 var browserSync = require('browser-sync').create();
@@ -12,7 +13,12 @@ var sitemap = require('gulp-sitemap');
 var save = require('gulp-save');
 const isProd = process.env.NODE_ENV === 'production';
 
-gulp.task('webpack', function() { webpack(isProd ? webpack_config_prod : webpack_config).run(); });
+gulp.task('webpack', function() {
+    return gulp.src('src/script/main.js')
+    .pipe(webpack(isProd ? webpack_config_prod : webpack_config, compiler, function(err, stats) {}))
+    .pipe(gulp.dest('build/'));
+});
+
 gulp.task('webpack-watch', ['webpack'], function (done) { browserSync.reload(); done(); });
 
 gulp.task('assets', function() {
