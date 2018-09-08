@@ -1,8 +1,3 @@
-.opacity-fadein {
-	opacity: 0;
-	transition: opacity 0.5s ease;
-}
-
 .mi-top-right-buttons {
 	font-size: 0.8em;
 	position: fixed;

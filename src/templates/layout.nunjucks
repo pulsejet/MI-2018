@@ -62,16 +62,16 @@
 
       <div class="mi-top-right-buttons need-invert">
         <div class="xunk-transparent-round">
-          <a href="https://cr.moodi.org" target="_blank">JOIN US</a>
+          <a class="uppercase" href="https://cr.moodi.org" target="_blank">Join Us</a>
         </div>
         <div class="xunk-transparent-round">
-          <a href="/contact">CONTACT US</a>
+          <a class="uppercase" href="/contact">Contact Us</a>
         </div>
       </div>
 
       <div class="mi-bottom-right-buttons need-invert">
         <div class="xunk-transparent-round">
-          <a href="/register" id="mi-bottom-right-register-button">REGISTER</a>
+          <a href="/register" id="mi-bottom-right-register-button" class="uppercase">Register</a>
         </div>
       </div>
 
@@ -81,14 +81,14 @@
           <div sidebarjs-toggle class="mi-close-sidebar">
             <img src="images/close-button.svg" />
           </div>
-          <div id="mi-sidebar-inner">
-            <div><a href="/">HOME</a></div>
-            <div><a href="/experience">THE EXPERIENCE</a></div>
-            <div><a href="/events">EVENTS</a></div>
-            <div><a href="/competitions">COMPETITIONS</a></div>
-            <div><a href="/accommodation">ACCOMMODATION</a></div>
-            <div><a href="/sponsors">SPONSORS</a></div>
-            <div><a href="/contact">CONTACT US</a></div>
+          <div id="mi-sidebar-inner" class="uppercase">
+            <div><a href="/">Home</a></div>
+            <div><a href="/experience">The Experience</a></div>
+            <div><a href="/events">Events</a></div>
+            <div><a href="/competitions">Competitions</a></div>
+            <div><a href="/accommodation">Accomodation</a></div>
+            <div><a href="/sponsors">Sponsors</a></div>
+            <div><a href="/contact">Contact Us</a></div>
           </div>
           <div class="sidebar-footer">
             <div class="xunk-social"><i class="fab fa-facebook-f"></i></div>
@@ -96,7 +96,7 @@
             <div class="xunk-social"><i class="fab fa-twitter"></i></div>
             <div class="xunk-social"><i class="fab fa-linkedin-in"></i></div>
             <div class="xunk-transparent-round sidebar-reg-button">
-              <a id="mi-sidebar-reg" href="/register">REGISTER</a>
+              <a class="uppercase" id="mi-sidebar-reg" href="/register">Register</a>
             </div>
           </div>
         </div>
