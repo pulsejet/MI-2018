@@ -1,16 +1,16 @@
 var teams = [
     {
-        name: 'COMPETITIONS &amp; LYP',
+        name: 'Competitions &amp; LYP',
         short_name: 'compi',
         people: [
             {
-                name: 'PRANIL JAIN',
+                name: 'Pranil Jain',
                 image: 'pranil.jpg',
                 tel: '+91-8291473726',
                 email: 'pranil@moodi.org'
             },
             {
-                name: 'SANJAY KHATRI',
+                name: 'Sanjay Khatri',
                 image: 'sanjay.jpg',
                 tel: '+91-9782600920',
                 email: 'sanjay@moodi.org'
@@ -18,38 +18,38 @@ var teams = [
         ]
     },
     {
-        name: 'CREATIVES',
+        name: 'Creatives',
         short_name: 'creatives',
         people: [
             {
-                name: 'SAYAN DAS',
+                name: 'Sayan Das',
                 image: 'sayan.jpg',
                 tel: '+91-9987092577',
                 email: 'sayan@moodi.org',
-                department: 'DESIGN'
+                department: 'Design'
             },
             {
-                name: 'ARSH AKTHAR ANSARI',
+                name: 'Arsh Akthar Ansari',
                 image: 'arsh.jpg',
                 tel: '+91-9819751710',
                 email: 'arsh@moodi.org',
-                department: 'WEB'
+                department: 'Web'
             },
             {
-                name: 'SUDHANSHU VERMA',
+                name: 'Sudhanshu Verma',
                 image: 'sudhanshu.jpg',
                 tel: '+91-7568289305',
                 email: 'sudhanshu@moodi.org',
-                department: 'AMBIENCE'
+                department: 'Ambience'
             }
         ]
     },
     {
-        name: 'FOOD &amp; BEVERAGES',
+        name: 'Food &amp; Beverages',
         short_name: 'FnB',
         people: [
             {
-                name: 'KABIR TANDON',
+                name: 'Kabir Tandon',
                 image: 'kabir.jpg',
                 tel: '+91-8291472037',
                 email: 'kabir@moodi.org',
@@ -58,23 +58,23 @@ var teams = [
         ]
     },
     {
-        name: 'HORIZONS &amp; WORKSHOPS',
+        name: 'Horizons &amp; Workshops',
         short_name: 'horizons',
         people: [
             {
-                name: 'ADITI MAHAJAN',
+                name: 'Aditi Mahajan',
                 image: 'aditi.jpg',
                 tel: '+91-8291689848',
                 email: 'aditi@moodi.org'
             },
             {
-                name: 'ANIMESH SINGHAL',
+                name: 'Animesh Singhal',
                 image: 'animesh.jpg',
                 tel: '+91-8692803803',
                 email: 'animesh@moodi.org'
             },
 	        {
-                name: 'HRITWIK RANJAN',
+                name: 'Hritwik Ranjan',
                 image: 'hritwik.jpg',
                 tel: '+91-7503771323',
                 email: 'hritwik@moodi.org',
@@ -82,17 +82,17 @@ var teams = [
         ]
     },
     {
-        name: 'HOSPITALITY<span class="min-1400px">, ASSISTANCE</span> &amp; PR',
+        name: 'Hospitality<span class="min-1400px">, Assistance</span> &amp; PR',
         short_name: 'hospi',
         people: [
             {
-                name: 'HIMANK JAIN',
+                name: 'Himank Jain',
                 image: 'himank.jpg',
 	            tel: '+91-7073543859',
                 email: 'himank@moodi.org'
             },
             {
-                name: 'MRIGANK MAHAJAN',
+                name: 'Mrigank Mahajan',
                 image: 'mrigank.jpg',
                 tel: '+91-8169223068',
                 email: 'mrigank@moodi.org'
@@ -100,17 +100,17 @@ var teams = [
         ]
     },
     {
-        name: 'INFORMALS<span class="min-1400px">, STREETS &amp; LOUNGES</span>',
+        name: 'Informals<span class="min-1400px">, Streets &amp; Lounges</span>',
         short_name: 'informals',
         people: [
             {
-                name: 'AKSHAT PARWAL',
+                name: 'Akshat Parwal',
                 image: 'akshat.jpg',
 	            tel: '+91-8169918299',
                 email: 'akshat@moodi.org'
             },
             {
-                name: 'SHAURYA SINDHU',
+                name: 'Shaurya Sindhu',
                 image: 'shaurya.jpg',
                 tel: '+91-9216708270',
                 email: 'shaurya@moodi.org'
@@ -118,23 +118,23 @@ var teams = [
         ]
     },
     {
-        name: 'MARKETING',
+        name: 'Marketing',
         short_name: 'marki',
         people: [
             {
-                name: 'PRASHAM AGRAWAL',
+                name: 'Prasham Agrawal',
                 image: 'prasham.jpg',
                 tel: '+91-8120497855',
                 email: 'prasham@moodi.org'
             },
             {
-                name: 'ABHINAV DHAKRAS',
+                name: 'Abhinav Dhakras',
                 image: 'abhinav.jpg',
                 tel: '+91-9619977724',
                 email: 'abhinav@moodi.org'
             },
 	        {
-                name: 'MITESH MUNDRA',
+                name: 'Mitesh Mundra',
                 image: 'mitesh.jpg',
                 tel: '+91-8291473801',
                 email: 'mitesh@moodi.org',
@@ -142,17 +142,17 @@ var teams = [
         ]
     },
     {
-        name: 'MEDIA &amp; PUBLICITY',
+        name: 'Media &amp; Publicity',
         short_name: 'media',
         people: [
             {
-                name: 'KRITI KAMNA',
+                name: 'Kriti Kamna',
                 image: 'kriti.jpg',
 	            tel: '+91-7783024891',
                 email: 'kriti@moodi.org'
             },
             {
-                name: 'TANMAY JAIN',
+                name: 'Tanmay Jain',
                 image: 'tanmay.jpg',
                 tel: '+91-9462901544',
                 email: 'tanmay@moodi.org'
@@ -160,17 +160,17 @@ var teams = [
         ]
     },
     {
-        name: 'CONCERTS',
+        name: 'Concerts',
         short_name: 'concerts',
         people: [
             {
-                name: 'VINEET SRIVASTAVA',
+                name: 'Vineet Srivastava',
                 image: 'vineet.jpg',
                 tel: '+91-9003803473',
                 email: 'vineet@moodi.org'
             },
 	        {
-                name: 'VEDANT LADHA',
+                name: 'Vedant Ladha',
                 image: 'vedant.jpg',
                 tel: '+91-9167843065',
                 email: 'vedant@moodi.org',
@@ -178,17 +178,17 @@ var teams = [
         ]
     },
     {
-        name: 'OPERATIONS &amp; LOGISTICS',
+        name: 'Operations &amp; Logistics',
         short_name: 'services',
         people: [
             {
-                name: 'GOVIND MENON',
+                name: 'Govind Menon',
                 image: 'govind.jpg',
                 tel: '+91-8149797946',
                 email: 'govind@moodi.org'
             },
 	        {
-                name: 'RUSHABH REDASANI',
+                name: 'Rushabh Redasani',
                 image: 'rushabh.jpg',
                 tel: '+91-8983097108',
                 email: 'rushabh@moodi.org',
@@ -196,17 +196,17 @@ var teams = [
         ]
     },
     {
-        name: 'OVERALL COORDINATORS',
+        name: 'Overall Coordinators',
         short_name: 'OCs',
         people: [
             {
-                name: 'NIKHIL VAIDYA',
+                name: 'Nikhil Vaidya',
                 image: 'nikhil.jpg',
                 tel: '+91-9004932980',
                 email: 'nikhil@moodi.org'
             },
 	        {
-                name: 'SANKET AGRAWAL',
+                name: 'Sanket Agrawal',
                 image: 'sanket.jpg',
                 tel: '+91-7045800191',
                 email: 'sanket@moodi.org',
