@@ -96,17 +96,17 @@ function setShareOrRegister(share) {
 
   /* Set text */
   if (share) {
-    elem.html('SHARE THIS');
+    elem.html('Share This');
     elem.attr('onclick', 'MoodI.fbshareCurrentPage()');
     elem.removeAttr('href');
-    $("#mi-sidebar-reg").html('REGISTER');
+    $("#mi-sidebar-reg").html('Register');
   } else {
     if (localStorage.getItem('is_authenticated') === 'true') {
-      elem.html('PROFILE');
-      $("#mi-sidebar-reg").html('PROFILE');
+      elem.html('Profile');
+      $("#mi-sidebar-reg").html('Profile');
     } else {
-      elem.html('REGISTER');
-      $("#mi-sidebar-reg").html('REGISTER');
+      elem.html('Register');
+      $("#mi-sidebar-reg").html('Register');
     }
     elem.attr('href', '/register');
     elem.removeAttr('onclick');
