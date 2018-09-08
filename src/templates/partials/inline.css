@@ -1,3 +1,4 @@
+/* Loader Animation */
 .se-pre-con {
 	position: fixed;
 	left: 0px; top: 0px;
@@ -19,4 +20,13 @@
 	.se-pre-con {
 		transform: scale(2);
 	}
+}
+
+/* Critical CSS */
+.uppercase, .uppercase * {
+	text-transform: uppercase;
+}
+
+.no-uppercase {
+	text-transform: initial;
 }
