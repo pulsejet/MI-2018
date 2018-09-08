@@ -1,13 +1,11 @@
 import * as $ from 'jquery';
 import Barba from 'barba.js';
-import tilt from 'tilt.js';
+import VanillaTilt from 'vanilla-tilt';
 import lottie from 'lottie-web';
 import {SidebarElement } from 'sidebarjs';
 import animationData from './animation.json.js'
 import * as scrollify from 'jquery-scrollify';
 import 'simplebar';
-
-$.tilt = tilt;
 
 /* Loading animation */
 var lottieParams = {
@@ -204,10 +202,10 @@ $(document).ready(() => {
 
   /* Tilt on desktop only */
   if (window.outerWidth > 600) {
-    var tiltConfig = { maxTilt: 50, perspective: 10000 };
-    $('#sb-toggle').tilt(tiltConfig);
-    $('.mi-close-sidebar').tilt(tiltConfig);
-    $('.logo-main img').tilt();
+    var tiltConfig = { max: 50, perspective: 10000 };
+    VanillaTilt.init(document.querySelector('#sb-toggle'), tiltConfig);
+    VanillaTilt.init(document.querySelector('.mi-close-sidebar'), tiltConfig);
+    VanillaTilt.init(document.querySelector('.logo-main img'), {});
   }
 
   MoodIndigoReInit();
