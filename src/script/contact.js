@@ -54,8 +54,13 @@ export default function() {
             } else {
                 newnode.find('.mi-cu-dept').html(team.name);
             }
-            newnode.find('.mi-cu-tel').html(cg.tel);
-            newnode.find('.mi-cu-tel').attr('href', 'tel:' + cg.tel);
+            if ('tel' in cg) {
+                newnode.find('.mi-cu-tel').html(cg.tel);
+                newnode.find('.mi-cu-tel').attr('href', 'tel:' + cg.tel);
+            } else {
+                newnode.find('.mi-cu-tel').next().remove();
+                newnode.find('.mi-cu-tel').remove();
+            }
             newnode.find('.mi-cu-email').html(cg.email);
             newnode.find('.mi-cu-email').attr('href', 'email:' + cg.email);
             newnode.appendTo($(section));

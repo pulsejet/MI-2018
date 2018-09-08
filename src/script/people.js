@@ -202,13 +202,11 @@ var teams = [
             {
                 name: 'Nikhil Vaidya',
                 image: 'nikhil.jpg',
-                tel: '+91-9004932980',
                 email: 'nikhil@moodi.org'
             },
 	        {
                 name: 'Sanket Agrawal',
                 image: 'sanket.jpg',
-                tel: '+91-7045800191',
                 email: 'sanket@moodi.org',
             }
         ]
