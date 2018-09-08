@@ -4,6 +4,16 @@
 
 <body style="background:transparent">
     <script>
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
         /* Listen for events */
         var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
         var eventer = window[eventMethod];
@@ -16,7 +26,11 @@
                 for (const field in e.data.data) {
                     localStorage.setItem(field, e.data.data[field]);
                 }
-                window.location.href = 'https://comp.moodi.org/'
+
+                var url = 'https://comp.moodi.org';
+                const sub = getParameterByName('sub');
+                if (sub != null) { url += sub; }
+                window.location.href = url;
             }
         }, false);
 
