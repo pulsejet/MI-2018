@@ -8,6 +8,8 @@ var webpack = require('webpack');
 var webpack_config = require('./webpack.config.js');
 var webpack_config_prod = require('./webpack.config.prod.js');
 var browserSync = require('browser-sync').create();
+var sitemap = require('gulp-sitemap');
+var save = require('gulp-save');
 const isProd = process.env.NODE_ENV === 'production';
 
 gulp.task('webpack', function() { webpack(isProd ? webpack_config_prod : webpack_config).run(); });
@@ -29,6 +31,12 @@ gulp.task('css-watch', ['styles'], function (done) { browserSync.reload(); done(
 
 gulp.task('nunjucks', function() {
     return gulp.src('src/pages/*.+(html|nunjucks)')
+
+    .pipe(save('before-sitemap'))
+    .pipe(sitemap({ siteUrl: 'https://moodi.org' }))
+    .pipe(gulp.dest('build/'))
+    .pipe(save.restore('before-sitemap'))
+
     .pipe(nunjucksRender({
         path: ['src/templates']
     }))
