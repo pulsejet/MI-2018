@@ -1,0 +1,101 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Mood Indigo",
+        "url": "https://moodi.org",
+        "logo": "https://moodi.org/images/logo_wob.png",
+        "contactPoint": [{
+            "@type": "ContactPoint",
+            "telephone": "+91-7073543859",
+            "email": "himank@moodi.org",
+            "contactType": "customer service"
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+91-8169223068",
+            "email": "mrigank@moodi.org",
+            "contactType": "customer service"
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+91-8120497855",
+            "email": "prasham@moodi.org",
+            "contactType": "sales"
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+91-8120497855",
+            "email": "abhinav@moodi.org",
+            "contactType": "sales"
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+91-8120497855",
+            "email": "mitesh@moodi.org",
+            "contactType": "sales"
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+91-8120497855",
+            "email": "kriti@moodi.org",
+            "contactType": "sales"
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+91-9462901544",
+            "email": "tanmay@moodi.org",
+            "contactType": "sales"
+        }],
+        "sameAs": [
+            "https://www.facebook.com/iitb.moodindigo/",
+            "https://twitter.com/iitb_moodi",
+            "https://www.instagram.com/iitbombay.moodi/",
+            "https://www.linkedin.com/company/mood-indigo/"
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Mood Indigo 2018",
+        "startDate": "2018-12-27T00:00+05:30",
+        "endDate": "2017-12-30T23:00+05:30",
+        "location": {
+            "@type": "Place",
+            "name": "IIT Bombay",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "IIT Area",
+                "addressLocality": "Powai, Mumbai",
+                "postalCode": "400076",
+                "addressRegion": "MH",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+                "https://moodi.org/images/experience/10-2.jpg",
+                "https://moodi.org/images/experience/14.jpg",
+                "https://moodi.org/images/experience/22.png",
+                "https://moodi.org/images/experience/Air%20Lanterns.jpg",
+                "https://moodi.org/images/experience/UV%20Paintball.jpg"
+            ],
+        "description": "Mood Indigo, Asia's largest college cultural festival, has developed over the years into so much more: a melting pot of Indian and global culture, a launchpad for upcoming artists, a showcase of spectacle - where the streets come alive and every step you take is a step towards new experience, where you can never see it all, but what you do see lasts a lifetime, where friendships are born and memories are made into the soft glow of the bonfires. It’s a little bubble in space and time of infinite possibility, the place to be in December; and in short: the best four days of your life.",
+        "offers": {
+            "@type": "Offer",
+            "url": "https://moodi.org/register",
+            "price": "0",
+            "priceCurrency": "INR",
+            "availability": "http://schema.org/InStock",
+            "validFrom": "2018-09-05T16:20+05:30"
+        }
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "url": "https://www.youtube.com/watch?v=j1mpmc2dgAg",
+        "name": "Mood Indigo 2017: Official Aftermovie",
+        "description": "A collection of happy moments is a treasure immeasurable as nothing counts more than the smiling faces and the twinkling eyes. Mood Indigo is a place to be in December - a place which gives you the best four days of your life!",
+        "thumbnailURL": "http://i.ytimg.com/vi/j1mpmc2dgAg/hqdefault.jpg",
+        "UploadDate": "2018-08-14"
+    }
+]

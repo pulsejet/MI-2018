@@ -25,6 +25,10 @@
     <meta name="msapplication-config" content="/images/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
+    <script type="application/ld+json">
+        {% include "partials/org_ld.json" %}
+    </script>
+
     <!-- CSS for loading animation -->
     <style>
         {% include "partials/inline.css" %}
