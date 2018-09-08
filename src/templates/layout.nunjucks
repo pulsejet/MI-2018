@@ -4,8 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% block title %}Mood Indigo | IIT Bombay{% endblock %}</title>
-    <meta name="description" content="Mood Indigo | IIT Bombay | Asia's Largest College Cultural Festival">
+
+    {% block extrameta %}{% endblock %}
+
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Open graph meta -->
     <meta property="og:title" content="Mood Indigo | IIT Bombay">
     <meta property="og:type" content="website">
     <meta property="og:description" content="Mood Indigo | IIT Bombay | Asia's Largest College Cultural Festival">
