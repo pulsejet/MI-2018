@@ -84,7 +84,7 @@ export default function() {
             // Setup email
             const emnode = newnode.find('.mi-cu-email');
             emnode.html(cg.email);
-            emnode.attr('href', 'email:' + cg.email);
+            emnode.attr('href', 'mailto:' + cg.email);
             emnode.on('contextmenu click', () => raiseContactAnalytics('email', cg.name));
 
             // Append the fresh node
