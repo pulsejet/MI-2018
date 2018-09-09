@@ -8,8 +8,9 @@ function raiseContactAnalytics(method, particular) {
         // Strip too much stuff
         if (particular.includes(' ')) { particular = particular.substr(0, particular.indexOf(' ')); }
         // Make call
-        gtag('event', (method + '_' + particular.toLowerCase()), {
-            'event_category' : 'Contact'
+        gtag('event', method, {
+            'event_category' : 'contact',
+            'event_label' : particular.toLowerCase()
         });
     }
 }

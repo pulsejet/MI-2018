@@ -32,8 +32,9 @@ export default function() {
         // Raise an analytics event
         if (typeof gtag === 'function') {
             const ref = siema_list[acco_siema.currentSlide];
-            gtag('event', ('siema_' + ref).toLowerCase(), {
-                'event_category' : 'Accomodation'
+            gtag('event', 'page', {
+                'event_category' : 'accommodation',
+                'event_label' : ref.toLowerCase()
             });
         }
     };

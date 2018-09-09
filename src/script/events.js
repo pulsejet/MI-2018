@@ -32,8 +32,9 @@ export default function() {
         // Raise an analytics event
         if (typeof gtag === 'function') {
             const ref = siema_list[evt_siema.currentSlide];
-            gtag('event', ('siema_' + ref).toLowerCase(), {
-                'event_category' : 'Events'
+            gtag('event', 'page', {
+                'event_category' : 'events',
+                'event_label' : ref.toLowerCase()
             });
         }
     };

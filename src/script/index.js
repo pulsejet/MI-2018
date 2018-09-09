@@ -61,8 +61,9 @@ export default function() {
 
         // Raise an analytics event
         if (typeof gtag === 'function') {
-            gtag('event', ('scroll_' + ref).toLowerCase(), {
-                'event_category' : 'MainPage'
+            gtag('event', 'scroll', {
+                'event_category' : 'home',
+                'event_label' : ref.toLowerCase()
             });
         }
       },
