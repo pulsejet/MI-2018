@@ -195,6 +195,14 @@ $(document).ready(() => {
             data: message
           }, '*');
         return;
+      } else if (e.data.type == 10) {
+        /* Raise Google analytics event */
+        if (typeof gtag === 'function') {
+          gtag('event', e.data.data.a, {
+              'event_category' : e.data.data.c,
+              'event_label' : e.data.data.l
+          });
+        }
       }
       setShareOrRegister(false);
       RefreshUserInfo(localStorage.getItem('google_id'));
