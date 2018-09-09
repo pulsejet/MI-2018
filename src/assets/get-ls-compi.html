@@ -1,53 +1,10 @@
 <!DOCTYPE HTML>
 <html>
-<head></head>
+<head><meta charset="UTF-8"></head>
 
 <body style="background:transparent">
     <script>
-        function getParameterByName(name, url) {
-            if (!url) url = window.location.href;
-            name = name.replace(/[\[\]]/g, '\\$&');
-            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-                results = regex.exec(url);
-            if (!results) return null;
-            if (!results[2]) return '';
-            return decodeURIComponent(results[2].replace(/\+/g, ' '));
-        }
-
-        /* Listen for events */
-        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
-        var eventer = window[eventMethod];
-        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
-
-        // Listen to message from child window
-        eventer(messageEvent,function(e) {
-            console.log(e.data);
-            if (e.data.type == 1) {
-                for (const field in e.data.data) {
-                    localStorage.setItem(field, e.data.data[field]);
-                }
-
-                var url = 'https://comp.moodi.org';
-                const sub = getParameterByName('sub');
-                if (sub != null) { url += sub; }
-                window.location.href = url;
-            }
-        }, false);
-
-        // All valid keys
-        var keys = ['google_id', 'is_authenticated'];
-
-        // Clear preexisting keys
-        for (const key of keys) {
-            localStorage.removeItem(key);
-        }
-
-        // Get our keys
-        window.parent.postMessage({
-            type: 4,
-            data: keys,
-            target: 'compi-iframe'
-        }, '*')
+        'use strict';function getParameterByName(a,b){b||(b=window.location.href),a=a.replace(/[\[\]]/g,'\\$&');var c=new RegExp('[?&]'+a+'(=([^&#]*)|&|#|$)'),d=c.exec(b);return d?d[2]?decodeURIComponent(d[2].replace(/\+/g,' ')):'':null}var eventMethod=window.addEventListener?'addEventListener':'attachEvent',eventer=window[eventMethod],messageEvent='attachEvent'==eventMethod?'onmessage':'message';eventer(messageEvent,function(a){if(console.log(a.data),1==a.data.type){for(var c in a.data.data)localStorage.setItem(c,a.data.data[c]);var b='https://comp.moodi.org',d=getParameterByName('sub');null!=d&&(b+=d),window.location.href=b}},!1);var keys=['google_id','is_authenticated'],_iteratorNormalCompletion=!0,_didIteratorError=!1,_iteratorError=void 0;try{for(var _step,key,_iterator=keys[Symbol.iterator]();!(_iteratorNormalCompletion=(_step=_iterator.next()).done);_iteratorNormalCompletion=!0)key=_step.value,localStorage.removeItem(key)}catch(a){_didIteratorError=!0,_iteratorError=a}finally{try{!_iteratorNormalCompletion&&_iterator.return&&_iterator.return()}finally{if(_didIteratorError)throw _iteratorError}}window.parent.postMessage({type:4,data:keys,target:'compi-iframe'},'*');
     </script>
 </body>
 
