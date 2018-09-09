@@ -36,7 +36,8 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-55628977-7');
+      window.gtagid = 'UA-55628977-7'
+      gtag('config', window.gtagid);
     </script>
 
     <script type="application/ld+json">

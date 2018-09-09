@@ -267,8 +267,10 @@ $(document).ready(() => {
   };
 
   Barba.Dispatcher.on('initStateChange', function() {
-    if (typeof ga === 'function') {
-        ga('send', 'pageview', location.pathname);
+    if (typeof gtag === 'function') {
+        gtag('config', window.gtagid, {
+            'page_path': location.pathname
+        });
     }
   });
 })
