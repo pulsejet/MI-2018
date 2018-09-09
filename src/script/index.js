@@ -33,8 +33,12 @@ export default function() {
       before:function(i,panels) {
         var ref = panels[i].attr("data-section-name");
         currentScrollifySection = i;
+
+        // Update paginator
         $(".pagination .active").removeClass("active");
         $(".pagination").find("a[href=\"#" + ref + "\"]").addClass("active");
+
+        // Update colors and other
         if (i == 0) {
           $("#mi-mp-prev, #mi-mp-next").addClass("at-start");
           $(".pagination").css('color', 'black');
@@ -45,12 +49,21 @@ export default function() {
           removeInvert();
           setShareOrRegister(false);
         }
+
+        // Update logo animation
         if (i == lastScrollifySection) {
           $("#mi-mp-prev, #mi-mp-next").addClass("at-end");
           $(".logo-main").addClass("sitemap");
         } else {
           $("#mi-mp-prev, #mi-mp-next").removeClass("at-end");
           $(".logo-main").removeClass("sitemap");
+        }
+
+        // Raise an analytics event
+        if (typeof gtag === 'function') {
+            gtag('event', ('scroll_' + ref).toLowerCase(), {
+                'event_category' : 'MainPage'
+            });
         }
       },
     });
