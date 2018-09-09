@@ -2,6 +2,13 @@ import * as $ from 'jquery';
 import Siema from 'siema';
 
 export default function() {
+    // Initialize
+    var siema_list = [];
+    $('.evt-siema > div').each(function() {
+        siema_list.push($(this).attr('ga-event'));
+    })
+
+    // Make numbers slider
     var numtempl = $(".mi-evt-num-template");
     const data = [1,2,3]
     for (const point in data) {
@@ -15,11 +22,20 @@ export default function() {
     }
     numtempl.remove();
 
-    // Numbers
+    // Update on slide
     var onSlideSiema = () => {
+        // Update number
         $('.mi-evt-num-template').removeClass('active');
         var elem = $("#mi-evt-ind-" + evt_siema.currentSlide);
         elem.addClass('active');
+
+        // Raise an analytics event
+        if (typeof gtag === 'function') {
+            const ref = siema_list[evt_siema.currentSlide];
+            gtag('event', ('siema_' + ref).toLowerCase(), {
+                'event_category' : 'Events'
+            });
+        }
     };
 
     // Make siema
