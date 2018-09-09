@@ -2,6 +2,13 @@ import * as $ from 'jquery';
 import Siema from 'siema';
 
 export default function() {
+    // Initialize
+    var siema_list = [];
+    $('.acco-siema > div').each(function() {
+        siema_list.push($(this).attr('ga-event'));
+    })
+
+    // Make numbers slider
     var numtempl = $(".mi-acco-num-template");
     const data = [1,2];
     for (const point in data) {
@@ -15,11 +22,20 @@ export default function() {
     }
     numtempl.remove();
 
-    // Numbers
+    // Update on slide
     var onSlideSiema = () => {
+        // Update numbers
         $('.mi-acco-num-template').removeClass('active');
         var elem = $("#mi-acco-ind-" + acco_siema.currentSlide);
         elem.addClass('active');
+
+        // Raise an analytics event
+        if (typeof gtag === 'function') {
+            const ref = siema_list[acco_siema.currentSlide];
+            gtag('event', ('siema_' + ref).toLowerCase(), {
+                'event_category' : 'Accomodation'
+            });
+        }
     };
 
     // Make siema
