@@ -2,6 +2,18 @@ import * as $ from 'jquery';
 import { addInvert } from './main.js';
 import { teams } from './people.js';
 
+/** Raise an analytics event for contact us */
+function raiseContactAnalytics(method, particular) {
+    if (typeof gtag === 'function') {
+        // Strip too much stuff
+        if (particular.includes(' ')) { particular = particular.substr(0, particular.indexOf(' ')); }
+        // Make call
+        gtag('event', (method + '_' + particular.toLowerCase()), {
+            'event_category' : 'Contact'
+        });
+    }
+}
+
 export default function() {
     addInvert();
     var currentElem = $('#cu-compi');
@@ -18,7 +30,6 @@ export default function() {
       });
 
       if (top !== null && top.attr('id') != currentElem.attr('id')) {
-        console.log(top.attr('id'));
         currentElem = top;
         $('.mi-cu-num-template').removeClass('active');
         $('.cu-section').removeClass('active');
@@ -46,7 +57,10 @@ export default function() {
                 .appendTo($(outerSection));
 
         for (const cg of team.people) {
+            // Make a new node
             var newnode = templ.clone();
+
+            // Setup basic stuff
             newnode.find('.mi-cu-cg-img').attr('src', 'images/people/' + cg.image);
             newnode.find('.mi-cu-name').html(cg.name);
             if ('department' in cg) {
@@ -54,33 +68,47 @@ export default function() {
             } else {
                 newnode.find('.mi-cu-dept').html(team.name);
             }
+
+            // Setup telephone
+            const tel = newnode.find('.mi-cu-tel');
             if ('tel' in cg) {
-                newnode.find('.mi-cu-tel').html(cg.tel);
-                newnode.find('.mi-cu-tel').attr('href', 'tel:' + cg.tel);
+                tel.html(cg.tel);
+                tel.attr('href', 'tel:' + cg.tel);
+                tel.on('contextmenu click', () => raiseContactAnalytics('tel', cg.name));
             } else {
-                newnode.find('.mi-cu-tel').next().remove();
-                newnode.find('.mi-cu-tel').remove();
+                tel.next().remove();
+                tel.remove();
             }
-            newnode.find('.mi-cu-email').html(cg.email);
-            newnode.find('.mi-cu-email').attr('href', 'email:' + cg.email);
+
+            // Setup email
+            const emnode = newnode.find('.mi-cu-email');
+            emnode.html(cg.email);
+            emnode.attr('href', 'email:' + cg.email);
+            emnode.on('contextmenu click', () => raiseContactAnalytics('email', cg.name));
+
+            // Append the fresh node
             newnode.appendTo($(section));
         }
 
+        // Set up right sections
         var secnode = sectempl.clone();
         secnode.find('.cu-section').attr('href', '#cu-' + team.short_name);
         secnode.find('.cu-section').html(team.name);
-        secnode.appendTo($('#cu-sections-ul'))
+        secnode.appendTo($('#cu-sections-ul'));
+        secnode.on('click', () => raiseContactAnalytics('dept', team.short_name));
 
+        // Set up numbers
         var numnode = numtempl.clone();
         numnode.html(index);
         numnode.attr('href', '#cu-' + team.short_name);
         index++;
         numnode.appendTo('.mi-cu-indices');
 
+        // Mark first node active
         if (!activeDone) {
-        activeDone = true;
-        secnode.find('.cu-section').addClass('active');
-        numnode.addClass('active');
+            activeDone = true;
+            secnode.find('.cu-section').addClass('active');
+            numnode.addClass('active');
         }
     }
     templ.remove();
