@@ -113,11 +113,10 @@ function setShareOrRegister(share) {
 
 function MoodIndigoReInit() {
   const links = [
-    {sel: '.fa-facebook-f', href: 'https://www.facebook.com/iitb.moodindigo/'},
-    {sel: '.fa-youtube', href: 'https://facebook.com/moodi'},
-    {sel: '.fa-twitter', href: 'https://twitter.com/iitb_moodi'},
-    {sel: '.fa-instagram', href: 'https://www.instagram.com/iitbombay.moodi/'},
-    {sel: '.fa-linkedin-in', href: 'https://www.linkedin.com/company/mood-indigo/'},
+    {sel: '.icon-facebook', href: 'https://www.facebook.com/iitb.moodindigo/'},
+    {sel: '.icon-twitter', href: 'https://twitter.com/iitb_moodi'},
+    {sel: '.icon-instagram', href: 'https://www.instagram.com/iitbombay.moodi/'},
+    {sel: '.icon-linkedin', href: 'https://www.linkedin.com/company/mood-indigo/'},
   ]
   for (const l of links) {
     $(l.sel).parent().off("click");

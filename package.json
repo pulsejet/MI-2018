@@ -21,6 +21,7 @@
     "barba.js": "^1.0.0",
     "browser-sync": "^2.24.7",
     "cross-env": "^5.2.0",
+    "fontello-cli": "^0.4.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.10.0",
     "gulp-concat": "^2.6.1",
@@ -36,7 +37,9 @@
   "scripts": {
     "start": "gulp serve",
     "build": "cross-env NODE_ENV=development gulp build",
-    "build-prod": "cross-env NODE_ENV=production gulp build"
+    "build-prod": "npm run build-production && npm run build-font",
+    "build-production": "cross-env NODE_ENV=production gulp build",
+    "build-font": "fontello-cli install --config ./src/fontello.json --css build/assets/fontello/css --font build/assets/fontello/font"
   },
   "repository": {
     "type": "git",

@@ -57,8 +57,8 @@
 
       <!-- CSS and JS -->
       <script src="script.js"></script>
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900"/>
+      <link rel="stylesheet" href="assets/fontello/css/moodi-icons.css" />
       <link rel="stylesheet" href="styles.css" />
 
       <!-- Sidebar and buttons -->
@@ -69,10 +69,10 @@
       <a class="logo-main" href="/"><img src="images/logo.png" /></a>
 
       <div class="main-social-buttons need-invert">
-        <div class="xunk-social"><i class="fab fa-facebook-f"></i></div>
-        <div class="xunk-social"><i class="fab fa-instagram"></i></div>
-        <div class="xunk-social"><i class="fab fa-twitter"></i></div>
-        <div class="xunk-social"><i class="fab fa-linkedin-in"></i></div>
+        <div class="xunk-social"><i class="icon-facebook"></i></div>
+        <div class="xunk-social"><i class="icon-instagram"></i></div>
+        <div class="xunk-social"><i class="icon-twitter"></i></div>
+        <div class="xunk-social"><i class="icon-linkedin"></i></div>
       </div>
 
       <div class="mi-top-right-buttons need-invert">
@@ -106,10 +106,10 @@
             <div><a href="/contact">Contact Us</a></div>
           </div>
           <div class="sidebar-footer">
-            <div class="xunk-social"><i class="fab fa-facebook-f"></i></div>
-            <div class="xunk-social"><i class="fab fa-instagram"></i></div>
-            <div class="xunk-social"><i class="fab fa-twitter"></i></div>
-            <div class="xunk-social"><i class="fab fa-linkedin-in"></i></div>
+            <div class="xunk-social"><i class="icon-facebook"></i></div>
+            <div class="xunk-social"><i class="icon-instagram"></i></div>
+            <div class="xunk-social"><i class="icon-twitter"></i></div>
+            <div class="xunk-social"><i class="icon-linkedin"></i></div>
             <div class="xunk-transparent-round sidebar-reg-button">
               <a class="uppercase" id="mi-sidebar-reg" href="/register">Register</a>
             </div>

@@ -71,7 +71,7 @@ body {
 	display: inline-block;
 	width: 1.1em; height: 1.1em;
     text-align: center; vertical-align: middle;
-    padding: 6px;
+	padding: 6px 8px 6px 4px;
     border-radius: 50%;
 	background-color: transparent;
 	border: 2px white solid;
