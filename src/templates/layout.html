@@ -52,6 +52,12 @@
         {% include "partials/inline.css" %}
     </style>
 
+    <noscript>
+      <style>
+        .se-pre-con, #mi-main-sidebar { display: none; }
+      </style>
+    </noscript>
+
   </head>
   <body>
       <!-- Loading animation -->
@@ -93,7 +99,7 @@
         </div>
       </div>
 
-      <div sidebarjs>
+      <div sidebarjs id="mi-main-sidebar">
         <div id="mi-sidebar">
           <div id="mi-sidebar-number"></div>
           <div sidebarjs-toggle class="mi-close-sidebar">
