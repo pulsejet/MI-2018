@@ -212,10 +212,15 @@
             <div data-simplebar class="mi-acco-left-content acco-faqs">
               <div class="acco-faq-items">
                 {% for faq in acco_faqs %}
-                  <p class="acco-faq-item">
-                    <span class="acco-faq-title">{{ faq.q }}</span><br/>
-                    <span class="acco-faq-answer">{{ faq.a }}</span>
-                  </p>
+                  <div itemscope itemtype="http://schema.org/QAPage">
+                    <p class="acco-faq-item" itemscope itemtype="http://schema.org/Question" itemprop="mainEntity">
+                      <span style="display:none" itemprop="name">{{ faq.q }}</span>
+                      <span class="acco-faq-title" itemprop="text">{{ faq.q }}</span><br />
+                      <span class="nodiv" itemprop="acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
+                        <span class="acco-faq-answer" itemprop="text">{{ faq.a }}</span>
+                      </span>
+                    </p>
+                  </div>
                 {% endfor %}
               </div>
               <br />
