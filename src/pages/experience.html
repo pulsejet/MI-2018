@@ -104,19 +104,25 @@
     </video>
 
     <div class="exp-siema">
+      {% for pic in experience %}
       <div class="mi-exp-template">
         <div class="mi-siema-container">
           <div class="exp-img-container">
-            <img class="exp-img" />
+            <img class="exp-img" src="images/experience/{{ pic.img }}" alt="{{ pic.des }}" />
             <br /> <br />
-            <span class="exp-desc"></span>
+            <span class="exp-desc">{{ pic.des }}</span>
           </div>
         </div>
       </div>
+      {% endfor %}
     </div>
 
     <div class="mi-exp-indices siema-indices">
-      <div class="mi-exp-num-template siema-num-template"></div>
+      {% for pic in experience %}
+      <div class="mi-exp-num-template siema-num-template" id="mi-exp-ind-{{ loop.index - 1 }}" data-index="{{ loop.index - 1 }}">
+        {{ loop.index }}
+      </div>
+      {% endfor %}
     </div>
 </div>
 
