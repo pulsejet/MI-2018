@@ -193,8 +193,8 @@
 
     <div ga-event="faq">
       <div class="mi-siema-container">
-        <div class="mi-acco-left-full">
-          <div class="mi-acco-title">FAQs</div>
+        <div class="mi-acco-left-full" itemscope itemtype="http://schema.org/WebPage http://schema.org/FAQPage">
+          <div class="mi-acco-title" itemprop="name">FAQs</div>
           <div class="mi-acco-left">
             <div class="mi-acco-subtitle uppercase">How to reach</div>
             <div class="mi-acco-left-content">
@@ -212,8 +212,8 @@
             <div data-simplebar class="mi-acco-left-content acco-faqs">
               <div class="acco-faq-items">
                 {% for faq in acco_faqs %}
-                  <div itemscope itemtype="http://schema.org/QAPage">
-                    <p class="acco-faq-item" itemscope itemtype="http://schema.org/Question" itemprop="mainEntity">
+                  <div itemscope itemtype="http://schema.org/Question" itemprop="hasPart">
+                    <p class="acco-faq-item">
                       <span style="display:none" itemprop="name">{{ faq.q }}</span>
                       <span class="acco-faq-title" itemprop="text">{{ faq.q }}</span><br />
                       <span class="nodiv" itemprop="acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
