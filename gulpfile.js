@@ -50,7 +50,7 @@ gulp.task('styles', function() {
 gulp.task('css-watch', ['styles'], function (done) { browserSync.reload(); done(); });
 
 gulp.task('nunjucks', function() {
-    return gulp.src('src/pages/*.+(html|nunjucks)')
+    return gulp.src('src/pages/*.html')
 
     .pipe(save('before-sitemap'))
     .pipe(sitemap({ siteUrl: 'https://moodi.org' }))
@@ -82,7 +82,6 @@ gulp.task('serve', ['build'], function () {
             }
         }
     });
-    gulp.watch("src/**/*.nunjucks", ['nunjucks-watch']);
     gulp.watch("src/**/*.html", ['nunjucks-watch']);
     gulp.watch("src/**/*.js", ['webpack-watch']);
     gulp.watch("src/**/*.css", ['css-watch']);
