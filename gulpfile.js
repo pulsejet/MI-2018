@@ -13,6 +13,20 @@ var sitemap = require('gulp-sitemap');
 var save = require('gulp-save');
 const isProd = process.env.NODE_ENV === 'production';
 
+/* Custom nunjucks filters */
+var manageEnvironment = function(environment) {
+    environment.addFilter('mititle', function(str) {
+        const title = "Mood Indigo | Asia's Largest College Cultural Festival"
+        if (str && str.length > 0) { return str + " | " + title; }
+        return title;
+    });
+    environment.addFilter('midescription', function(str) {
+        if (str && str.length > 0) { return str; }
+        return "Mood Indigo | IIT Bombay | 27th to 30th December 2018 | Asia's Largest College Cultural Festival";
+    });
+}
+
+/* Gulp tasks */
 gulp.task('webpack', function() {
     return gulp.src('src/script/main.js')
     .pipe(webpack(isProd ? webpack_config_prod : webpack_config, compiler, function(err, stats) {}))
@@ -44,7 +58,8 @@ gulp.task('nunjucks', function() {
     .pipe(save.restore('before-sitemap'))
 
     .pipe(nunjucksRender({
-        path: ['src/templates']
+        path: ['src/templates'],
+        manageEnv: manageEnvironment
     }))
     .pipe(isProd ? htmlmin({
         collapseWhitespace: true,
