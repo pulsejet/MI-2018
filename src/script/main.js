@@ -217,11 +217,12 @@ $(document).ready(() => {
 
   MoodIndigoReInit();
 
-  var sidebarjs = new SidebarElement({
+  new SidebarElement({
     position: 'right',
     onChangeVisibility: function(changes) {
       sidebarvisible = changes.isVisible;
-    }
+    },
+    documentSwipeRange: 15
   });
 
   Barba.Pjax.start();
