@@ -13,6 +13,10 @@ var sitemap = require('gulp-sitemap');
 var save = require('gulp-save');
 const isProd = process.env.NODE_ENV === 'production';
 
+/* Read JSON data */
+var fs = require('fs');
+var acco_faqs = JSON.parse(fs.readFileSync('./src/script/acco_faqs.json'));
+
 /* Custom nunjucks filters */
 var manageEnvironment = function(environment) {
     environment.addFilter('mititle', function(str) {
@@ -59,6 +63,9 @@ gulp.task('nunjucks', function() {
 
     .pipe(nunjucksRender({
         path: ['src/templates'],
+        data: {
+            acco_faqs: acco_faqs
+        },
         manageEnv: manageEnvironment
     }))
     .pipe(isProd ? htmlmin({
