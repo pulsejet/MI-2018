@@ -1,21 +1,28 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Basic meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
+    <!-- Content meta -->
     <title>{{ title | mititle }}</title>
     <meta name="description" content="{{ description | midescription }}">
 
+    <!-- Other useful meta -->
+    <link rel=canonical href="https://moodi.org">
+
     <!-- Open graph meta -->
-    <meta property="og:title" content="Mood Indigo | IIT Bombay">
+    <meta property="og:title" content="{{ title | mititle }}">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Mood Indigo | IIT Bombay | Asia's Largest College Cultural Festival">
+    <meta property="og:site_name" content="Mood Indigo 2018">
+    <meta property="og:description" content="{{ description | midescription }}">
     <meta property="og:url" content="https://moodi.org">
     <meta property="og:image" content="https://moodi.org/images/CTA.jpg" />
     <meta property="fb:app_id" content="463247530794345" />
 
+    <!-- Icons and theme -->
     <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
