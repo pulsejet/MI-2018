@@ -148,32 +148,60 @@
   <!-- Main container -->
   <div class="cu-main">
     <div id="mi-cu-title" class="title h-middle uppercase">Contact Us</div>
-    <div id="mi-cu-container" class="h-middle"></div>
+    <div id="mi-cu-container" class="h-middle">
+
+      {% for team in people %}
+        <div id="cu-{{ team.short_name }}">
+          <div class="mi-cu-dep-name">{{ team.name }}</div>
+
+          <div class="mi-cu-panel">
+          {% for cg in team.people %}
+            <div class="mi-cu-img mi-cu-img-template">
+              <img class="mi-cu-cg-img" src="images/people/{{ cg.image }}" alt="{{ cg.name }}" />
+              <div class="middle vh-middle">
+                <div class="mi-cu-name uppercase">{{ cg.name }}</div>
+                <p class="mi-cu-dept uppercase">
+                  {% if cg.department %}
+                    {{ cg.department }}
+                  {% else %}
+                    {{ team.name }}
+                  {% endif %}
+                </p> <br />
+                <p>
+                  {% if cg.tel %}
+                    <a data-cg="{{ cg.name }}" data-type="tel" class="mi-cu-tel" href="tel:{{ cg.tel }}">{{ cg.tel }}</a><br/>
+                  {% endif %}
+                  <a data-cg="{{ cg.name }}" data-type="email" class="mi-cu-email" href="mailto:{{ cg.email }}">{{ cg.email }}</a>
+                </p>
+              </div>
+            </div>
+          {% endfor %}
+          </div>
+
+        </div>
+      {% endfor %}
+
+    </div>
   </div>
 
   <!-- Side menu -->
   <div class="cu-sections">
     <ul id="cu-sections-ul">
-      <li id="cu-section-template"><a class="cu-section uppercase" href="#cu-compi">Competitions &amp; LYP</a></li>
+      {% for team in people %}
+        <li data-team="{{ team.short_name }}" class="cu-section-li">
+          <a class="cu-section uppercase" href="#cu-{{ team.short_name }}">{{ team.name }}</a>
+        </li>
+      {% endfor %}
     </ul>
-  </div>
-
-  <!-- Template for image -->
-  <div class="mi-cu-img mi-cu-img-template">
-    <img class="mi-cu-cg-img" src="images/people/pranil.JPG" />
-    <div class="middle vh-middle">
-      <div class="mi-cu-name uppercase">Pranil Jain</div>
-      <p class="mi-cu-dept uppercase">Competitions &amp; LYP</p> <br />
-      <p>
-        <a class="mi-cu-tel" href="tel:+91-9876543210">+91-9876543210</a><br/>
-        <a class="mi-cu-email" href="mailto:pranil@moodi.org">pranil@moodi.org</a>
-      </p>
-    </div>
   </div>
 
   <!-- Numbering -->
   <div class="mi-cu-indices siema-indices">
-    <a class="mi-cu-num-template siema-num-template"></a>
+    {% for team in people %}
+      <a class="mi-cu-num-template siema-num-template" href="#cu-{{ team.short_name }}">
+        {{ loop.index }}
+      </a>
+    {% endfor %}
   </div>
 </div>
 

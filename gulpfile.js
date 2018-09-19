@@ -16,6 +16,7 @@ const isProd = process.env.NODE_ENV === 'production';
 /* Read JSON data */
 var fs = require('fs');
 var acco_faqs = JSON.parse(fs.readFileSync('./src/script/acco_faqs.json'));
+var people = JSON.parse(fs.readFileSync('./src/script/people.json'));
 
 /* Custom nunjucks filters */
 var manageEnvironment = function(environment) {
@@ -64,7 +65,8 @@ gulp.task('nunjucks', function() {
     .pipe(nunjucksRender({
         path: ['src/templates'],
         data: {
-            acco_faqs: acco_faqs
+            acco_faqs: acco_faqs,
+            people: people
         },
         manageEnv: manageEnvironment
     }))
