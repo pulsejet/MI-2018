@@ -72,6 +72,7 @@ export default function() {
     for (const point in data) {
       var newnode = templ.clone();
       newnode.find(".exp-img").attr('src', 'images/experience/' + data[point]['img']);
+      newnode.find(".exp-img").attr('alt', data[point]['des']);
       newnode.find(".exp-desc").html(data[point]['des'])
       newnode.appendTo(".exp-siema");
 
