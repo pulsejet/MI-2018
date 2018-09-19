@@ -63,6 +63,7 @@ export default function() {
 
             // Setup basic stuff
             newnode.find('.mi-cu-cg-img').attr('src', 'images/people/' + cg.image);
+            newnode.find('.mi-cu-cg-img').attr('alt', cg.name);
             newnode.find('.mi-cu-name').html(cg.name);
             if ('department' in cg) {
                 newnode.find('.mi-cu-dept').html(cg.department);
