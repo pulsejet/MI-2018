@@ -1,9 +1,9 @@
 import * as $ from 'jquery';
 import * as scrollify from 'jquery-scrollify';
-import particle from './particle_config.js';
+import particle from './mi-particles';
 import lottie from 'lottie-web';
-import tvAnimationData from './tv_head_animation.json.js'
-import { addInvert, removeInvert, setShareOrRegister } from './main.js';
+import tvAnimationData from '../data/tv_head_animation.json'
+import { addInvert, removeInvert, setShareOrRegister } from './main';
 
 export default function() {
   particle();

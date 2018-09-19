@@ -15,9 +15,9 @@ const isProd = process.env.NODE_ENV === 'production';
 
 /* Read JSON data */
 var fs = require('fs');
-var acco_faqs = JSON.parse(fs.readFileSync('./src/script/acco_faqs.json'));
-var people = JSON.parse(fs.readFileSync('./src/script/people.json'));
-var experience = JSON.parse(fs.readFileSync('./src/script/experience.json'));
+var acco_faqs = JSON.parse(fs.readFileSync('./src/data/acco_faqs.json'));
+var people = JSON.parse(fs.readFileSync('./src/data/people.json'));
+var experience = JSON.parse(fs.readFileSync('./src/data/experience.json'));
 
 /* Custom nunjucks filters */
 var manageEnvironment = function(environment) {

@@ -3,7 +3,7 @@ import Barba from 'barba.js';
 import VanillaTilt from 'vanilla-tilt';
 import lottie from 'lottie-web';
 import {SidebarElement } from 'sidebarjs';
-import animationData from './animation.json.js'
+import animationData from '../data/animation.json'
 import * as scrollify from 'jquery-scrollify';
 import 'simplebar';
 
