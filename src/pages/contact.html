@@ -164,7 +164,12 @@
                   {% if cg.department %}
                     {{ cg.department }}
                   {% else %}
-                    {{ team.name }}
+                    {% if team.long_name %}
+                      <span class="min-1200px"> {{ team.long_name }} </span>
+                      <span class="max-1200px"> {{ team.name }} </span>
+                    {% else %}
+                      {{ team.name }}
+                    {% endif %}
                   {% endif %}
                 </p> <br />
                 <p>
@@ -189,7 +194,14 @@
     <ul id="cu-sections-ul">
       {% for team in people %}
         <li data-team="{{ team.short_name }}" class="cu-section-li">
-          <a class="cu-section uppercase" href="#cu-{{ team.short_name }}">{{ team.name }}</a>
+          <a class="cu-section uppercase" href="#cu-{{ team.short_name }}">
+            {% if team.long_name %}
+              <span class="min-1200px"> {{ team.long_name }} </span>
+              <span class="max-1200px"> {{ team.name }} </span>
+            {% else %}
+              {{ team.name }}
+            {% endif %}
+          </a>
         </li>
       {% endfor %}
     </ul>

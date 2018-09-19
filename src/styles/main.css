@@ -418,12 +418,6 @@ table {
 	transform: rotate(-45deg);
 }
 
-@media (max-width:1200px) {
-	.pagination { display: none; }
-	.min-1200px { display: none; }
-}
-
-
 /* OTHER PAGES */
 
 .siema-num-template {

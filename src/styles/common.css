@@ -78,3 +78,9 @@ body, html {
 
 @media (max-width: 1366px) { .min-1366px { display: none; } }
 @media (max-width: 1400px) { .min-1400px { display: none; } }
+@media (min-width: 1201px) { .max-1200px { display: none; } }
+@media (max-width: 1200px) {
+	.pagination { display: none; }
+	.min-1200px { display: none; }
+}
+

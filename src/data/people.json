@@ -83,6 +83,7 @@
 	{
 		"name": "Hospitality & PR",
 		"short_name": "hospi",
+		"long_name": "Hospitality, Assistance & PR",
 		"people": [
 			{
 				"name": "Himank Jain",
@@ -101,6 +102,7 @@
 	{
 		"name": "Informals",
 		"short_name": "informals",
+		"long_name": "Informals, Streets & Lounges",
 		"people": [
 			{
 				"name": "Akshat Parwal",
