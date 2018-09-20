@@ -28,7 +28,7 @@ var manageEnvironment = function(environment) {
     });
     environment.addFilter('midescription', function(str) {
         if (str && str.length > 0) { return str; }
-        return "Mood Indigo | IIT Bombay | 27th to 30th December 2018 | Asia's Largest College Cultural Festival";
+        return "Mood Indigo, 27th to 30th December 2018, A Montage of Dreams. IIT Bombay brings you Asia's Largest College Cultural Festival";
     });
 }
 
