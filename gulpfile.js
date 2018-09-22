@@ -11,6 +11,7 @@ var webpack_config_prod = require('./webpack.config.prod.js');
 var browserSync = require('browser-sync').create();
 var sitemap = require('gulp-sitemap');
 var save = require('gulp-save');
+var cachebust = require('gulp-cache-bust');
 const isProd = process.env.NODE_ENV === 'production';
 
 /* Read JSON data */
@@ -73,6 +74,11 @@ gulp.task('nunjucks', function() {
         },
         manageEnv: manageEnvironment
     }))
+
+    .pipe(cachebust({
+        type: 'timestamp'
+    }))
+
     .pipe(isProd ? htmlmin({
         collapseWhitespace: true,
         minifyCSS: true,
