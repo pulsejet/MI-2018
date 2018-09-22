@@ -5,48 +5,6 @@
         "name": "Mood Indigo",
         "url": "https://moodi.org",
         "logo": "https://moodi.org/images/logo_wob.png",
-        "contactPoint": [{
-            "@type": "ContactPoint",
-            "telephone": "+91-7073543859",
-            "email": "himank@moodi.org",
-            "contactType": "customer service"
-        },
-        {
-            "@type": "ContactPoint",
-            "telephone": "+91-8169223068",
-            "email": "mrigank@moodi.org",
-            "contactType": "customer service"
-        },
-        {
-            "@type": "ContactPoint",
-            "telephone": "+91-8120497855",
-            "email": "prasham@moodi.org",
-            "contactType": "sales"
-        },
-        {
-            "@type": "ContactPoint",
-            "telephone": "+91-8120497855",
-            "email": "abhinav@moodi.org",
-            "contactType": "sales"
-        },
-        {
-            "@type": "ContactPoint",
-            "telephone": "+91-8120497855",
-            "email": "mitesh@moodi.org",
-            "contactType": "sales"
-        },
-        {
-            "@type": "ContactPoint",
-            "telephone": "+91-8120497855",
-            "email": "kriti@moodi.org",
-            "contactType": "sales"
-        },
-        {
-            "@type": "ContactPoint",
-            "telephone": "+91-9462901544",
-            "email": "tanmay@moodi.org",
-            "contactType": "sales"
-        }],
         "sameAs": [
             "https://www.facebook.com/iitb.moodindigo/",
             "https://twitter.com/iitb_moodi",
