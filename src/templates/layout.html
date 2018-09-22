@@ -78,10 +78,9 @@
       <a class="logo-main" href="/"><img src="images/logo.png" alt="Logo" /></a>
 
       <div class="main-social-buttons need-invert">
-        <div class="xunk-social"><i class="icon-facebook"></i></div>
-        <div class="xunk-social"><i class="icon-instagram"></i></div>
-        <div class="xunk-social"><i class="icon-twitter"></i></div>
-        <div class="xunk-social"><i class="icon-linkedin"></i></div>
+        {% for icon in social %}
+          <a href="{{ icon.href }}" target="_blank" class="xunk-social"><i class="{{ icon.class }}"></i></a>
+        {% endfor %}
       </div>
 
       <div class="mi-top-right-buttons need-invert">
@@ -115,10 +114,9 @@
             <div><a href="/contact">Contact Us</a></div>
           </div>
           <div class="sidebar-footer">
-            <div class="xunk-social"><i class="icon-facebook"></i></div>
-            <div class="xunk-social"><i class="icon-instagram"></i></div>
-            <div class="xunk-social"><i class="icon-twitter"></i></div>
-            <div class="xunk-social"><i class="icon-linkedin"></i></div>
+            {% for icon in social %}
+              <a href="{{ icon.href }}" target="_blank" class="xunk-social"><i class="{{ icon.class }}"></i></a>
+            {% endfor %}
             <div class="xunk-transparent-round sidebar-reg-button">
               <a class="uppercase" id="mi-sidebar-reg" href="/register">Register</a>
             </div>

@@ -19,16 +19,14 @@ var lottieParams = {
 function addInvert() {
   $(".logo-main").addClass('invert-colors');
   $("#sb-toggle").addClass('invert-colors');
-  $(".need-invert").css("color", "black");
-  $(".need-invert *").css("border-color", "black");
+  $(".need-invert").addClass('invert-colors');
 }
 
 function removeInvert() {
   $(".pagination").css('color', 'white');
   $(".logo-main").removeClass('invert-colors');
   $("#sb-toggle").removeClass('invert-colors');
-  $(".need-invert").css("color", "white");
-  $(".need-invert *").css("border-color", "white");
+  $(".need-invert").removeClass('invert-colors');
 }
 
 /* Helpers */
@@ -111,18 +109,8 @@ function setShareOrRegister(share) {
   }
 }
 
-function MoodIndigoReInit() {
-  const links = [
-    {sel: '.icon-facebook', href: 'https://www.facebook.com/iitb.moodindigo/'},
-    {sel: '.icon-twitter', href: 'https://twitter.com/iitb_moodi'},
-    {sel: '.icon-instagram', href: 'https://www.instagram.com/iitbombay.moodi/'},
-    {sel: '.icon-linkedin', href: 'https://www.linkedin.com/company/mood-indigo/'},
-  ]
-  for (const l of links) {
-    $(l.sel).parent().off("click");
-    $(l.sel).parent().on("click", () => window.open(l.href));
-  }
-}
+/** Any reinitializations go here */
+function MoodIndigoReInit() { }
 
 /** Refresh the user's MI number */
 function RefreshUserInfo(google_id) {

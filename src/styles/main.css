@@ -38,13 +38,15 @@
 	height: auto;
 }
 
+.need-invert {
+	transition: filter 0.5s ease, -webkit-filter 0.5s ease;
+}
+
 .main-social-buttons {
 	position: fixed;
 	bottom: 20px;
 	left: 20px;
 	z-index: 2;
-	transition: color 0.5s ease;
-	will-change: transform;
 }
 
 .tv-head {
