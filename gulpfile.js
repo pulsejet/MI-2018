@@ -12,6 +12,7 @@ var browserSync = require('browser-sync').create();
 var sitemap = require('gulp-sitemap');
 var save = require('gulp-save');
 var cachebust = require('gulp-cache-bust');
+const minifyInlineJSON = require('gulp-minify-inline-json');
 const isProd = process.env.NODE_ENV === 'production';
 
 /* Read JSON data */
@@ -79,12 +80,15 @@ gulp.task('nunjucks', function() {
         type: 'timestamp'
     }))
 
+    .pipe(minifyInlineJSON())
+
     .pipe(isProd ? htmlmin({
         collapseWhitespace: true,
         minifyCSS: true,
         minifyJS: true,
         removeComments: true,
     }) : noop())
+
     .pipe(gulp.dest('build/'))
 });
 gulp.task('nunjucks-watch', ['nunjucks'], function (done) { browserSync.reload(); done(); });
