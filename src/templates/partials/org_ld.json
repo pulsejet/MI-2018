@@ -17,8 +17,16 @@
         "@context": "http://schema.org",
         "@type": "Event",
         "name": "Mood Indigo 2018",
+        "url": "https://moodi.org",
         "startDate": "2018-12-27T00:00+05:30",
         "endDate": "2017-12-30T23:00+05:30",
+        "sameAs": [
+            "https://www.facebook.com/iitb.moodindigo/",
+            "https://twitter.com/iitb_moodi",
+            "https://www.instagram.com/iitbombay.moodi/",
+            "https://www.linkedin.com/company/mood-indigo/",
+            "https://en.wikipedia.org/wiki/Mood_Indigo_(festival)"
+        ],
         "location": {
             "@type": "Place",
             "name": "IIT Bombay",
@@ -46,6 +54,57 @@
             "priceCurrency": "INR",
             "availability": "http://schema.org/InStock",
             "validFrom": "2018-09-05T16:20+05:30"
+        },
+        "performer": {
+            "@type": "PerformingGroup",
+            "name": "Various Artists"
+        }
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Festival",
+        "name": "Mood Indigo 2018",
+        "url": "https://moodi.org",
+        "startDate": "2018-12-27T00:00+05:30",
+        "endDate": "2017-12-30T23:00+05:30",
+        "sameAs": [
+            "https://www.facebook.com/iitb.moodindigo/",
+            "https://twitter.com/iitb_moodi",
+            "https://www.instagram.com/iitbombay.moodi/",
+            "https://www.linkedin.com/company/mood-indigo/",
+            "https://en.wikipedia.org/wiki/Mood_Indigo_(festival)"
+        ],
+        "location": {
+            "@type": "Place",
+            "name": "IIT Bombay",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "IIT Area",
+                "addressLocality": "Powai, Mumbai",
+                "postalCode": "400076",
+                "addressRegion": "MH",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+                "https://moodi.org/images/experience/10-2.jpg",
+                "https://moodi.org/images/experience/14.jpg",
+                "https://moodi.org/images/experience/22.png",
+                "https://moodi.org/images/experience/Air%20Lanterns.jpg",
+                "https://moodi.org/images/experience/UV%20Paintball.jpg"
+            ],
+        "description": "Mood Indigo, Asia's largest college cultural festival, has developed over the years into so much more: a melting pot of Indian and global culture, a launchpad for upcoming artists, a showcase of spectacle - where the streets come alive and every step you take is a step towards new experience, where you can never see it all, but what you do see lasts a lifetime, where friendships are born and memories are made into the soft glow of the bonfires. It’s a little bubble in space and time of infinite possibility, the place to be in December; and in short: the best four days of your life.",
+        "offers": {
+            "@type": "Offer",
+            "url": "https://moodi.org/register",
+            "price": "0",
+            "priceCurrency": "INR",
+            "availability": "http://schema.org/InStock",
+            "validFrom": "2018-09-05T16:20+05:30"
+        },
+        "performer": {
+            "@type": "PerformingGroup",
+            "name": "Various Artists"
         }
     },
     {
