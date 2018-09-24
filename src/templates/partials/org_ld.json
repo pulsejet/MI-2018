@@ -16,7 +16,7 @@
     {
         "@context": "http://schema.org",
         "@type": "Event",
-        "name": "Mood Indigo 2018",
+        "name": "Mood Indigo",
         "url": "https://moodi.org",
         "startDate": "2018-12-27T00:00+05:30",
         "endDate": "2017-12-30T23:00+05:30",
@@ -63,7 +63,7 @@
     {
         "@context": "http://schema.org",
         "@type": "Festival",
-        "name": "Mood Indigo 2018",
+        "name": "Mood Indigo",
         "url": "https://moodi.org",
         "startDate": "2018-12-27T00:00+05:30",
         "endDate": "2017-12-30T23:00+05:30",
