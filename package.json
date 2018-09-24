@@ -1,7 +1,7 @@
 {
   "name": "moodi-2018",
   "version": "1.0.0",
-  "description": "Official Moodi Indigo Website for 2018",
+  "description": "Official Mood Indigo 2018 Website",
   "main": "gulpfile.js",
   "dependencies": {
     "core-js": "^2.5.7",
