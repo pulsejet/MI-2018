@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% set title="Contingent Leader Portal" %}
+{% set description="Register as a Contingent Leader Mood Indigo 2018 to witness the grandness in December." %}
+
+{% block content %}
+
+<style>
+    #compi-iframe-container {
+        background: linear-gradient(135deg, rgb(237,85,146), rgb(115,57,178));
+    }
+</style>
+
+<div id="compi-iframe-container" class="full-body">
+    <iframe id="reg-iframe" class="full-iframe opacity-fadein" allowtransparency="true"></iframe>
+</div>
+
+<script>
+    MoodI.initIFrameSub("#reg-iframe", "https://cl18.moodi.org");
+</script>
+
+{% endblock %}
