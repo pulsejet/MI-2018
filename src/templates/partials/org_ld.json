@@ -47,14 +47,6 @@
                 "https://moodi.org/images/experience/UV%20Paintball.jpg"
             ],
         "description": "Mood Indigo, Asia's largest college cultural festival, has developed over the years into so much more: a melting pot of Indian and global culture, a launchpad for upcoming artists, a showcase of spectacle - where the streets come alive and every step you take is a step towards new experience, where you can never see it all, but what you do see lasts a lifetime, where friendships are born and memories are made into the soft glow of the bonfires. It’s a little bubble in space and time of infinite possibility, the place to be in December; and in short: the best four days of your life.",
-        "offers": {
-            "@type": "Offer",
-            "url": "https://moodi.org/register",
-            "price": "0",
-            "priceCurrency": "INR",
-            "availability": "http://schema.org/InStock",
-            "validFrom": "2018-09-05T16:20+05:30"
-        },
         "performer": {
             "@type": "PerformingGroup",
             "name": "Various Artists"
@@ -94,14 +86,6 @@
                 "https://moodi.org/images/experience/UV%20Paintball.jpg"
             ],
         "description": "Mood Indigo, Asia's largest college cultural festival, has developed over the years into so much more: a melting pot of Indian and global culture, a launchpad for upcoming artists, a showcase of spectacle - where the streets come alive and every step you take is a step towards new experience, where you can never see it all, but what you do see lasts a lifetime, where friendships are born and memories are made into the soft glow of the bonfires. It’s a little bubble in space and time of infinite possibility, the place to be in December; and in short: the best four days of your life.",
-        "offers": {
-            "@type": "Offer",
-            "url": "https://moodi.org/register",
-            "price": "0",
-            "priceCurrency": "INR",
-            "availability": "http://schema.org/InStock",
-            "validFrom": "2018-09-05T16:20+05:30"
-        },
         "performer": {
             "@type": "PerformingGroup",
             "name": "Various Artists"
