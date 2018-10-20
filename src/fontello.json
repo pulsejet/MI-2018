@@ -29,6 +29,12 @@
       "css": "linkedin",
       "code": 61665,
       "src": "fontawesome"
+    },
+    {
+      "uid": "cab8b1ea47d71c77413157c592db2293",
+      "css": "snapchat",
+      "code": 62123,
+      "src": "fontawesome"
     }
   ]
 }
