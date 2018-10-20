@@ -62,9 +62,9 @@ body {
 
 .sidebar-footer {
 	position: absolute;
-	bottom: calc(5% + 5px); left: 15%;
+	bottom: calc(5% + 5px); left: 8%;
 	display: block;
-	width: 70%;
+	width: 85%;
 }
 
 .xunk-social {
