@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta charset="UTF-8"></head>
+
+<body style="background:transparent">
+    <script>
+        'use strict';function getParameterByName(a,b){b||(b=window.location.href),a=a.replace(/[\[\]]/g,'\\$&');var c=new RegExp('[?&]'+a+'(=([^&#]*)|&|#|$)'),d=c.exec(b);return d?d[2]?decodeURIComponent(d[2].replace(/\+/g,' ')):'':null}var eventMethod=window.addEventListener?'addEventListener':'attachEvent',eventer=window[eventMethod],messageEvent='attachEvent'==eventMethod?'onmessage':'message';eventer(messageEvent,function(a){if(console.log(a.data),1==a.data.type){for(var c in a.data.data)localStorage.setItem(c,a.data.data[c]);var b='https://clinfo.moodi.org',d=getParameterByName('sub');null!=d&&(b+=d),window.location.href=b}},!1);var keys=['google_id','is_authenticated'],_iteratorNormalCompletion=!0,_didIteratorError=!1,_iteratorError=void 0;try{for(var _step,key,_iterator=keys[Symbol.iterator]();!(_iteratorNormalCompletion=(_step=_iterator.next()).done);_iteratorNormalCompletion=!0)key=_step.value,localStorage.removeItem(key)}catch(a){_didIteratorError=!0,_iteratorError=a}finally{try{!_iteratorNormalCompletion&&_iterator.return&&_iterator.return()}finally{if(_didIteratorError)throw _iteratorError}}window.parent.postMessage({type:4,data:keys,target:'compi-iframe'},'*');
+    </script>
+</body>
+
+</html>
