@@ -36,6 +36,10 @@ var manageEnvironment = function(environment) {
         if (str && str.length > 0) { return str; }
         return "https://moodi.org/images/CTA.jpg";
     });
+    environment.addFilter('miurl', function(str) {
+        if (str && str.length > 0) { return str; }
+        return "https://moodi.org/";
+    });
 }
 
 /* Gulp tasks */
