@@ -1,31 +1,23 @@
 {% extends "layout.html" %}
 
 {% set title="Accommodations" %}
-{% set description="Competitions at Mood Indigo offer you the best platform in India to showcase your talent." %}
+{% set description="Register for Mood Indigo 2018 to witness the grandness in December." %}
+{% set image="https://moodi.org/images/accoCTA.jpg" %}
 
 {% block content %}
+
 <style>
     #compi-iframe-container {
-        background-image: linear-gradient(248deg, #14d0fd, #22c0fd);
-        background-position: bottom;
-        background-size: 100%, 100%;
-        background-repeat: no-repeat;
-    }
-
-    @media (max-width: 900px) {
-        #compi-iframe-container {
-            background: linear-gradient(248deg, #14d0fd, #22c0fd);
-            background-size: unset;
-        }
+        background: linear-gradient(248deg, #14d0fd, #22c0fd);
     }
 </style>
 
 <div id="compi-iframe-container" class="full-body">
-    <iframe id="compi-iframe" class="full-iframe opacity-fadein" allowtransparency="true" rel="nofollow"></iframe>
+    <iframe id="reg-iframe" class="full-iframe opacity-fadein" allowtransparency="true"></iframe>
 </div>
 
 <script>
-    MoodI.initIFrameSub("#compi-iframe", "https://clinfo.moodi.org/get-ls");
+    MoodI.initIFrameSub("#reg-iframe", "https://clinfo.moodi.org/clinfo");
 </script>
 
 {% endblock %}

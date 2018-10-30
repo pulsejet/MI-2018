@@ -32,6 +32,10 @@ var manageEnvironment = function(environment) {
         if (str && str.length > 0) { return str; }
         return "Mood Indigo, 27th to 30th December 2018, A Montage of Dreams. IIT Bombay brings you Asia's Largest College Cultural Festival";
     });
+    environment.addFilter('micta', function(str) {
+        if (str && str.length > 0) { return str; }
+        return "https://moodi.org/images/CTA.jpg";
+    });
 }
 
 /* Gulp tasks */

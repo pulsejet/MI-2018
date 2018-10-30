@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% set title="Accommodations" %}
+{% set description="Competitions at Mood Indigo offer you the best platform in India to showcase your talent." %}
+{% set image="https://moodi.org/images/accoCTA.jpg" %}
+
+{% block content %}
+<style>
+    #compi-iframe-container {
+        background-image: linear-gradient(248deg, #14d0fd, #22c0fd);
+        background-position: bottom;
+        background-size: 100%, 100%;
+        background-repeat: no-repeat;
+    }
+
+    @media (max-width: 900px) {
+        #compi-iframe-container {
+            background: linear-gradient(248deg, #14d0fd, #22c0fd);
+            background-size: unset;
+        }
+    }
+</style>
+
+<div id="compi-iframe-container" class="full-body">
+    <iframe id="compi-iframe" class="full-iframe opacity-fadein" allowtransparency="true" rel="nofollow"></iframe>
+</div>
+
+<script>
+    MoodI.initIFrameSub("#compi-iframe", "https://clinfo.moodi.org/get-ls");
+</script>
+
+{% endblock %}
