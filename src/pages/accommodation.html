@@ -116,7 +116,8 @@
   .acco-faq-items {
     margin-right: 10px;
   }
-  .mi-acco-cl-left{
+
+  .mi-acco-cl-left {
     position: absolute;
     width: 36%;
     border: 2px solid white;
@@ -125,7 +126,8 @@
     padding: 15px;
     cursor: pointer;
   }
-  .mi-acco-cl-right{
+
+  .mi-acco-cl-right {
     position: absolute;
     width: 36%;
     left: 50%;
@@ -135,10 +137,21 @@
     padding: 15px;
     cursor: pointer;
   }
-  .mi-acco-row{height: 8vh;}
-  .acco-more-info{
+
+  .mi-acco-row {
+    height: 8vh;
+  }
+
+  .acco-more-info {
     width: 40px;
   }
+
+  .mi-get-acco {
+    border:2px solid white;
+    border-radius: 25px;
+    text-align: center;
+  }
+
   @media (max-width: 900px) {
     .mi-acco-row{height: 15vh;}
     .mi-acco-subtitle {
@@ -184,6 +197,7 @@
     .mi-acco-left-content {
       max-height: 200000px;
     }
+
     .mi-acco-button{
       font-size: 1.4em;
       width: 72%;
@@ -206,12 +220,12 @@
   <div class="acco-siema">
     <div ga-event="acco-portal">
       <div class="mi-siema-container">
-        <div class="mi-acco-left-full" itemscope itemtype="http://schema.org/WebPage http://schema.org/FAQPage">
+        <div class="mi-acco-left-full" itemscope itemtype="http://schema.org/WebPage">
           <div class="mi-acco-title" itemprop="name">Accommodation</div>
           <div class="mi-acco-center">
-            <a href="https://moodi.org/reservation" style="text-decoration: none; color: inherit;"><div class="mi-acco-button" style="border:2px solid white; border-radius: 25px; text-align: center;">
-              Get Accommodation
-            </div></a>
+            <a href="https://moodi.org/reservation" class="plain">
+              <div class="mi-acco-button mi-get-acco">Get Accommodation</div>
+            </a>
 
             <br><br>
             <div class="mi-acco-subtitle uppercase">Know Your CL</div>
@@ -219,12 +233,14 @@
               Contingent leader takes care of accommodation of all the teams and visitors coming from his/her respective college. Anyone who wants to avail accommodation must contact their Contingent Leader.  There is absolutely no connection between CR and CL.
             </div>
             <div class="mi-acco-row">
-              <a href="https://moodi.org/clinfo" style="text-decoration: none; color: inherit;"><div class="mi-acco-cl-left">
-                CL Info
-              </div></a>
-              <a href="https://moodi.org/cl" style="text-decoration: none; color: inherit;"><div class="mi-acco-cl-right">Apply for CL</div></a>
+              <a href="https://moodi.org/clinfo" class="plain">
+                <div class="mi-acco-cl-left">CL Info</div>
+              </a>
+              <a href="https://moodi.org/cl" class="plain">
+                <div class="mi-acco-cl-right">Apply for CL</div>
+              </a>
             </div>
-            <div class="mi-acco-button acco-siema-next" style="border:2px solid white; border-radius: 25px; text-align: center;">
+            <div class="mi-acco-button acco-siema-next mi-get-acco">
               More Information <img src="images/arrow_right.svg" class="acco-more-info" alt="Next">
             </div>
             <br><br><br>
