@@ -49,7 +49,7 @@ export default function() {
 
     onSlideSiema();
 
-    $('#acco-siema-next').click(function() {
+    $('.acco-siema-next').click(function() {
         acco_siema.next();
     });
     $('#acco-siema-prev').click(function() {
