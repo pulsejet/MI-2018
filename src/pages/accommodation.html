@@ -43,6 +43,12 @@
     top: 15vh;
   }
 
+  .mi-acco-center {
+    position: absolute;
+    width: 72%;
+    top: 15vh;
+  }
+
   .mi-acco-right {
     position: absolute;
     width: 36%;
@@ -50,7 +56,7 @@
     left: 40%;
   }
 
-  .mi-acco-left a, .mi-acco-right a {
+  .mi-acco-left a, .mi-acco-right a, .mi-acco-center a {
     color: lightskyblue;
   }
 
@@ -74,6 +80,12 @@
     max-height: 50vh; width: 90%;
   }
 
+  .mi-acco-button {
+    font-size: 3.5em;
+    width: 90%;
+    padding: 20px;
+    cursor: pointer;
+  }
   .mi-acco-left-content li {
     margin-left: 1em;
     display: list-item;
@@ -104,11 +116,39 @@
   .acco-faq-items {
     margin-right: 10px;
   }
-
+  .mi-acco-cl-left{
+    position: absolute;
+    width: 36%;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 15px;
+    cursor: pointer;
+  }
+  .mi-acco-cl-right{
+    position: absolute;
+    width: 36%;
+    left: 50%;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 15px;
+    cursor: pointer;
+  }
+  .mi-acco-row{height: 8vh;}
+  .acco-more-info{
+    width: 40px;
+  }
   @media (max-width: 900px) {
-
+    .mi-acco-row{height: 15vh;}
     .mi-acco-subtitle {
       font-size: 1.5em;
+    }
+    .acco-more-info{
+      width: 15px;
+    }
+    .mi-acco-center {
+      width: 100%
     }
     .mi-policy-subtitle{
       font-size: 0.8em;
@@ -144,6 +184,12 @@
     .mi-acco-left-content {
       max-height: 200000px;
     }
+    .mi-acco-button{
+      font-size: 1.4em;
+      width: 72%;
+      padding: 15px;
+      cursor: pointer;
+    }
   }
 
 </style>
@@ -158,6 +204,34 @@
 <div class="full-body maindiv">
 
   <div class="acco-siema">
+    <div ga-event="acco-portal">
+      <div class="mi-siema-container">
+        <div class="mi-acco-left-full" itemscope itemtype="http://schema.org/WebPage http://schema.org/FAQPage">
+          <div class="mi-acco-title" itemprop="name">Accommodation</div>
+          <div class="mi-acco-center">
+            <a href="https://moodi.org/reservation" style="text-decoration: none; color: inherit;"><div class="mi-acco-button" style="border:2px solid white; border-radius: 25px; text-align: center;">
+              Get Accommodation
+            </div></a>
+
+            <br><br>
+            <div class="mi-acco-subtitle uppercase">Know Your CL</div>
+            <div class="mi-acco-left-content" style="margin-bottom: 10px;">
+              Contingent leader takes care of accommodation of all the teams and visitors coming from his/her respective college. Anyone who wants to avail accommodation must contact their Contingent Leader.  There is absolutely no connection between CR and CL.
+            </div>
+            <div class="mi-acco-row">
+              <a href="https://moodi.org/clinfo" style="text-decoration: none; color: inherit;"><div class="mi-acco-cl-left">
+                CL Info
+              </div></a>
+              <a href="https://moodi.org/cl" style="text-decoration: none; color: inherit;"><div class="mi-acco-cl-right">Apply for CL</div></a>
+            </div>
+            <div class="mi-acco-button" id="acco-siema-next" style="border:2px solid white; border-radius: 25px; text-align: center;">
+              More Information <img src="images/arrow_right.svg" class="acco-more-info" alt="Next">
+            </div>
+            <br><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
     <div ga-event="acco">
       <div class="mi-siema-container">
         <div class="mi-acco-left-full">

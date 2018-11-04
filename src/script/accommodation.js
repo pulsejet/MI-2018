@@ -10,7 +10,7 @@ export default function() {
 
     // Make numbers slider
     var numtempl = $(".mi-acco-num-template");
-    const data = [1,2];
+    const data = [1,2,3];
     for (const point in data) {
         var newnode = numtempl.clone();
         newnode.html((Number(point) + 1).toString());
