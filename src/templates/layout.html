@@ -42,7 +42,37 @@
       window.gtagid = 'UA-55628977-7'
       gtag('config', window.gtagid);
     </script>
+    <script>
+      var countDownDate = new Date("Dec 27, 2018 00:00:01").getTime();
 
+// Update the count down every 1 second
+      var x = setInterval(function() {
+
+          // Get todays date and time
+          var now = new Date().getTime();
+          
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+          
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          document.getElementById("day").innerHTML = days;
+          document.getElementById("hours").innerHTML = hours;
+          document.getElementById("minutes").innerHTML = minutes;
+          document.getElementById("seconds").innerHTML = seconds;
+          // Output the result in an element with id="demo"
+          //document.getElementById("demo").innerHTML = days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
+          
+          // If the count down is over, write some text 
+          if (distance < 0) {
+              clearInterval(x);
+              //document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+      }, 1000);
+    </script>
     <!-- CSS for loading animation -->
     <style>
         {% include "partials/inline.css" %}
@@ -110,6 +140,14 @@
             <div><a href="https://sponsors.moodi.org" target="_blank">Sponsors</a></div>
             <div><a href="/contact">Contact Us</a></div>
           </div>
+          <!--div class="counter-head">Days</div>
+          <div class="counter-head">Hours</div>
+          <div class="counter-head">Minutes</div>
+          <div class="counter-head">Seconds</div-->
+          <div class="mi-counter-container"><div class="counter-head">Days</div><div class="mi-sidebar-counter" id="day"></div></div>
+          <div class="mi-counter-container"><div class="counter-head">Hours</div><div class="mi-sidebar-counter" id="hours"></div></div>
+          <div class="mi-counter-container"><div class="counter-head">Minutes</div><div class="mi-sidebar-counter" id="minutes"></div></div>
+          <div class="mi-counter-container"><div class="counter-head">Seconds</div><div class="mi-sidebar-counter" id="seconds"></div></div>
           <div class="sidebar-footer">
             {% for icon in social %}
               <a href="{{ icon.href }}" target="_blank" class="xunk-social"><i class="{{ icon.class }}"></i></a>

@@ -122,7 +122,7 @@ body {
 #mi-sidebar-inner {
 	width: 80%;
 	margin-left: 20%;
-	margin-top: 45vh;
+	margin-top: 33vh;
 	font-size: 1.75em;
 	font-family: 'Lato';
 	font-weight: 900;
@@ -162,9 +162,37 @@ body {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 }
+.mi-counter-container{
+    margin-left: 5%;
+    width: 17%;
+    margin-top: -12vh;
+    display: inline-block;
+    justify-content: center;
+    vertical-align: middle;
+}
 
+.mi-sidebar-counter{
+    border: 2px solid #fff;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 3.5em;
+    text-align: center;
+    padding: 2vh 0;
+}
+.counter-head{
+	text-align: center;
+}
+#day, #hours, #minutes, #seconds{
+} 
 @media (max-width: 600px) {
 	#mi-sidebar-number { display: none; }
+
+	.mi-counter-container{
+		margin-top: -20vh;
+	}
+	.mi-sidebar-counter{
+		font-size: 2.8em;
+	}
 
 	#sb-toggle {
 		top: 2px; right: 10px;
@@ -173,7 +201,7 @@ body {
 
 	#mi-sidebar-inner {
 		width: 90%;
-		margin-top: 40vh;
+		margin-top: 28vh;
 		margin-left: 10%;
 		font-size: 1.5em;
 	}
