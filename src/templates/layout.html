@@ -148,11 +148,13 @@
           <div class="counter-head">Hours</div>
           <div class="counter-head">Minutes</div>
           <div class="counter-head">Seconds</div-->
-          <img src="images/gshock.png" class="gshock">
-          <div class="mi-counter-container"><div class="mi-sidebar-counter" id="day"></div><div class="counter-head">Days</div></div><p class="counter-divider">:</p>
-          <div class="mi-counter-container"><div class="mi-sidebar-counter" id="hours"></div><div class="counter-head">Hours</div></div><p class="counter-divider">:</p>
-          <div class="mi-counter-container"><div class="mi-sidebar-counter" id="minutes"></div><div class="counter-head">Minutes</div></div><p class="counter-divider">:</p>
-          <div class="mi-counter-container"><div class="mi-sidebar-counter" id="seconds"></div><div class="counter-head">Seconds</div></div>
+          <div class="gshock-container">
+            <img src="images/gshock.png" class="gshock">
+            <div class="mi-counter-container"><div class="mi-sidebar-counter" id="day"></div><div class="counter-head">Days</div></div><p class="counter-divider">:</p>
+            <div class="mi-counter-container"><div class="mi-sidebar-counter" id="hours"></div><div class="counter-head">Hours</div></div><p class="counter-divider">:</p>
+            <div class="mi-counter-container"><div class="mi-sidebar-counter" id="minutes"></div><div class="counter-head">Minutes</div></div><p class="counter-divider">:</p>
+            <div class="mi-counter-container"><div class="mi-sidebar-counter" id="seconds"></div><div class="counter-head">Seconds</div></div>
+          </div>
           <div class="sidebar-footer">
             {% for icon in social %}
               <a href="{{ icon.href }}" target="_blank" class="xunk-social"><i class="{{ icon.class }}"></i></a>
