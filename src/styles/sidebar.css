@@ -172,15 +172,25 @@ body {
 }
 
 .mi-sidebar-counter{
-    border: 2px solid #fff;
+    border: 0px solid #fff;
     width: 100%;
     border-radius: 15px;
     font-size: 3.5em;
     text-align: center;
-    padding: 2vh 0;
+    padding: 1vh 0;
 }
 .counter-head{
 	text-align: center;
+}
+.counter-divider{
+	font-size: 3em;
+	display: inline-block;
+	transform: translate(10px, -60px);
+}
+.gshock{
+	width: 20%;
+	display: block;
+	transform: translate(35%,-10vh);
 }
 #day, #hours, #minutes, #seconds{
 } 
@@ -188,12 +198,18 @@ body {
 	#mi-sidebar-number { display: none; }
 
 	.mi-counter-container{
-		margin-top: -20vh;
+		margin-top: -30vh;
+	}
+	.gshock{
+		transform: translate(38%,-17.5vh);
 	}
 	.mi-sidebar-counter{
-		font-size: 2.8em;
+		font-size: 2em;
 	}
-
+	.counter-divider{
+		font-size: 1.5em;
+		transform: translate(10px, -15vh);
+	}
 	#sb-toggle {
 		top: 2px; right: 10px;
 		width: 40px; height: 40px;
