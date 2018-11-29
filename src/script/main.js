@@ -5,6 +5,7 @@ import lottie from 'lottie-web';
 import {SidebarElement } from 'sidebarjs';
 import animationData from '../data/animation.json'
 import * as scrollify from 'jquery-scrollify';
+import initCountdown from './countdown.js';
 import 'simplebar';
 
 /* Loading animation */
@@ -146,6 +147,9 @@ $(window).on('load', function() {
 $(document).ready(() => {
   /* Init MI number */
   RefreshUserInfo(localStorage.getItem('google_id'));
+
+  /* Initialize some other things */
+  initCountdown();
 
   /* Listen for events */
   var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
