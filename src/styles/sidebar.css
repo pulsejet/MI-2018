@@ -163,13 +163,8 @@ body {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 }
+
 .mi-counter-container{
-    /*margin-left: 5%;
-    width: 17%;
-    margin-top: -12vh;
-    display: inline-block;
-    justify-content: center;
-    vertical-align: middle;*/
     width: 17%;
 	display: inline-block;
 	justify-content: center;
@@ -177,38 +172,28 @@ body {
 	transform: translateY(72vh);
 }
 
-.gshock-container{
-}
-
-.mi-sidebar-counter{
-    /*width: 100%;
-    font-size: 2.5em;
-    text-align: center;*/
+.mi-sidebar-counter {
     width: 100%;
 	font-size: 2.5em;
 	text-align: center;
 }
-.counter-head{
+
+.counter-head {
 	text-align: center;
 }
-.counter-divider{
-	/*font-size: 3em;
-	display: inline-block;
-	transform: translate(10px, -60px);*/
+
+.counter-divider {
 	font-size: 2em;
 	display: inline-block;
 	transform: translateY(72vh);
 }
-.gshock{
-	/*width: 20%;
-	display: block;
-	transform: translate(35%,-10vh);*/
+
+.gshock {
 	width: 20%;
 	display: block;
 	transform: translate(15%,71vh);
 }
-#day, #hours, #minutes, #seconds{
-} 
+
 @media (max-width: 600px) {
 	#mi-sidebar-number { display: none; }
 	.gshock-container{
@@ -218,7 +203,7 @@ body {
 		transform: translateY(66vh);
 		/*transform: translate(30%,66vh);*/
 	}
-	
+
 	.mi-sidebar-counter{
 		font-size: 2em;
 	}
