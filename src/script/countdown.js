@@ -1,7 +1,6 @@
 import * as $ from 'jquery';
 
 export default function() {
-    // $(":").insertAfter("#days");
     var countDownDate = new Date("Dec 27, 2018 00:00:01").getTime();
 
     // Update the count down every 1 second
