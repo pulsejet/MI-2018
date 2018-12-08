@@ -4,11 +4,13 @@
 {% set description="We host 210+ events, including international artists, concerts and informal games." %}
 
 {% block content %}
-
 <style>
   .maindiv {
     color: white;
     background: linear-gradient(50deg,#ff0e48,#e99787);
+  }
+  #round {
+    border-radius: 50%;
   }
 
   .evt-siema { height: 100%; }
@@ -87,7 +89,20 @@
     margin-bottom: 1em;
     margin-right: 0.4em;
   }
-
+  .button-right{
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 50%;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .mi-evt-img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
   @media (max-width: 1200px) {
     .mi-evt-title { font-size: 3.8em; }
   }
@@ -129,7 +144,25 @@
   }
 
 </style>
-
+<script>
+  $(document).ready(function(){
+    $(document).on('click','#proshows-button',function(){
+      // var final_width=$(".mi-evt-right-content").width();
+      // $("#proshows").animate({
+      //   width:'0px'
+      // });
+      var open=("#"+$(this).attr('data-open'));
+      var close=("#"+$(this).attr('data-close'));
+      console.log(open);
+      console.log(close);
+      // $(open).animate({
+      //   width:final_width
+      // })
+      $(close).fadeToggle();
+      $(open).fadeToggle();
+    });
+  });
+</script>
 <div id="evt-siema-next" class="siema-next">
   <img src="images/arrow_right.svg" alt="Next" />
 </div>
@@ -147,7 +180,45 @@
         </div>
 
         <div class="mi-evt-right">
-          <div data-simplebar class="mi-evt-right-content">
+          
+          <div data-simplebar class="mi-evt-right-content" id="proshows">
+            <div class="sb-cont">
+              <p><h2 class="uppercase">Genres</h2></p>
+                {% for genre in depts.Competitions %}
+                <p class="mi-gen-right-para">
+                  <h3>{{genre.name}}</h3>
+                  {{genre.description}}
+                  <div class="button-right" id="proshows-button" data-open={{genre.name}} data-close="proshows">View Lineup</div>
+                </p>
+                {% endfor %}
+            </div>
+          </div>
+          {% for genre in depts.Competitions %}
+          <div data-simplebar class="mi-evt-right-content" id={{genre.name}} style="display: none;">
+
+            <div class="sb-cont">
+              <p>
+                <!--div class="button-right" id="round">&#8249;</div-->
+                <h2 class="uppercase">{{genre.name}}</h2>
+                <div class="button-right" id="proshows-button" data-open="proshows" data-close={{genre.name}}>&#8249; Go Back</div>
+              </p>
+              {% for event in genre.events %}
+                <p class="mi-gen-right-para">
+                  <h3>{{event.name}}</h3>
+                  {% if event.image %}
+                    <img class="mi-eve-img" src={{event.image}}>
+                  {% endif %}
+                  <p>{{event.description}}</p>
+                  {% if event.link %}
+                    Check Them Out-<a href={{event.link}}>{{event.link}}</a>
+                  {% endif %}
+                </p>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
+          
+          <!--div data-simplebar class="mi-evt-right-content">
             <div class="sb-cont">
               <p>
                 <h2 class="uppercase">Genres</h2><br/>
@@ -156,6 +227,7 @@
                   <h3>IMF (International Music Festival)</h3>
                   We bring artists and performers from all around the world, who represent diverse culture and unite all of us with exquisite musical performances. Audiences are stretched and stimulated witnessing the amazing performances displayed by the bands and artists. We plan to have best of the music in this year’s IMF and take IMF to newer heights.
               </p>
+              <div class="button-right">View Lineup</div>
               <p>
                   <h3>Fringe Fest</h3>
                   A series of thrilling high octane acts with the most unconventional and enthralling artists, fringe fest is the genre with energetic and unique performances. Street artists and performers from across the globe visit Mood Indigo to display their exclusive skills which includes dauntless stunts, never seen before skills and a lot of interaction.
@@ -206,7 +278,7 @@
                   <br/><br/>
               </p>
             </div>
-          </div>
+          </div-->
           <img class="mi-evt-right-img" src="images/horizons.png" alt="Horizons" />
         </div>
       </div>
