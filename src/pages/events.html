@@ -29,6 +29,12 @@
     margin-bottom: 0.7em;
   }
 
+  .mi-evt-link{
+    text-decoration: none !important;
+    color: white;
+    font-weight: 900;
+  }
+
   .mi-evt-left {
     position: absolute;
     right: 50%;
@@ -98,7 +104,7 @@
     margin-top: 5px;
   }
   .mi-evt-img{
-    width: 80%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -206,11 +212,11 @@
                 <p class="mi-gen-right-para">
                   <h3>{{event.name}}</h3>
                   {% if event.image %}
-                    <img class="mi-eve-img" src={{event.image}}>
+                    <img class="mi-evt-img" src={{event.image}}>
                   {% endif %}
                   <p>{{event.description}}</p>
                   {% if event.link %}
-                    Check Them Out-<a href={{event.link}}>{{event.link}}</a>
+                    Check Them Out - <a class="mi-evt-link" href={{event.link}}>{{event.link}}</a>
                   {% endif %}
                 </p>
               {% endfor %}
