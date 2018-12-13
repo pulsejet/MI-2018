@@ -105,9 +105,9 @@
   }
   .mi-evt-img{
     width: 65%;
-    margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 10px;
   }
   @media (max-width: 1200px) {
     .mi-evt-title { font-size: 3.8em; }
@@ -153,19 +153,26 @@
 <script>
   $(document).ready(function(){
     $(document).on('click','#proshows-button',function(){
-      // var final_width=$(".mi-evt-right-content").width();
-      // $("#proshows").animate({
-      //   width:'0px'
-      // });
       var open=("#"+$(this).attr('data-open'));
       var close=("#"+$(this).attr('data-close'));
       console.log(open);
       console.log(close);
-      // $(open).animate({
-      //   width:final_width
-      // })
       $(close).fadeToggle();
       $(open).fadeToggle();
+    });
+    $(document).on('click','#concerts-button',function(){
+      var open=("#"+$(this).attr('data-open'));
+      var close=("#"+$(this).attr('data-close'));
+      $(close).fadeToggle();
+      $(open).fadeToggle();
+    });
+    $(document).on('click','#informals-button',function(){
+      var open=("#"+$(this).attr('data-open'));
+      var close=("#"+$(this).attr('data-close'));
+      console.log(close);
+      
+      $(close).width(0);
+      console.log("done");
     });
   });
 </script>
@@ -181,8 +188,8 @@
     <div ga-event="horizons">
       <div class="mi-siema-container">
         <div class="mi-evt-left">
-          <h1 class="mi-evt-title uppercase">Horizons</h1>
-          <p class="mi-evt-left-content">Horizons and Workshops is devoted to creating an unforgettable experience for all the visitors, by presenting the best showcases and provides a massive platform for global cultural exchange. Dive into the sea of music and dance, make an expedition to the highest peaks of literature and poetry, take a voyage to the horizons of theater and what not, the profusion of events that we provide would take you to infinity and beyond. Also get a real life experience of all these artforms at the professional workshops conducted throughout the 4 days.</p>
+          <h1 class="mi-evt-title uppercase">Proshows</h1>
+          <p class="mi-evt-left-content">Proshows and Workshops is devoted to creating an unforgettable experience for all the visitors, by presenting the best showcases and provides a massive platform for global cultural exchange. Dive into the sea of music and dance, make an expedition to the highest peaks of literature and poetry, take a voyage to the horizons of theater and what not, the profusion of events that we provide would take you to infinity and beyond. Also get a real life experience of all these artforms at the professional workshops conducted throughout the 4 days.</p>
         </div>
 
         <div class="mi-evt-right">
@@ -190,16 +197,18 @@
           <div data-simplebar class="mi-evt-right-content" id="proshows">
             <div class="sb-cont">
               <p><h2 class="uppercase">Genres</h2></p>
-                {% for genre in depts.Competitions %}
+                {% for genre in depts.Proshows %}
                 <p class="mi-gen-right-para">
                   <h3>{{genre.name}}</h3>
                   {{genre.description}}
-                  <div class="button-right" id="proshows-button" data-open={{genre.name}} data-close="proshows">View Lineup</div>
+                  {% if genre.events|length %}
+                    <div class="button-right" id="proshows-button" data-open={{genre.name}} data-close="proshows">View Lineup</div>
+                  {% endif %}
                 </p>
                 {% endfor %}
             </div>
           </div>
-          {% for genre in depts.Competitions %}
+          {% for genre in depts.Proshows %}
           <div data-simplebar class="mi-evt-right-content" id={{genre.name}} style="display: none;">
 
             <div class="sb-cont">
@@ -223,68 +232,6 @@
             </div>
           </div>
           {% endfor %}
-          
-          <!--div data-simplebar class="mi-evt-right-content">
-            <div class="sb-cont">
-              <p>
-                <h2 class="uppercase">Genres</h2><br/>
-              </p>
-              <p>
-                  <h3>IMF (International Music Festival)</h3>
-                  We bring artists and performers from all around the world, who represent diverse culture and unite all of us with exquisite musical performances. Audiences are stretched and stimulated witnessing the amazing performances displayed by the bands and artists. We plan to have best of the music in this year’s IMF and take IMF to newer heights.
-              </p>
-              <div class="button-right">View Lineup</div>
-              <p>
-                  <h3>Fringe Fest</h3>
-                  A series of thrilling high octane acts with the most unconventional and enthralling artists, fringe fest is the genre with energetic and unique performances. Street artists and performers from across the globe visit Mood Indigo to display their exclusive skills which includes dauntless stunts, never seen before skills and a lot of interaction.
-              </p>
-              <p>
-                  <h3>Theatrefest</h3>
-                  Theatrefest brings people from all aspects of theatre under one roof and celebrates the sheer brilliance of theatrical performances. It is a platform for theatrical exchange, for presenting some of the achievements of the greatest theatre practitioners from around the world, a gathering place for students and masters, where a dialogue despite ideological, culture and language differences is encouraged. It offers an enthusiastic environment for interaction between the performers and the masses.
-              </p>
-              <p>
-                  <h3>Humour Fest</h3>
-                  Every year the finest comedians fly in from all parts of the globe to perform at possibly the most favorite event of Mood Indigo, the Humour Fest. With performances like stand up comedy, one act plays, interactive workshops, improv comedies, clean roasts and what not, this fest creates a stress busting environment and engagement in top class comedy acts. Humour fest has been the flagship event of Mood Indigo. We plan to go bigger and better than ever to continue this legacy.
-              </p>
-              <p>
-                  <h3>Lit Fest (Literature Festival)</h3>
-                  An elite lineup of people who have an experience to share and a story to tell to all of you. Be it themed events, speaker sessions, storytelling sessions, experience sharing, panel discussions or thinkers’ meet, Lit Fest is ‘lit’erally the most ‘Lit’ fest of Mood Indigo.
-              </p>
-              <p>
-                  <h3>Talent Fiesta</h3>
-                  Showcasing performances on the lines of ‘India’s Got Talent’, this fest lines up all the thrilling dance acts to awe-stricken aerial acts, live arts, group acts and stunts. Any act apart from the rest of the listed genres fall here so all miscellaneous showcase events ideas will be curated. Be there to fathom the mysteries of the world's most intriguing talents.
-              </p>
-              <p>
-                  <h3>Vogue</h3>
-                  VOGUE is India’s biggest Inter College ‘Fashion Competition’. A feast for the eyes on the audience's side of the arena as the greatest modelling talents of the country come together and compete. As a prime platform to scour for the best uprising talent, VOGUE is unquestionably one of the the best launchpads for young and creative designers and aspiring models. If Fashion and glamour fascinates you, Vogue is the genre for you!
-              </p>
-              <p>
-                  <h3>Workshops</h3>
-                  The place which has it all! From gifted experts to enthusiastic learners, these can be of any genre-art, dramatics, music and much more. Planned to be conducted on a much bigger scale this year including non-conventional workshops, innovation and creativeness are the qualities to look out for in here.
-              </p>
-              <p>
-                  <h3>AfterNites</h3>
-                  Each day at Mood Indigo remains unaccomplished without AfterNites. With acts and ideas that leave an everlasting impact, events which you would have never seen before, these shows keep the viewers on the edge of their seats.
-              </p>
-              <p>
-                  <h3>Interactive Arenas</h3>
-                  With unique concepts like Jamming stages, musical lounges, audience involving performances and group activities, this will surely make your visit a memorable one.
-              </p>
-              <p>
-                  <h3>Exhibitions and live art</h3>
-                  Planned to be held at a much grander level, this comprises of  events which are interactive as well as eye-catching. Not just art it will have live food and any other possible live events which would surely be mesmerizing.
-              </p>
-              <p>
-                  <h3>MI Tour</h3>
-                  Providing all the first timers at Mood Indigo with the experience that they won't ever forget, we plan to tour them through different events, games, competitions and end it with the grandest of all, the Pronites events.
-              </p>
-              <p>
-                  <h3>Night Flea and Night Arena</h3>
-                  Night arena and flea market will be a perfect end to the day at Mood Indigo, with soft music, storytellers, interactive stalls and mesmerizing ambience. The best place where you can relax with your friends with a lot of interactive activities going on as well.
-                  <br/><br/>
-              </p>
-            </div>
-          </div-->
           <img class="mi-evt-right-img" src="images/horizons.png" alt="Horizons" />
         </div>
       </div>
@@ -302,6 +249,45 @@
         </div>
 
         <div class="mi-evt-right">
+          
+          <div data-simplebar class="mi-evt-right-content" id="concerts">
+            <div class="sb-cont">
+              <p><h2 class="uppercase">Genres</h2></p>
+                {% for genre in depts.Concerts %}
+                <p class="mi-gen-right-para">
+                  <h3>{{genre.name}}</h3>
+                  {{genre.description}}
+                  {% if genre.events|length %}
+                    <div class="button-right" id="concerts-button" data-open={{genre.name}} data-close="concerts">View Lineup</div>
+                  {% endif %}
+                </p>
+                {% endfor %}
+            </div>
+          </div>
+          {% for genre in depts.Concerts %}
+          <div data-simplebar class="mi-evt-right-content" id={{genre.name}} style="display: none;">
+
+            <div class="sb-cont">
+              <p>
+                <!--div class="button-right" id="round">&#8249;</div-->
+                <h2 class="uppercase">{{genre.name}}</h2>
+                <div class="button-right" id="concerts-button" data-open="concerts" data-close={{genre.name}}>&#8249; Go Back</div>
+              </p>
+              {% for event in genre.events %}
+                <p class="mi-gen-right-para">
+                  <h3>{{event.name}}</h3>
+                  {% if event.image %}
+                    <img class="mi-evt-img" src={{event.image}}>
+                  {% endif %}
+                  <p>{{event.description}}</p>
+                  {% if event.link %}
+                    Check Them Out - <a class="mi-evt-link" href={{event.link}}>{{event.link}}</a>
+                  {% endif %}
+                </p>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
           <img class="mi-evt-right-img" src="images/pronites.png" alt="Concerts" />
         </div>
       </div>
@@ -321,6 +307,45 @@
         </div>
 
         <div class="mi-evt-right">
+          
+          <!--div data-simplebar class="mi-evt-right-content" id="informals">
+            <div class="sb-cont">
+              <p><h2 class="uppercase">Genres</h2></p>
+                {% for genre in depts.Informals %}
+                <p class="mi-gen-right-para">
+                  <h3>{{genre.name}}</h3>
+                  {{genre.description}}
+                  {% if genre.events|length %}
+                    <div class="button-right" id="informals-button" data-open={{genre.name}} data-close="informals">View Lineup</div>
+                  {% endif %}
+                </p>
+                {% endfor %}
+            </div>
+          </div-->
+          <!--{% for genre in depts.Informals %}
+          <div data-simplebar class="mi-evt-right-content" id={{genre.name}} style="display: none;">
+
+            <div class="sb-cont">
+              <p>
+                <h2 class="uppercase">{{genre.name}}</h2>
+                <div class="button-right" id="informals-button" data-open="informals" data-close={{genre.name}}>&#8249; Go Back</div>
+              </p>
+              {% for event in genre.events %}
+                <p class="mi-gen-right-para">
+                  <h3>{{event.name}}</h3>
+                  {% if event.image %}
+                    <img class="mi-evt-img" src={{event.image}}>
+                  {% endif %}
+                  <p>{{event.description}}</p>
+                  {% if event.link %}
+                    Check Them Out - <a class="mi-evt-link" href={{event.link}}>{{event.link}}</a>
+                  {% endif %}
+                </p>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}-->
+          
           <img class="mi-evt-right-img" src="images/informals.png" alt="Informals" />
         </div>
       </div>
