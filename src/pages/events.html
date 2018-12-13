@@ -151,10 +151,8 @@
     $(document).on('click','#informals-button',function(){
       var open=("#"+$(this).attr('data-open'));
       var close=("#"+$(this).attr('data-close'));
-      console.log(close);
-      
-      $(close).width(0);
-      console.log("done");
+      $(close).fadeToggle();
+      $(open).fadeToggle();
     });
   });
 </script>
@@ -286,6 +284,41 @@
         </div>
 
         <div class="mi-evt-right">
+          <div data-simplebar class="mi-evt-right-content" id="informals">
+            <div class="sb-cont">
+              <p><h2 class="uppercase">Genres</h2></p>
+                {% for genre in depts.Informals %}
+                <p class="mi-gen-right-para">
+                  <h3>{{genre.name}}</h3>
+                  {{genre.description}}
+                  {% if genre.events|length %}
+                    <div class="button-right" id="informals-button" data-open={{genre.name}} data-close="informals">View Lineup</div>
+                  {% endif %}
+                </p>
+                {% endfor %}
+            </div>
+          </div>
+          {% for genre in depts.Informals %}
+          <div data-simplebar class="mi-evt-right-content" id={{genre.name}} style="display: none;">
+
+            <div class="sb-cont">
+              <p>
+                <!--div class="button-right" id="round">&#8249;</div-->
+                <h2 class="uppercase">{{genre.name}}</h2>
+                <div class="button-right" id="concerts-button" data-open="informals" data-close={{genre.name}}>&#8249; Go Back</div>
+              </p>
+              {% for event in genre.events %}
+                <p class="mi-gen-right-para">
+                  <h3>{{event.name}}</h3>
+                  {% if event.image %}
+                    <img class="mi-evt-img" src={{event.image}}>
+                  {% endif %}
+                  <p>{{event.description}}</p>
+                </p>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
           <img class="mi-evt-right-img" src="images/informals.png" alt="Informals" />
         </div>
       </div>
