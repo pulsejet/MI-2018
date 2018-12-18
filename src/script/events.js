@@ -66,4 +66,25 @@ export default function() {
             }
         });
     }
+
+    // Scripts for toggling lineup
+    $(document).on('click','#proshows-button',function(){
+        var open = ("#"+$(this).attr('data-open'));
+        var close = ("#"+$(this).attr('data-close'));
+        $(close).fadeToggle();
+        $(open).fadeToggle();
+    });
+
+    $(document).on('click','#concerts-button',function(){
+        var open = ("#"+$(this).attr('data-open'));
+        var close = ("#"+$(this).attr('data-close'));
+        $(close).fadeToggle();
+        $(open).fadeToggle();
+    });
+
+    $(document).on('click','#informals-button',function(){
+        var open = ("#"+$(this).attr('data-open'));
+        var close = ("#"+$(this).attr('data-close'));
+        $(close).width(0);
+    });
 }

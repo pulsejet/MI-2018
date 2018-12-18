@@ -133,32 +133,7 @@
     .mi-evt-right-content p { margin-right: 0; }
   }
 </style>
-<script>
-  $(document).ready(function(){
-    $(document).on('click','#proshows-button',function(){
-      var open=("#"+$(this).attr('data-open'));
-      var close=("#"+$(this).attr('data-close'));
-      console.log(open);
-      console.log(close);
-      $(close).fadeToggle();
-      $(open).fadeToggle();
-    });
-    $(document).on('click','#concerts-button',function(){
-      var open=("#"+$(this).attr('data-open'));
-      var close=("#"+$(this).attr('data-close'));
-      $(close).fadeToggle();
-      $(open).fadeToggle();
-    });
-    $(document).on('click','#informals-button',function(){
-      var open=("#"+$(this).attr('data-open'));
-      var close=("#"+$(this).attr('data-close'));
-      console.log(close);
-      
-      $(close).width(0);
-      console.log("done");
-    });
-  });
-</script>
+
 <div id="evt-siema-next" class="siema-next">
   <img src="images/arrow_right.svg" alt="Next" />
 </div>
@@ -176,7 +151,7 @@
         </div>
 
         <div class="mi-evt-right">
-          
+
           <div data-simplebar class="mi-evt-right-content" id="proshows">
             <div class="sb-cont">
               <p><h2 class="uppercase">Genres</h2></p>
@@ -232,7 +207,7 @@
         </div>
 
         <div class="mi-evt-right">
-          
+
           <div data-simplebar class="mi-evt-right-content" id="concerts">
             <div class="sb-cont">
               <p><h2 class="uppercase">Genres</h2></p>
