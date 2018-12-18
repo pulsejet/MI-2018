@@ -79,7 +79,8 @@ gulp.task('nunjucks', function() {
             acco_faqs: read_data('acco_faqs'),
             people: read_data('people'),
             experience: read_data('experience'),
-            social: read_data('social')
+            social: read_data('social'),
+            depts: read_data('depts')
         },
         manageEnv: manageEnvironment
     }))
