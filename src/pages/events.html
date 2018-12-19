@@ -152,7 +152,7 @@
 
         <div class="mi-evt-right">
 
-          <div data-simplebar class="mi-evt-right-content" id="proshows">
+          <div data-simplebar class="mi-evt-right-content t-proshows">
             <div class="sb-cont">
               <p><h2 class="uppercase">Genres</h2></p>
                 {% for genre in depts.Proshows %}
@@ -160,20 +160,20 @@
                   <h3>{{genre.name}}</h3>
                   {{genre.description}}
                   {% if genre.events|length %}
-                    <div class="button-right" id="proshows-button" data-open={{genre.name}} data-close="proshows">View Lineup</div>
+                    <div class="button-right t-button" data-open={{genre.name}} data-close="proshows">View Lineup</div>
                   {% endif %}
                 </p>
                 {% endfor %}
             </div>
           </div>
           {% for genre in depts.Proshows %}
-          <div data-simplebar class="mi-evt-right-content" id={{genre.name}} style="display: none;">
+          <div data-simplebar class="mi-evt-right-content t-{{genre.name}}" style="display: none;">
 
             <div class="sb-cont">
               <p>
                 <!--div class="button-right" id="round">&#8249;</div-->
                 <h2 class="uppercase">{{genre.name}}</h2>
-                <div class="button-right" id="proshows-button" data-open="proshows" data-close={{genre.name}}>&#8249; Go Back</div>
+                <div class="button-right t-button" data-open="proshows" data-close={{genre.name}}>&#8249; Go Back</div>
               </p>
               {% for event in genre.events %}
                 <p class="mi-gen-right-para">
@@ -208,7 +208,7 @@
 
         <div class="mi-evt-right">
 
-          <div data-simplebar class="mi-evt-right-content" id="concerts">
+          <div data-simplebar class="mi-evt-right-content t-concerts">
             <div class="sb-cont">
               <p><h2 class="uppercase">Genres</h2></p>
                 {% for genre in depts.Concerts %}
@@ -216,20 +216,20 @@
                   <h3>{{genre.name}}</h3>
                   {{genre.description}}
                   {% if genre.events|length %}
-                    <div class="button-right" id="concerts-button" data-open={{genre.name}} data-close="concerts">View Lineup</div>
+                    <div class="button-right t-button" data-open={{genre.name}} data-close="concerts">View Lineup</div>
                   {% endif %}
                 </p>
                 {% endfor %}
             </div>
           </div>
           {% for genre in depts.Concerts %}
-          <div data-simplebar class="mi-evt-right-content" id={{genre.name}} style="display: none;">
+          <div data-simplebar class="mi-evt-right-content t-{{genre.name}}" style="display: none;">
 
             <div class="sb-cont">
               <p>
                 <!--div class="button-right" id="round">&#8249;</div-->
                 <h2 class="uppercase">{{genre.name}}</h2>
-                <div class="button-right" id="concerts-button" data-open="concerts" data-close={{genre.name}}>&#8249; Go Back</div>
+                <div class="button-right t-button" data-open="concerts" data-close={{genre.name}}>&#8249; Go Back</div>
               </p>
               {% for event in genre.events %}
                 <p class="mi-gen-right-para">
@@ -262,6 +262,42 @@
         </div>
 
         <div class="mi-evt-right">
+          <div data-simplebar class="mi-evt-right-content t-informals">
+            <div class="sb-cont">
+              <p><h2 class="uppercase">Genres</h2></p>
+                {% for genre in depts.Informals %}
+                <p class="mi-gen-right-para">
+                  <h3>{{genre.name}}</h3>
+                  {{genre.description}}
+                  {% if genre.events|length %}
+                    <div class="button-right t-button" data-open={{genre.name}} data-close="informals">View Lineup</div>
+                  {% endif %}
+                </p>
+                {% endfor %}
+            </div>
+          </div>
+
+          {% for genre in depts.Informals %}
+          <div data-simplebar class="mi-evt-right-content t-{{genre.name}}" style="display: none;">
+
+            <div class="sb-cont">
+              <p>
+                <!--div class="button-right" id="round">&#8249;</div-->
+                <h2 class="uppercase">{{genre.name}}</h2>
+                <div class="button-right t-button" data-open="informals" data-close={{genre.name}}>&#8249; Go Back</div>
+              </p>
+              {% for event in genre.events %}
+                <p class="mi-gen-right-para">
+                  <h3>{{event.name}}</h3>
+                  {% if event.image %}
+                    <img class="mi-evt-img" src={{event.image}}>
+                  {% endif %}
+                  <p>{{event.description}}</p>
+                </p>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
           <img class="mi-evt-right-img" src="images/informals.png" alt="Informals" />
         </div>
       </div>
