@@ -1,4 +1,197 @@
 {
+    "Informals": [
+        {
+            "name": "Sherlocked",
+            "description": "Only the wittiest shall survive this",
+            "events": [
+                {
+                    "name": "Room Escape",
+                    "description": "Addicted to those gaming apps where you have to solve the smallest and cleverest clues to escape the room? Well get ready to be trapped in our clues this time around, literally! You’ll be shut in a room with strangers, and the only way to come out will be to cooperate with each other. Work as a team to break the codes and solve the clues in the room and find the key to open the door. Be warned though! You could be stuck in there for while!",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Treasure Hunt",
+                    "description": "Well, who doesn't love an old-fashioned treasure hunt full of wordplay and misleading clues. Well just that this isn't an old-fashioned treasure hunt. Integrated with Snapchat to give you a much more immersive experience and make you believe you're a real-life pirate. This one you should not miss!",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Scramble",
+                    "description": "Jigsaw puzzles were really when we were kids right? Well, this jigsaw puzzle has 3-D pieces and will leave you scratching your heads. Only the wittiest shall survive.",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Lumos",
+            "description": "Light up the Night!",
+            "events": [
+                {
+                    "name": "Silent Disco",
+                    "description": "The most infamous event in MI. The name says it all. A party where you could enjoy your own music and dance your heart out with friends. This is the stuff dreams are made off.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Casino Night",
+                    "description": "\"Raring to test out that poker face you've been practicing for so long? Well, look no more, coz you've come to the perfect place. The day might come to an end but we’re just getting started! Whether it's the spin of the roulette wheel that catches your eye, or the shouts of 'hit* and 'stay' from the blackjack table that draws you in, the excitement in the air just won't let you leave. \r\nSpin the wheel and play to your luck. May the odds be ever in your favor!\"",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Nostalgia Zone",
+            "description": "Back to your childhood days!",
+            "events": [
+                {
+                    "name": "Gully Cricket",
+                    "description": "Who doesn't love old styled Gully cricket with deewaar ka chauka and boundary ke bahar out",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Pillow Fight",
+                    "description": "A chance to walk into every teenage boy’s fantasy: a pillow fight in a girl’s slumber party. The only difference? Instead of giggling and snickering, there will be a bloodbath... of feathers. It’s because there exists no better feeling than smacking your friend right in the face with a pillow.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Life Size Pacman",
+                    "description": "Pacman. Everyone remembers that cute little yellow ball of love. What if you were him running through a maze from deadly bacterias trying to eat you up. That is exactly what this is about!",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Life Size Connect 4",
+                    "description": "Remember when we were kids we used to play Connect 4. Now we have grown up, so is the Connect 4.",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Xtreme Sports",
+            "description": "Feel the adrenaline rush",
+            "events": []
+        },
+        {
+            "name": "Wacky Wonderland",
+            "description": "You won't find this anywhere else",
+            "events": [
+                {
+                    "name": "Life Size Jenga",
+                    "description": "Pulling it out wrong has always had its concicevences. Well here to pulling out each block will have a cost to bear.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "3-A-Side Table Tennis",
+                    "description": "A wise man once said \" The more the merrier\". We took his advice. With 3 on 3 match its much more fun than the usual Table Tennis.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "MI Salon",
+                    "description": "In older times people used to practice shaving on balloons. We welcome you to MI Salon. You may win or cut your customer's face off. Either way, you will show us you barber-ian side .",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Cards against Humanity",
+                    "description": "A classic card game for all the peeps out there",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "What do you meme?",
+                    "description": "All the meme lords out there are invited. We have the templates ready. Play of your hand and create the most hilarious meme of them all.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Air Football",
+                    "description": "Football just got more interesting. You don't need your legs for this though. Do eat your mints before playing. Blow the hardest to win.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "4-Way Tug of War",
+                    "description": "Tug of War has been a sho of strength and unity. With double the number of people playing the stakes are also higher this time.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Whack-a-Mole",
+                    "description": "Classic Arcade Game. Scaled up to make more fun. Steal goodies from the Hammer-Man while he tries to smash your skull.",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Icebreakers",
+            "description": "Need help breaking the ice? We got our hammers ready",
+            "events": [
+                {
+                    "name": "Speed Dating",
+                    "description": "The best part of the festival is meeting new people. If you know what I mean. Come try your luck !",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "People Bingo",
+                    "description": "Our own version of Bingo. People are your tickboxes. Find people with the given attributes and get all tickboxes signed. Discover friends in the process. Does it get any better?",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Speak Out",
+                    "description": "Might have seen this before. Doesn't look pretty with your mouth wide open but surely is fun.",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Crossovers",
+            "description": "Get the competitive spirit flowing!",
+            "events": [
+                {
+                    "name": "Hogathon",
+                    "description": "For too long many of us have been ridiculed and shamed for our humongous diet. This is a chance to put it to good use. Participate in our hogathon and win many exciting prizes while getting to eat mouth watering food. The more you eat, the more your chances to triumph. Win-win!",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Beer Pong+Golf",
+                    "description": "Sadly we had to kick out the beer from the event but not the fun. A mixture of Golf with Beer Pong, this one you should not miss out on.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "The Spotlight",
+                    "description": "Do you have a 10-second talent you wanna show off to the world. This is your chance. If you can spin footballs on your fingertips or do backflips back to back, come join us for this show-off.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "PUBG Mobile Challenge",
+                    "description": "Are you also one of those people that just can't quit PUBG Mobile? Well, if yes its about time you made some money off it. Come prepared with your trigger fingers ready and participate in the PUBG Mobile Challenge this Mood Indigo.",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Streets and Waiting lines",
+            "description": "We won't ever leave you bored",
+            "events": []
+        }
+    ],
+    "Arts and Ideas": [],
     "Concerts": [
         {
             "name": "EDM Nite",
@@ -45,170 +238,26 @@
                     "description": "Angaraag Mahanta, popularly known as Papon, is a singer, multi-instrumentalist, composer and record producer. Blessed with a voice that’s smooth and soulful at the same time, his innovative experiments are rich with ambient electronica, acoustic folk, electro ghazals to classical sounds. Papon can sing effortlessly in Hindi, Punjabi, Marathi, Tamil, Bengali, and Gujarati language.\r\n\r\nIn Bollywood, Papon’s rise to fame was with the songs like ‘Moh Moh Ke Dhage’ from Dum Laga Ke Haisha, ‘Kyon’ from Barfi ,‘Jiyein Kyun’ from the movie Dum Maro Dum, ‘Labon Ka Karobar’ for the movie Befikre etc. In 2018, Papon has lent his voice to songs in movie Sanju, Raid, Karwaan, Sui Dhaaga. Papon has been a pioneer of Indian independent music & has co-composed songs like ‘Har Ek Baat’ and ‘Naina Laagey’ with pioneering producers Midival Punditz. He has also collaborated with renowned composer-multi instrumentalist Karsh Kale on the track ‘Absence’ for Karsh Kale’s fifth studio album.\r\n\r\nHe was awarded as the Best Male Playback Singer 2016 at Star Screen Awards, Mirchi Music\r\nAwards, TOIFA, GIMA, IIFA-Madrid. Papon was also nominated for Best Male Playback Singer at the FILMFARE Awards and Zee Cine Awards in 2016. His concert on 29th December will be surely something to look forward for all the Indian music lovers!",
                     "image": "/images/depts/Concerts/Pap.jpg",
                     "link": "https://www.facebook.com/AngaraagPAPONMahanta/"
+                },
+                {
+                    "name": "After Acoustics",
+                    "description": "After Acoustics is a Pune based folk rock/country music band, established in 2014. The band's music comprises of peppy, foot tapping country songs that make the audience sing along with gusto, leading them to often be compared to Mumford and Sons.\r\nWhat sets them apart is their ridiculous enthusiasm and energy. It is physically impossible to watch them live and NOT leave with a giant smile plastered on your face.",
+                    "image": "/images/depts/Concerts/AA.jpg",
+                    "link": "https://www.afteracoustics.in/"
                 }
             ]
-        }
-    ],
-    "Proshows": [
+        },
         {
-            "name": "International Music Festival",
-            "description": "One good thing about music - when it hits you, you feel no pain. International Music Festival presents a synergic blend of world-class performers showcasing diverse cultures and stimulating our senses with their exquisite musical performances. Groove to the amazing music from artists across the world, belonging to different cultures across the world. This unique medley of genres will surely provide a well needed break from the monotonous life and let you delve into the intoxicating sea of festive music",
+            "name": "Popular Nite",
+            "description": "Arguably the primus inter pares of the four concerts, the Popular Night has a rich legacy of having featured some of the biggest names in the Bollywood music industry. Having featured artists include music legends Asha Bhosle and R D Burman, ghazal maestros Jagjit Singh and Pankaj Udhas, Shankar–Ehsaan–Loy, Sonu Nigam, and Shaan, Popular Night never fails to provide a magical ending to the 4 day party, which is Mood Indigo",
             "events": [
                 {
-                    "name": "Aditi Ramesh",
-                    "description": "Aditi Ramesh is a jazz/blues/Carnatic vocalist, songwriter and producer based out of Mumbai. She is known for her strong hold on tonal modulations and her ability to mix classical carnatic music with jazz. Formerly a corporate lawyer since quitting in the end of 2016, her musicality has experienced  exponential growth in her soundscape, with her performance incorporating keys, drums and bass as well as the use of her eloquent voice as an instrument, used to create symphonic harmonies and intricate melodies.",
-                    "image": "/images/depts/Horizons/Aditi_Ramesh.jpg"
-                },
-                {
-                    "name": "The Yellow Diary",
-                    "description": "A 5 member Music Collective hail from varied backgrounds, but have one thing in common -- their passion for music. With a blend of electronic music and rock, they are touted to be a composition powerhouse. They have released two EP’s this year titled ‘Marz’ & ‘Izafa’ consisting three songs each . The soundscape, of these songs have a large-room, anthemic and has a sing-along quality that will have you crooning to the lyrics as soon you hear them.",
-                    "image": "/images/depts/Horizons/The_Yellow_Diary.jpg"
-                },
-                {
-                    "name": "Between the Jars",
-                    "description": "Between The Jars… that is where this young and promising band from The Netherlands compose its music. This band, established in 2015, create an unique mixture of genres, best to be defined as psychedelic 70s rock. With their groovy feeling, they bring the crowd in ecstatic vibes. Their performance at Mood Indigo will be their first show outside Europe and also the first of their India tour, which consists of gigs in Bhayandar, Pune and another one in Mumbai. Their music is influenced by famous bands like Deep Purple, Led Zeppelin, The Doors and many more.",
-                    "image": "/images/depts/Horizons/Between_the_Jars.jpg"
-                },
-                {
-                    "name": "Keegan Oxland",
-                    "description": "Hailing from South Africa, Oxland has found a way to produce and play live sampled electronic drum rhythms. Incorporating big trap drops to hip hop while juggling his sticks making it a performance not to be missed! Find the hype on his social media",
-                    "image": "/images/depts/Horizons/Keegan_Oxland.jpg"
-                },
-                {
-                    "name": "Anthracite",
-                    "description": "Anthracite, a six-member Rap-Rock band hails from Mumbai. Since their origin in 2012, they’ve been in the local gig circuit of India. In 2016, they went on to become India’s first Linkin Park tribute act, with a setlist of over 40 songs. After three India tours and countless shows across the country, they were officially called to play a launch party gig for Linkin Park's latest album One More Light, at a special preview show in Mumbai which was recognized by Sony Music and Linkin Park.",
-                    "image": "/images/depts/Horizons/Anthracite.jpg"
-                },
-                {
-                    "name": "Jim Porto",
-                    "description": "Brazilian singer, songwriter and pianist Jim Porto had his first contact with music at a tender age of six - fascinated by the nimble hands of a friend running up and down the keyboard. He studied piano in his hometown, Rio Grande (RS), mixing classical music with popular styles, such as Samba and Bossa Nova. \r\nHe is accompanied by the Indian musicians - Avishek Dey on the Bass, Andrew Kanga on the drums and Ryan Sadri on the Saxophone",
-                    "image": "/images/depts/Horizons/Jim_Porto.jpg"
-                },
-                {
-                    "name": "Indian Air",
-                    "description": "Since his first awareness of Indian music and the sitar more than 20 years ago, the Austrian musician Klaus Falschlunger has become a master of the instrument and an active representative of the Indian-Music scene in Europe.\r\nThe whole emotional spectrum of the musician´s inner world comes alive in \"INDIAN AIR\".\r\nHe is accompanied by Clemens Rofner on double bass, and by the percussionist Tobias Steinberger on framedrums/kanjira.\r\nGrowing up with jazz and rock music, he discovered in his extensive travels to Asia, the Middle East and Europe, more and more the diversity of music.His creativity and versatility brought him together with many musicians and artists from India, Korea, USA and Europe.",
-                    "image": "/images/depts/Horizons/Indian_Air.jpg"
-                },
-                {
-                    "name": "Tarq Bowen",
-                    "description": "Tarq's unique blend of Blues, Soul and hard-hitting slide guitar interfaced with powerful yet gentle dynamic ability shows an understanding and skill far beyond his years. This has attracted the attention of Nick Mason (Pink Floyd) who recorded Tarq's debut single, remaining a big avid supporter of his music.\r\nLast year Tarq had the rare opportunity to be personally invited by Tony Visconti, to play alongside Nitin Sawhney and Stewart Copeland of The Police, in a 6 piece documentary which led to Tarq flying to L.A. to work with veteran producer Larry Klein.\r\n\r\nWhilst Tarq draws inspiration from the likes of Debussy, Nusrat Fateh Ali Khan and Chet Baker, his sound has been compared more accurately to artists such as Jeff Buckley and Howlin Wolf. \r\nPlaying with his live band Tarq's sound invites the audience on a magnetic journey infused with energy and soul, leaving a unique memory that will evolve every time you see him.\r\n\r\nTarq will feature his international Trio at the Mood Indigo festival, Tarq Bowen (UK) on Vocals & Guitars, Phil Wildenhues (NL) on Drums and Marc-Inti (BOL) on E-Bass. As a special guest Amit Mishra (IND) will join them on Tabla.",
-                    "image": "/images/depts/Horizons/Tarq_Bowen.jpg"
+                    "name": "Salim - Sulaiman",
+                    "description": "Salim and Sulaiman have been composing music for over a decade having scored for movies like Rab ne banadi jodi, Fashion, Roadside Romeo, Iqbal, Heroine, Chak De India to name a few. \r\n\r\nHaving worked on a wide range of genres they have developed a unique understanding of cinema and a keen sense of knowing when to score and when to leave silences depending on the performances.\r\n\r\nThe versatile duo has scored for a string of Bollywood movies, composed for several Indi-pop sensations including Viva, Asmaan, Shweta Shetty, Jasmine and Style Bhai among others, composed and produced hundreds of TV commercials.",
+                    "image": "/images/depts/Pronites/ss.jpg",
+                    "link": "https://www.facebook.com/salimsulaimanmusic/"
                 }
-            ],
-            "image": "Last year"
-        },
-        {
-            "name": "Theatrefest",
-            "description": "All the world's a stage. TheatreFest brings people from all aspects of Theatre under one roof and celebrates the sheer brilliance of theatrical performances. It offers an enthusiastic environment for interaction between the performers and the masses. Experience some of the most intelligent and emotionally stimulating acts you are ever likely to see. Collective sighs, pin-drop silences and everything in between will be your constant companions. Experience the plays and theatrical performances which will stir up your soul and leave you mesmerized with a smile on your face or a tear upon your cheek.",
-            "events": [
-                {
-                    "name": "Dekh Behen",
-                    "description": "After 42 shows across four cities in just nine months, “Dekh Behen” comes to TheatreFest at Mood Indigo, IIT Bombay. Dekh Behen is a play written and directed by women with an all-female cast and crew. Set in the backdrop of an elaborate Punjabi wedding, this hilarious play is about women, by women, for anyone who wants to understand what it’s like to be a woman. This is a bittersweet comedy about sisters, wives, girlfriends, daughters, mothers, and above all – women. The play has left the audience laughing breathlessly with the hilarious exchanges between the characters. Plot Summary - A big fat Delhi wedding is underway. Merely hours before they need to put up their rehearsed item number, five bridesmaids catch up, gossip and bitch about their identical outfits. But that's not the only thing they have in common. They all dislike the bride. Akvarious Productions presents a bittersweet comedy about daughters, girlfriends, mothers and getting through one dramatic Indian wedding.",
-                    "image": "/images/depts/Horizons/Dekh_Behen.jpg"
-                },
-                {
-                    "name": "Stand Up",
-                    "description": "Akvarious Productions presents 'Stand Up - a serious play about comedy', starring BhaDiPa stars Nipun Dharmadhikari and Sarang Sathaye, with Abir Abrar (from Karwaan), Adhaar Khurana (from Boygiri), Kashin Shetty (winner of META Best Supporting Actor for The Interview), Omkar Kulkarni (from Aladdin), famous rapper SlowCheeta, and Zayn Khan (from Dekh Behen). Hold your seats for the uncontrollable laughter as this play unfolds into real-life yet crazy situations.",
-                    "image": "/images/depts/Horizons/Stand_Up.jpg"
-                },
-                {
-                    "name": "Anji",
-                    "description": "Dinesh Thakur’s Ank presents Vijay Tendulkar’s  Matchless Satirical  Comedy, ANJI. Undaunted by the fact that she is getting on in years but is yet to find the right match,  Anjali  Sharma (Anji) sets out to search for her dream man herself. The story of  Anji who holds forth her positive attitude inspite of trying situations and a life going nowhere, but is yet stumped in the face of a pitiless society. An  explosive climax persuades us to re-examine our value system, especially concerning women.",
-                    "image": "/images/depts/Horizons/Anji.jpg"
-                },
-                {
-                    "name": "Blueticks",
-                    "description": "It is simply about teenage love story these days, The internet has simplified 'finding love' but complicated 'staying in it' Relationships have transformed from cozy couples to curious love triangles, boy, girl and the notorious smartphone.\r\nBlue Ticks explores this bizarre chemistry between friendship and technology and takes you back to the good old days where communications were intimate and real.\r\nConsidered one of the most popular plays among youngsters, Roll on the floor laughing with the actors in this rib-tickling performance that is sure to leave you feeling nostalgic.",
-                    "image": "/images/depts/Horizons/Blueticks.jpg"
-                }
-            ],
-            "image": "Last year"
-        },
-        {
-            "name": "HumorFest",
-            "description": "With the fearful strain that is on me night and day, if I did not laugh I should die. With performances from stand up comedians, one act plays, interactive workshops, clean roasts and what not, Mood Indigo's HumorFest promises to provide top class comedy acts that guarantees to tickle your funny bone! Enjoy quality performances from a spectrum of artists across varying genres in a stress busting environment. Get ready to be entertained by infectious laughter as the comedy artists work their magic of witty and sarcastic puns and one-liners!",
-            "events": [
-                {
-                    "name": "Abhishek Upmanyu",
-                    "description": "Standup comedian and internet sensation is known as a writer for On Air with AIB. He is also a co-founder of the popular Twitter handle GareebGuy. A Delhi boy who hardly qualifies to be one (he writes haikus and doesn’t drive a Scorpio), Abhishek Upmanyu is one of the finest young comedians in the country, representing fresh new talent on the scene. Known for killing it on stage, he hurls one cracker of a joke after another, thanks to his Shatabdi-fast delivery, unparalleled observational powers and skilled hands (that help him to write). A hardcore cat lover added to his charmingly shy demeanour is bait to his vast female following. The dark humour and sarcastic comments he unleashes to opine on the current state of affairs is both interesting and amusing, to say the least. Thanks to his quick tongue (he thinks faster than he can speak), many have suggested that he should cut a rap record, but his shy demeanour keeps him from it. The ‘say-it-like-it-is’ comedian started performing in 2013 and recently came out with a brand new show, Thoda Saaf Bol. He took the internet by storm with two simple videos on his YouTube channel. “Breakups, respecting elders and discrimination” and “Indian insults and comebacks”. Abhishek now lives in Mumbai, hoping to scale new heights of success within the comedy and live performance arena.",
-                    "image": "/images/depts/Horizons/Abhishek.jpg"
-                },
-                {
-                    "name": "Karan Chauhan",
-                    "description": "Get ready for a combination of comedy, gags and illusion as India's first and foremost comedian illusionist Karan Chauhan tickles you into giggles. Combining the magic of comedy and the joy of magic, Karan has enchanted audiences across the globe. A familiar face from shows like the Great Indian Laughter Challenge and MTV reality show - Elevator Pitch, we will never get enough of him! Recipient of awards like Magician of the Year 2015 and Medal of Merlin from International Magicians Society, USA, this act is sure to leave you in splits!\r\nJoin us from 27th - 30th December!",
-                    "image": "/images/depts/Horizons/Karan.jpg"
-                },
-                {
-                    "name": "The Shrink & The Nut Session by Atul Khatri & Dr Anjali Chhabria",
-                    "description": "'So many words to say and no way to say them'\r\nMental strength synced with internal stability counts a lot.\r\nThe shrink, Dr Anjali Chhabria is a famous Psychiatrist running her own clinic in Juhu. She also conducts workshops and seminars that help the masses deal with their traumas in life and move on. There isn’t a more right person to help these developing minds cope up with their troubles while also gaining awareness about a healthy mental health.\r\nThe nut, Atul Khatri has been a popular face on the television by appearing in advertisements for big brands like- Amazon, Muthoot Finance, Phillips and many more. There couldn’t be a man more apt than him to bring self-awareness in a more relatable and fun way.\r\nThe Shrink & the Nut will ensure you can live your life to the fullest, through their unique roadmap. Get a chance to come out of your blues!",
-                    "image": "/images/depts/Horizons/Shrink_Nut.jpg"
-                }
-            ],
-            "image": "nahi hai"
-        },
-        {
-            "name": "Eloquence",
-            "description": "With every experience, you alone are painting your own canvas, thought by thought, choice by choice, Through LitFest, Mood Indigo attempts to inspire college students by giving them an opportunity to interact with eminent personalities and know their views on a multitude of topics. Be it panel discussions, keynote speakers, poetry sessions or interviews - LitFest has it all. Boasting an elite lineup in the past, with names like Aamir Khan, Shashi Tharoor, Harsha Bhogle, Devendra Fadnavis, Arnab Goswami, this year's LitFest promises to raise the bar and come up with more innovative sessions and great orators!",
-            "events": [
-                {
-                    "name": "Kiran Bedi",
-                    "description": "The literature festival of Mood Indigo hosts the charismatic first woman ex-IPS and highest ranking officer, a social activist and a politician-Kiran Bedi. A former national tennis player and currently the Lieutenant Governor of Puducherry, Kiran Bedi is a force by herself!\r\nShe has also been a TV host of Aap Ki Kachehri where she helped to settle real life disputes. And with Navjyoti India Foundation she launched a campaign against drug abuse.\r\nDuring her tenure she was awarded with numerous trophies and honours, some of which worth mentioning are Suryadatta National Award, United Nations Medal, Mother Teresa Award for Social Justice, Woman of the Year Award, Ramon Magsaysay Award and President’s Gallantry Award\r\nAs an inspiration and the best role model to millions of people in India, especially the women, get ready for a tête-à-tête with Kiran ‘Crane’ Bedi on __.",
-                    "image": "/images/depts/Horizons/KB.jpg"
-                },
-                {
-                    "name": "Chetan Bhagat",
-                    "description": "Eloquence, the literary festival of IIT Bombay hosts one of the leading authors, columnists and motivational speakers of our time, Mr. Chetan Bhagat. His career graph sets an example to the youth of today to passionately pursue their calling. He is an IIT Delhi Alumni who quit his investment banking career to focus more on writing. His novels like Five Point Someone, The Three Mistakes of My Life and What Young India Wants reflected vagaries of growing up years. Mr. Bhagat’s simple and lucid writing have made his books bestsellers and have inspired Bollywood movies some of which are 3 Idiots, Kai Po Che! and 2 States. Time magazine named him one of the most influential people in the world.\r\nMark your calendar for the 29th of December to listen to his most diversifying journey and get boosted for your very own epiphanous path!",
-                    "image": "/images/depts/Horizons/CB.jpg"
-                }
-            ],
-            "image": "Last year"
-        },
-        {
-            "name": "Afternites",
-            "description": "Entertainment, Entertainment, Entertainment! Bringing the world's most amazing and unique performances promising to leave an everlasting impact, the Afternites at Mood Indigo will ensure the perfect end to the amazing experience that Mood Indigo is. Witness never seen before events which will bring you to the edge of your seats and blow your mind away! You surely don't want to miss the Afternites at Mood Indigo!",
-            "events": [
-                {
-                    "name": "Kupava Light Drawing",
-                    "description": "To be filled",
-                    "image": "/images/depts/Horizons/Kupava.jpg"
-                },
-                {
-                    "name": "Kua Bo Theater",
-                    "description": "Kua Bo started from the campus and proceeded to outdoor environments with the adaptability to different outdoor performing areas.  As a contemporary dance theatre of young generation, Kua Bo cares for Taiwan society and culture via our art and dance.",
-                    "image": "/images/depts/Horizons/KuaBo.jpg"
-                }
-            ],
-            "image": "Last year"
-        },
-        {
-            "name": "Exhibitions",
-            "description": "Exhibitions provide the showcase of unique artforms to the visitors. To all the art lovers out there, this is a real treat. This year, we have a storytelling that walks you through your childhood through a display of pictures, a museum on wheels that takes you through the evolution of currency system in India and what not.",
-            "events": [],
-            "image": "Last year"
-        },
-        {
-            "name": "Night Arena and Night Flee",
-            "description": "After the power packed concerts, this is the event that lets you chill with pretty activities around you and bonfire and food at your service. Join some people while they play soothing music and enjoy the flee market and amazing activities that are in store for you.",
-            "events": [],
-            "image": "Last year"
-        },
-        {
-            "name": "MI Tour",
-            "description": "We target to give all the first timers in MI the experience that they will never forget. We plan to tour them through different events, games competitions and end it with the grandest of them all the Pronites events. Register as a part of MI Tour to get the VIP treatment and experience the best of MI in the 4 days",
-            "events": [],
-            "image": "Last year"
-        },
-        {
-            "name": "Talent Fiesta",
-            "description": "XYZ",
-            "events": [
-                {
-                    "name": "TSD Taiwanese Culture",
-                    "description": "With an ancient form of culture which offers people peace and prosperity, TSD Culture and Arts Creative team has successfully attracted a huge crowd for young generation's attention in Asia and is here to show the beauty of Taiwanese culture at Mood Indigo 2018. Jia-Jiang (Chinese words for General in ancient time) culture presents the wisdom of Taiwan's tradition of worship, which offers people peace and prosperity, prayers for fortune and disaster relief. TSD street dance group is formed on the basis of supporting this tradition and by adding the latest \"hip hop\" trend\" in the dance through which they have successfully attracted a huge crowd of young generations' attention in Asia.",
-                    "image": "/images/depts/Horizons/TSD.jpg"
-                }
-            ],
-            "image": "XYZ"
+            ]
         }
     ],
     "Competitions": [
@@ -355,7 +404,7 @@
                     "status": "",
                     "id": 12,
                     "minparticipants": 2,
-                    "maxparticipants": 10,
+                    "maxparticipants": 0,
                     "LYP_partner": ""
                 },
                 {
@@ -370,7 +419,7 @@
                     "status": "",
                     "id": 16,
                     "minparticipants": 8,
-                    "maxparticipants": 20,
+                    "maxparticipants": 0,
                     "LYP_partner": ""
                 },
                 {
@@ -446,7 +495,7 @@
                     "LYP_img": "./TDP.jpg",
                     "LYP_logo": null,
                     "description": "Who says dance isn't magical? It's time to live your own La La Land. Listen to that long-forgotten whisper and feel the rise and the fall of your breath.Break those shackles. Grab the moment and cast that entrancing spell on us!      Opportunity dances with those already on the dance floor.Come, grab it. Come, dance to live, to breathe, to be free, to be YOU.",
-                    "rules": "<b>Team Size: </b>8-15 + 2 CAs (for lights and sounds) compulsory<br />\r\n<b>Styles: </b>Contemporary<br />\r\n<b>Judging Criteria: </b>Choreography, Concept and Depiction, Synchronization, Stage utilization, Expressions, Costumes, Overall impact Judges may ask questions regarding the performance and theme (if any) you are depicting<br />\r\n<b>Stage Specifications: </b>Closed Auditorium with the audience on one side of the stage<br /><br />\r\n\r\n\r\n\r\n<h4>Eliminations </h4>\r\n<ul><li>Teams are free to put up any performance.</li>\r\n<li>Only Contemporary Dance form is allowed.</li>\r\n<li>The performance doesn’t necessarily have to be thematic.</li>\r\n<li>Time Limit: 4-6 min (including voice over of maximum 50 secs, +1 min setup and clearance time).</li>\r\n\r\n\r\n\r\n</ul><h4>Finals </h4>\r\n<ul><li>Perform an extended version of the dance sequence performed in the semi-finals.</li>\r\n<li>Time limit: 7-9 minutes (including voice over of maximum 90 secs)(+2 mins setup and clearance time)</li>\r\n\r\n</ul><h4>General Rules:</h4>\r\n<ul><li>Only one team per college is allowed.</li>\r\n<li>Participants may use more than one song in their performance, the length of lyrics (if any) should not exceed 1 mins</li>\r\n<li>Relevant voice over(s) is allowed according to given limit: (Eliminations - 50 seconds Semi-Finals & Finals - 90 seconds)</li>\r\n<li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>\r\n<li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage.</li>\r\n<li>Teams have to submit their tracks (in mp3 format only) and prop list at  <a href=\"mailto:indigosaga@moodi.org\"><u>indigosaga@moodi.org</u></a> before 15th December 2018, 11:59 PM with subject “College Name | Team Leader's MI number”, mentioning the exact time & duration where lyrical song(s) and voice over(s) have been used in the track.</li>\r\n<li>The losses/damage to the props is not the responsibility of organisers and will be heavily penalised</li>\r\n<li>Teams are requested to submit their props list prior to the competition and props have to be shown during practice slot. (Props will not be allowed if you fail to show them in practice slots)</li>\r\n<li>The soundtrack should also be brought in a pen drive (in .mp3 format only) during Mood Indigo.</li>\r\n<li>Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has possibility of tampering/damaging the stage is STRICTLY not allowed.</li>\r\n<li>Vulgarity and obscenity at any point is strictly not allowed. It can lead to immediate disqualification.Songs to be chosen accordingly.</li>\r\n<li>Performers have to clear the stage after their performance otherwise they will be penalised heavily by the organisers.</li>\r\n<li>Violation of any of the above rules, will lead to heavy penalties.</li>\r\n<li>The decision of the judges shall be final and binding.</li>\r\n</ul>",
+                    "rules": "<b>Team Size: </b>8-15 + 2 CAs (for lights and sounds) compulsory<br />\r\n<b>Styles: </b>Contemporary<br />\r\n<b>Judging Criteria: </b>Choreography, Concept and Depiction, Synchronization, Stage utilization, Expressions, Costumes, Overall impact Judges may ask questions regarding the performance and theme (if any) you are depicting<br />\r\n<b>Stage Specifications: </b>Closed Auditorium with the audience on one side of the stage<br /><br />\r\n\r\n\r\n\r\n<h4>Eliminations </h4>\r\n<ul><li>Teams are free to put up any performance.</li>\r\n<li>Only Contemporary Dance form is allowed.</li>\r\n<li>The performance doesn’t necessarily have to be thematic.</li>\r\n<li>Time Limit: 4-6 min (including voice over of maximum 50 secs, +1 min setup and clearance time).</li>\r\n\r\n\r\n\r\n</ul><h4>Finals </h4>\r\n<ul><li>Perform an extended version of the dance sequence performed in the eliminations.</li>\r\n<li>Time limit: 7-9 minutes (including voice over of maximum 90 secs)(+2 mins setup and clearance time)</li>\r\n\r\n</ul><h4>General Rules:</h4>\r\n<ul><li>Only one team per college is allowed.</li>\r\n<li>Participants may use more than one song in their performance, the length of lyrics (if any) should not exceed 1 mins</li>\r\n<li>Relevant voice over(s) is allowed according to given limit: (Eliminations - 50 seconds Semi-Finals & Finals - 90 seconds)</li>\r\n<li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>\r\n<li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage.</li>\r\n<li>Teams have to submit their tracks (in mp3 format only) and prop list at  <a href=\"mailto:indigosaga@moodi.org\"><u>indigosaga@moodi.org</u></a> before 15th December 2018, 11:59 PM with subject “College Name | Team Leader's MI number”, mentioning the exact time & duration where lyrical song(s) and voice over(s) have been used in the track.</li>\r\n<li>The losses/damage to the props is not the responsibility of organisers and will be heavily penalised</li>\r\n<li>Teams are requested to submit their props list prior to the competition and props have to be shown during practice slot. (Props will not be allowed if you fail to show them in practice slots)</li>\r\n<li>The soundtrack should also be brought in a pen drive (in .mp3 format only) during Mood Indigo.</li>\r\n<li>Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has possibility of tampering/damaging the stage is STRICTLY not allowed.</li>\r\n<li>Vulgarity and obscenity at any point is strictly not allowed. It can lead to immediate disqualification.Songs to be chosen accordingly.</li>\r\n<li>Performers have to clear the stage after their performance otherwise they will be penalised heavily by the organisers.</li>\r\n<li>Violation of any of the above rules, will lead to heavy penalties.</li>\r\n<li>The decision of the judges shall be final and binding.</li>\r\n</ul>",
                     "prizes": "1st Position 25000 INR;\r\n2nd Position 15000 INR;\r\n3rd Position 8000 INR;",
                     "subtitle": "Group Thematic Dance Competition",
                     "status": "",
@@ -506,7 +555,7 @@
                     "LYP_img": "",
                     "LYP_logo": null,
                     "description": "Solo Dance Competition",
-                    "rules": "<b>Team Size: </b>Solo<br />\r\n<b>Rounds: </b>Online Eliminations, Semi Finals and Finals <br/>\r\n<b>Judging Criteria:</b> Choreography, Energy  of the participant, Expressions during the performance, Clarity, completion of Steps and Overall impact. <br />\r\n<b>Styles:</b> All except Classical dance <br />\r\n<br />\r\n<h4>Eliminations: </h4>\r\n<ul><li>Time Limit: 1 -1.5 minute</li>\r\n<li>No usage of props is allowed for this round.</li>\r\n<li>Participants will not be judged on basis of the costumes.</li>\r\n<li><b>Deadline for submission: 10th December 2018 11:59 PM (Second lot of elimination round)</b></li>\r\n<li>Record the video, rename it as “&lt;Your MI Number&gt; - MI The Best”</li>\r\n<li>The video must be recorded from a static camera. Videos having multiple angles/moving cameras are strictly not allowed</li>\r\n<li>Note that the video should not be edited in any way. Use of any kind of special effects is STRICTLY prohibited and will lead to direct disqualification</li>\r\n\r\n\r\n</ul>\r\n\r\n\r\n<span>To upload your registrations please follow the given steps:\r\n</span>\r\n                <ul>\r\n                  <li>On clicking the “Send your Auditions” button under Register Tab, the participant shall be redirected to our audition portal.</li>\r\n                  <li>The participant will be required to fill the following details on the portal:\r\n                  <ul>\r\n                    <li><b>Mood Indigo ID</b> : “Fill in your <b>Registered MI Number</b> in this section”</li>\r\n                    <li><b>Full Name</b> : “Fill in your <b>Full name</b> in this section”</li>\r\n                    <li><b>Email id</b> : “Fill in your email id in this section”</li>\r\n                    <li><b>Mobile Number</b> : “Fill in your mobile number in this section”</li>\r\n                  </ul></li>\r\n                  <li>Once the participant has submitted these details, they will be redirected to Google Play Store/ IOS App Store to download the AIO app. If in case you cancel the downloading or have filled in the details through any other device except your mobile, you <b>must download the app</b> separately on your mobile to submit your auditions on the app.\r\n</li>\r\n                  <li>The Auditions can <b>only be uploaded on the App</b>. It is compulsory for the participant to download the App at an initial or later stage in order to upload their entry.\r\n</li>\r\n                  <li>Upon downloading the app, to submit your video Go to Dashboard &rarr; Theatres Tab (in the top panel) &rarr; Mood Indigo &rarr; “<b>MI The Best</b>” &rarr; Upload Video\r\n</li>\r\n                  <li>Upload your entry in video format and click on ‘Submit’ button. If the video file size exceeds 200 MB, compress the video to shrink its size and upload the compressed file.\r\n</li>\r\n                <li><b>The fields on the Act It Out app like the time limit, gender, age, etc are certain defaults which the participants need to ignore while uploading the videos. The only restriction is the size of the video which has to be less than 200 MB</b></li>\r\n\r\n</ul>\r\n\r\n\r\n\r\n<h4>Semi Finals</h4>\r\n<li>To be announced soon</li>\r\n\r\n</ul><h4>Finals</h4>\r\n<li>To be announced soon</li>",
+                    "rules": "<b>Team Size: </b>Solo<br />\r\n<b>Rounds: </b>Online Eliminations, Semi Finals and Finals <br/>\r\n<b>Judging Criteria:</b> Choreography, Energy  of the participant, Expressions during the performance, Clarity, completion of Steps and Overall impact. <br />\r\n<b>Styles:</b> All except Classical dance <br />\r\n<br />\r\n<h3>Eliminations</h3>\r\n<ul><li>Time Limit: 1 -1.5 minute</li>\r\n<li>No usage of props is allowed for this round.</li>\r\n<li>Participants will not be judged on basis of the costumes.</li>\r\n<li><b>Deadline for submission: 10th December 2018 11:59 PM (Second lot of elimination round)</b></li>\r\n<li>Record the video, rename it as “&lt;Your MI Number&gt; - MI The Best”</li>\r\n<li>The video must be recorded from a static camera. Videos having multiple angles/moving cameras are strictly not allowed</li>\r\n<li>Note that the video should not be edited in any way. Use of any kind of special effects is STRICTLY prohibited and will lead to direct disqualification</li>\r\n\r\n\r\n</ul>\r\n\r\n\r\n<span>To upload your registrations please follow the given steps:\r\n</span>\r\n                <ul>\r\n                  <li>On clicking the “Send your Auditions” button under Register Tab, the participant shall be redirected to our audition portal.</li>\r\n                  <li>The participant will be required to fill the following details on the portal:\r\n                  <ul>\r\n                    <li><b>Mood Indigo ID</b> : “Fill in your <b>Registered MI Number</b> in this section”</li>\r\n                    <li><b>Full Name</b> : “Fill in your <b>Full name</b> in this section”</li>\r\n                    <li><b>Email id</b> : “Fill in your email id in this section”</li>\r\n                    <li><b>Mobile Number</b> : “Fill in your mobile number in this section”</li>\r\n                  </ul></li>\r\n                  <li>Once the participant has submitted these details, they will be redirected to Google Play Store/ IOS App Store to download the AIO app. If in case you cancel the downloading or have filled in the details through any other device except your mobile, you <b>must download the app</b> separately on your mobile to submit your auditions on the app.\r\n</li>\r\n                  <li>The Auditions can <b>only be uploaded on the App</b>. It is compulsory for the participant to download the App at an initial or later stage in order to upload their entry.\r\n</li>\r\n                  <li>Upon downloading the app, to submit your video Go to Dashboard &rarr; Theatres Tab (in the top panel) &rarr; Mood Indigo &rarr; “<b>MI The Best</b>” &rarr; Upload Video\r\n</li>\r\n                  <li>Upload your entry in video format and click on ‘Submit’ button. If the video file size exceeds 200 MB, compress the video to shrink its size and upload the compressed file.\r\n</li>\r\n                <li><b>The fields on the Act It Out app like the time limit, gender, age, etc are certain defaults which the participants need to ignore while uploading the videos. The only restriction is the size of the video which has to be less than 200 MB</b></li>\r\n\r\n</ul>\r\n\r\n\r\n\r\n<h3>Semi Finals</h3>\r\n<ul><li>Time Limit: 2 -2.5 minute</li>\r\n<li>\r\nThe judges will have an option to press the buzzer. The buzzer will act as a selection procedure (when pressed the participant will be selected for higher rounds, though it’s not the sole process of selection; so the participant don’t need to stop their performance after the buzzer is pressed)</li>\r\n<li><b>Judging Criteria:</b> Choreography, Energy,  Expressions, Stage utilization, Costumes, Innovation in song incorporation and Overall impact</li>\r\n<li>Usage of Props is allowed in this round though not neccessary.</li>\r\n</ul>\r\n\r\n\r\n<h3>Finals</h3>\r\n<h5>Round 1:</h5>\r\n<ul>\r\n<li>10 participants will be selected from the buzzer round that will perform there part in the finals</li>\r\n\r\n<li>In this round the participants need to prepare a choreo of 2.5 minutes\r\n</li>\r\n<li>The performance of this round should be different from that of the Semi-Finals round</li>\r\n<li>There will be an inclusion of 30 seconds in the tracks that the participants will be performing on\r\n</li>\r\n<li>The last 30 seconds will not be known to the participants (Impromptus). Though these 30 seconds will be of the same dance form as the previous 150 seconds</li>\r\n<li>The prop usage is allowed in this round though it will be not a criterion to judge</li>\r\n<li><b>Judging criteria:</b> Choreography, Energy,  Expressions, Response to Impromto Part of performance, Clarity and completion of Steps and Overall impact</li>\r\n</ul>\r\n\r\n\r\n\r\n\r\n\r\n<h5>Round 2:</h5>\r\n<ul><li>5 participants will be selected from Round 1 that will perform their part in the Final Round of the competition.</li>\r\n<li>The participants need to prepare a choreo of 3 minutes.</li>\r\n<li>Props are allowed in this round and also it will be a criterion to judge upon.</li>\r\n<li><b>Judging Criteria:</b> Choreography, Energy,  Expressions, Stage utilization, Costumes, Innovation in song incorporation, Props and Overall impact.</li>\r\n</ul>",
                     "prizes": "1st Position 12000 INR;\r\n2nd Position 8000 INR;\r\n3rd Position 5000 INR;",
                     "subtitle": "Solo Dance Competition",
                     "status": "online",
@@ -543,7 +592,7 @@
                     "LYP_img": "",
                     "LYP_logo": null,
                     "description": "“It was a huge challenge to learn digital painting well enough so that computers don't pop into mind when one sees one” - Breathed  So, if you learn the traditional way, it translates over to the digital in a much more painterly way. The only difference being Digital is a lot more forgiving (read: can be easily edited). So if you think you are up to the challenge, start painting… ahm, start digitalising your paintings!",
-                    "rules": "<b>Team Size: </b>Solo<br />\r\n<b>Rounds: </b>Direct online finals<br />\r\n<b>Theme: </b></b>Participants can choose any one or combination of the following themes:\r\n<ol><li>Psychedelic Art</li>\r\n<li>Mirrors and Reflections</li>\r\n<li>Dreams and imagination</li></ol>\r\n<b>Last date for submission: </b>11:59PM, 10th December 2018<br />\r\n<b>Judging Criteria: </b>Creativity, Quality, Originality, Composition and Layout, Visual Impact<br /><br />\r\n\r\n\r\n\r\n<h4>General Rules: </h4>\r\n<ul><li>This is a digital design competition wherein participants have to design a painting on a software.</li>\r\n<li>Participants need to send their work in the .psd, .ai that they have used along with the .jpg file of the same, with at least three stages of work.</li>\r\n<li>Participants need to send their entries containing all the above mentioned files in a zipped folder at <a href=\"mailto:cursorstrokes@moodi.org@moodi.org\"><u>cursorstrokes@moodi.org</u></a> with the subject Cursor Strokes: MI-XXX-YYY\r\n<li>Only one entry is allowed per participant.</li>\r\n<li>No vector/Stock images from online resources to be used.</li>\r\n<li>All the entries by the single participant must be sent in one folder. DO NOT send files individually.</li>\r\n<li>In a case of multiple entries from the same person, only the first entry will be considered.</li>\r\n<li>Any sign of plagiarism may lead to disqualification.</li>\r\n\r\n</ul>",
+                    "rules": "<b>Team Size: </b>Solo<br />\r\n<b>Rounds: </b>Direct online finals<br />\r\n<b>Theme: </b></b>Participants can choose any one or combination of the following themes:\r\n<ol><li>Psychedelic Art</li>\r\n<li>Mirrors and Reflections</li>\r\n<li>Dreams and imagination</li></ol>\r\n<b>Last date for submission: </b>11:59PM, 10th December 2018<br />\r\n<b>Judging Criteria: </b>Creativity, Quality, Originality, Composition and Layout, Visual Impact<br /><br />\r\n\r\n\r\n\r\n<h4>General Rules: </h4>\r\n<ul><li>This is a digital design competition wherein participants have to design a painting on a software.</li>\r\n<li>Participants need to send their work in the .psd, .ai that they have used along with the .jpeg file of the same, with at least three stages of work.</li>\r\n<li>Participants need to send their entries containing all the above mentioned files in a zipped folder at <a href=\"mailto:cursorstrokes@moodi.org@moodi.org\"><u>cursorstrokes@moodi.org</u></a> with the subject Cursor Strokes: MI-XXX-YYY\r\n<li>Only one entry is allowed per participant.</li>\r\n<li>No vector/Stock images from online resources to be used.</li>\r\n<li>All the entries by the single participant must be sent in one folder. DO NOT send files individually.</li>\r\n<li>In a case of multiple entries from the same person, only the first entry will be considered.</li>\r\n<li>Any sign of plagiarism may lead to disqualification.</li>\r\n\r\n</ul>",
                     "prizes": "1st Position 4000 INR;\r\n2nd Position 2000 INR;\r\n3rd Position 1500 INR;",
                     "subtitle": "Digital Painting Competition",
                     "status": "",
@@ -588,7 +637,7 @@
                     "LYP_img": "",
                     "LYP_logo": null,
                     "description": "One Minute Movie Making",
-                    "rules": "<b>Team Size: </b>At most 4 in the core team(No particular limit for actors in the film)<br />\r\n\r\n<b>Rounds: </b>Single round<br />\r\n<b>Deadline: </b>15th December<br />\r\n\r\n\r\n\r\n\r\n\r\n\r\n<b>Judging Criteria </b>Editing, Cinematography, Script (originality), Acting, Sound effects, overall impact, Relevance to theme(final round)<br />\r\n\r\n<br />\r\n<h4>General Rules </h4>\r\n<ul><li>The Movie should be in English or Hindi or both and must have subtitles</li>\r\n<li>Entries must be the original work of the entrant and must not infringe third-party's rights.</li>\r\n<li>There is no restriction on the number and age of the actors in the movie.</li>\r\n<li>The content of the movie should be appropriate for public screening and thus have no vulgarity. Obscenity (at the discretion of the judges) of any kind is not allowed and will lead to immediate disqualification.</li>\r\n<li>Please avoid photo animation, slideshows, remixes, spoofs and advertisements.</li>\r\n<li>Plagiarism is strictly prohibited.</li>\r\n<li>Soundtracks (no max time limit) and stock footage (time limit : max of 15 seconds) can be borrowed, but with due credits.</li>\r\n</ul>\r\n\r\n</ul><h4>Submission:</h4>\r\n<ul><li>Completed movies (accompanied by the name of the college and the MI numbers and details of team members along with their role in the making of the movie) must be submitted in .mpeg or .avi or .mp4 formats only in one of the following ways.</li>\r\n<li>Emailing to <a href=\"mailto:lifeinaminute@moodi.org\"><u>lifeinaminute@moodi.org</u></a> with subject of the email to be “Life in a Minute: MI-XXX-YYY / File”</li>\r\n<li>Uploading the video on www.youtube.com or any other such website and emailing the link to <a href=\"mailto:lifeinaminute@moodi.org\"><u>lifeinaminute@moodi.org</u></a>with subject of the email to be “Life in a Minute: MI-XXX-YYY / Link”</li>\r\n<li>Burning on a CD/DVD and posting* to:</li>\r\n<u>Sanjay Khatri, 257, Hostel 7, IIT Bombay<br />\r\nPowai, Mumbai, Maharashtra - 400076</u><br />\r\n<i><small>*Kindly drop an email to <a href=\"mailto:lifeinaminute@moodi.org\"><u>lifeinaminute@moodi.org</u></a> with the subject of the email to be “Life in a Minute: MI-XXX-YYY / Post”, where MI-XXX-YYY is your MI number. The mail should contain the details of the post/courier including the consignment number and date of posting for easy tracking purposes.</small></i>\r\n<li>Note that the size of the file may be too large to email depending on your video clip, and your email provider. In such a case, use one of the other methods.</li>\r\n\r\n\r\n\r\n</ul>",
+                    "rules": "<b>Team Size: </b>At most 4 in the core team(No particular limit for actors in the film)<br />\r\n\r\n<b>Rounds: </b>Single round<br />\r\n<b>Deadline: </b>25th December<br />\r\n\r\n\r\n\r\n\r\n\r\n\r\n<b>Judging Criteria </b>Editing, Cinematography, Script (originality), Acting, Sound effects, overall impact, Relevance to theme(final round)<br />\r\n\r\n<br />\r\n<h4>General Rules </h4>\r\n<ul><li>The Movie should be in English or Hindi or both and must have subtitles</li>\r\n<li>Entries must be the original work of the entrant and must not infringe third-party's rights.</li>\r\n<li>There is no restriction on the number and age of the actors in the movie.</li>\r\n<li>The content of the movie should be appropriate for public screening and thus have no vulgarity. Obscenity (at the discretion of the judges) of any kind is not allowed and will lead to immediate disqualification.</li>\r\n<li>Please avoid photo animation, slideshows, remixes, spoofs and advertisements.</li>\r\n<li>Plagiarism is strictly prohibited.</li>\r\n<li>Soundtracks (no max time limit) and stock footage (time limit : max of 15 seconds) can be borrowed, but with due credits.</li>\r\n</ul>\r\n\r\n</ul><h4>Submission:</h4>\r\n<ul><li>Completed movies (accompanied by the name of the college and the MI numbers and details of team members along with their role in the making of the movie) must be submitted in .mpeg or .avi or .mp4 formats only in one of the following ways.</li>\r\n<li>Emailing to <a href=\"mailto:lifeinaminute@moodi.org\"><u>lifeinaminute@moodi.org</u></a> with subject of the email to be “Life in a Minute: MI-XXX-YYY / File”</li>\r\n<li>Uploading the video on www.youtube.com or any other such website and emailing the link to <a href=\"mailto:lifeinaminute@moodi.org\"><u>lifeinaminute@moodi.org</u></a>with subject of the email to be “Life in a Minute: MI-XXX-YYY / Link”</li>\r\n<li>Burning on a CD/DVD and posting* to:</li>\r\n<u>Sanjay Khatri, 257, Hostel 7, IIT Bombay<br />\r\nPowai, Mumbai, Maharashtra - 400076</u><br />\r\n<i><small>*Kindly drop an email to <a href=\"mailto:lifeinaminute@moodi.org\"><u>lifeinaminute@moodi.org</u></a> with the subject of the email to be “Life in a Minute: MI-XXX-YYY / Post”, where MI-XXX-YYY is your MI number. The mail should contain the details of the post/courier including the consignment number and date of posting for easy tracking purposes.</small></i>\r\n<li>Note that the size of the file may be too large to email depending on your video clip, and your email provider. In such a case, use one of the other methods.</li>\r\n\r\n\r\n\r\n</ul>",
                     "prizes": "1st Position: 8000 INR;\r\n2nd Position: 5000 INR;\r\n3rdPosition: 3000 INR;",
                     "subtitle": "One-minute Movie making",
                     "status": "",
@@ -618,7 +667,7 @@
                     "LYP_img": "",
                     "LYP_logo": null,
                     "description": "Snapchat Filter Making Contest",
-                    "rules": "<b>Team Size: </b>Solo<br />\r\n\r\n<b>Rounds: </b>Eliminations and finals<br />\r\n<b>Deadline: </b>20th December, 11:59PM<br />\r\n<br />\r\n<h4>General Rules: </h4>\r\n<ul><li>The contestant must have a Snapchat account and must also be registered on Mood Indigo’s Website</li>\r\n<li>The resolution of the frame must be 1080x2340 (19.5:9 aspect ratio) but at the same time should also be suitable for 1080x2160 & 1080x1920 resolutions in the priority order</li>\r\n<li>The only supported format for submission of the filter is .jpg</li>\r\n<li>The filter in no form must contain name or the MI-ID of the participant.</li>\r\n<li>The entries have to be emailed to <u><a href=\"mailto:snap@moodi.org\">snap@moodi.org</a></u>, the mail should contain both the jpg and the project file in the mail. The subject of the mail has to be “MI-XXX-YYY  Name of the participant”</li>\r\n<li>The theme of the Filter has to be based on Christmas and there are additional points for the following elements:\r\n<ul>\r\n<li>Surreal elements</li>\r\n<li>Mirrors & reflections</li>\r\n<li>Illusions</li>\r\n</ul></li>\r\n</li>\r\n\r\n</ul>\r\n\r\n\r\n\r\n\r\n\r\n<h4> Eliminations:</h4>\r\n<ul><li>The participants will have to submit the entries on the Mail ID as mentioned above.\r\n</li><li>The Judging criteria would include: \r\n<ul><li>Integration of theme\r\n</li><li>Visibility of the elements on different resolutions. (Hey, Notch Notch!!)\r\n</li><li>Logo integration</li></li></ul></ul>\r\n\r\n<h4>Finals:</h4>\r\n<ul><li>Top 3 filters will be selected and will be launched on Snapchat across the country.\r\n</li><li>The winning entry will be decided on the basis of its usage across the country.\r\n</li><li>The finalists can promote their filter by connecting to more and more people and asking them to use the filter.</li></ul>",
+                    "rules": "<b>Team Size: </b>Solo<br />\r\n\r\n<b>Rounds: </b>Eliminations and finals<br />\r\n<b>Deadline: </b>20th December, 11:59PM<br />\r\n<br />\r\n<h4>General Rules: </h4>\r\n<ul><li>The contestant must have a Snapchat account and must also be registered on Mood Indigo’s Website</li>\r\n<li>The resolution of the frame must be 1080x2340 (19.5:9 aspect ratio) but at the same time should also be suitable for 1080x2160 & 1080x1920 resolutions in the priority order</li>\r\n<li>The only supported format for submission of the filter is .PNG</li>\r\n<li>The filter in no form must contain name or the MI-ID of the participant.</li>\r\n<li>The entries have to be emailed to <u><a href=\"mailto:snap@moodi.org\">snap@moodi.org</a></u>, the mail should contain both the PNG and the project file in the mail. The subject of the mail has to be “MI-XXX-YYY  Name of the participant”</li>\r\n<li>The theme of the Filter has to be based on Christmas and there are additional points for the following elements:\r\n<ul>\r\n<li>Surreal elements</li>\r\n<li>Mirrors & reflections</li>\r\n<li>Illusions</li>\r\n</ul></li>\r\n</li>\r\n\r\n</ul>\r\n\r\n\r\n\r\n\r\n\r\n<h4> Eliminations:</h4>\r\n<ul><li>The participants will have to submit the entries on the Mail ID as mentioned above.\r\n</li><li>The Judging criteria would include: \r\n<ul><li>Integration of theme\r\n</li><li>Visibility of the elements on different resolutions. (Hey, Notch Notch!!)\r\n</li><li>Logo integration</li></li></ul></ul>\r\n\r\n<h4>Finals:</h4>\r\n<ul><li>Top 3 filters will be selected and will be launched on Snapchat across the country.\r\n</li><li>The winning entry will be decided on the basis of its usage across the country.\r\n</li><li>The finalists can promote their filter by connecting to more and more people and asking them to use the filter.</li></ul>",
                     "prizes": "Winner gets a prize money of INR 5000 & Snapchat spectacles;\r\nTop 3 winners get Snapchat Swag;",
                     "subtitle": "Snapchat Filter Making Contest",
                     "status": "",
@@ -942,12 +991,12 @@
             "events": [
                 {
                     "name": "Vogue",
-                    "LYP_description": "<b>Best Designer:</b><ul>\r\n<li> A cash prize of INR 20,000</li>\r\n<li>Designer's outfit collection photoshoot by leading photographer Jatin Kampani</li>\r\n<li>Would feature in a post by Anima Creative Management as a winner</li></ul>\r\n\r\n<b>Best Model:</b><ul>\r\n<li>A cash prize of INR 12,000</li>\r\n<li>A portfolio shoot by leading Indian fashion photographer Subi Samuel</li>\r\n<li>Casting opportunity at the Anima Creative Management agency</li>\r\n<li>A portfolio shoot by one of the leading talent management firm Anima Creative Management</li>\r\n<li>Would feature in a post by Anima Creative Management as a winner</li> </ul>\r\n\r\nAll the participating models get a chance to win an international modelling contract by leading talent management firm Anima Creative Management which is one of the agencies which people dream of joining.\r\nHere's a link to their website: http://animacreatives.com/",
+                    "LYP_description": "<b>Best Designer:</b><ul>\r\n<li> A cash prize of INR 20,000</li>\r\n<li>Designer's outfit collection photoshoot by leading photographer Jatin Kampani</li>\r\n<li>Would feature in a post by Anima Creative Management as a winner</li></ul>\r\n\r\n<b>Best Model:</b><ul>\r\n<li>A cash prize of INR 12,000</li>\r\n<li>A portfolio shoot by leading Indian fashion photographer Subi Samuel</li>\r\n<li>Casting opportunity at the Anima Creative Management agency</li>\r\n<li>A portfolio shoot by one of the leading talent management firm Anima Creative Management</li>\r\n<li>Would feature in a post by Anima Creative Management as a winner</li> </ul>\r\n\r\nAll the participating models get a chance to win an international modelling contract by leading talent management firm Anima Creative Management which is one of the agencies which people dream of joining. Note that models are required to appear for the interview with a fresh face without any makeup on.\r\nHere's a link to their website: http://animacreatives.com/",
                     "LYP_img": "",
                     "LYP_logo": null,
                     "description": "“I don’t do fashion, I am Fashion!” – Coco Chanel  \r\n<br>\r\nFashion is an art, a religion, a peek into a personality. For some, it’s an escape or a disguise while for others it’s just being comfortable. But ultimately, fashion is an individual statement of expression for each of us and VOGUE is the avenue to express yourself. Boasting of a decade-long legacy, the “gloss, glitz and glamour” is back with bigger and better stakes. Having witnessed eminent industry frontrunners like Ritu Kumar, Anita Dongre, Neeta Lulla, Wendell Rodricks and Dabboo Ratnani as judges and mentors, VOGUE has seen its participants scale grand heights and achievements, notable among whom are Miss India World 2008 Parvathy Omanakuttan and famous Bollywood actress Hrishita Bhatt. VOGUE is your chance to emerge as a trendsetter in front of the big guns of trade and a huge, ecstatic audience! <br>\r\n<br><br>\r\nRegister at www.moodi.org/vogue | Last date for registration: 15th October 2018 <br>\r\nNote: The Team Leader has to register on the behalf of the whole team<br>\r\nCrossover teams can be formed between students of different colleges<br><br>\r\n\r\nLast date for online submission of designs and write-ups: 20th October 2018<br>\r\nThe Final Stage round would happen on 27th December'18 at Mood Indigo, IIT Bombay<br>\r\nFor any queries contact animesh@moodi.org",
-                    "rules": "<br><b>TEAM SIZE: </b>\r\n<ul>\r\n<li>Designers:1-4 </li> <li>Models: 8-14</li> <li>Choreographer: 1</li><li> Makeup Artists: 1-4  (excluding the models)</li>\r\n</ul>\r\n<br><br>\r\n<b>THEME DESCRIPTION:</b>\r\n<br><br>\r\n<b>THEME </b> | From Reverie to Reality “Weaving fantasies” <br> \r\n<b>ADDITIONAL ELEMENT</b> | At least 2 outfits MUST feature BODITECTURE (Convertible fashion construction)\r\n<br><br>\r\n“A sole fantasy can transform endless realities.\"\r\n<br><br>\r\nFashion, is the manifestation of a fairytale, an embodiment of fantasies. It is about metamorphosis, about transforming yourself to play a part that other people behold.\r\n<br><br>\r\nFashion is all about the surprise, the enigma and the fantasy. As unrealistic as fairy tales are, there always exist realities that we can translate into our own fantasy. A potential reality that keeps us interested. A fantasy we desire.\r\n<br><br>\r\nFantasy represents transcendence. Wandering into a dimension that lies beyond the reach of time and space. It is as diverse as our imagination. One thing that transforms the princess within you or the mermaid within you into a tangible reality is precisely, Fashion.\r\n<br><br>\r\nIf we think about it, fashion is like a dream. It’s sometimes surreal and often fantastical. It’s where anxieties and aspirations play out, and the worst and best parts of our personalities become magnified. <br>Rules do not apply.\r\n<br><br>\r\nBut of course, Vogue is real and clothes are made of fabric, thread and hard work. <br>\r\nNot cosmic stardust and magic...\r\nSo come and work your magic through your designs. The possibilities are boundless.\r\n<br><br>\r\nEvery designer fantasizes and every fashionista dreams of showcasing these fantasies through their talent. Vogue provides an opportunity to showcase on the very theme of fantasy. \r\n<br><br>\r\nCome, transform your fantasies into reality. Maybe your reality into a fantasy.<br>\r\nPersonify your imagination.<br>\r\nIgnite other people.<br>\r\nHave the stage to yourself and embrace your biggest FANTASY.\r\n<br><br><br>\r\n<b>JUDGING CRITERIA:</b><ul>\r\n<li>Designers: Theme Originality, Depiction of Theme, Designing, Use of Props and Accessories, Use of fabrics</li>\r\n<li>Models: Ramp walk, Stage Presence, Poise, Overall Appearance</li>\r\n<li>Team: Choreography, Music and Narration, Co-ordination, Relevance to the theme, Overall Performance</li></ul>\r\n<br>\r\n<b>DEADLINES: </b><ul>\r\n<li>Last date for registration: 15th October 2018</li>\r\n<li>Last date for online submission of designs and write-ups: 20th October 2018</li></ul>\r\n<br>\r\n<b>STRUCTURE:</b><br>\r\nThe competition comprises of two elimination rounds and one on-stage round. The stage round would be themed, wherein the teams have to design their creations based on a common theme.<br><br>\r\n\r\n\r\n<b>1st ELIMINATION ROUND:</b> For the eliminations, designers have to mail the following to Vogue@moodi.org:\r\n<ul>\r\n<li>A soft copy of their designs for the stage round</li>\r\n<li>Write-ups explaining their designs for the stage round</li>\r\n<li>The portfolio of any three models who would participate</li>\r\n<li>The designers need to present at least 8 and a maximum of 14 dresses which will be based on this theme. Each set of design can have multiple numbers of accessories.</li></ul>\r\n\r\n\r\n<b>Note:</b> Only the designs submitted during this round will be allowed to be worn by the models in the stage round. Thus the submission should necessarily include the designs for the stage round. The first round of eliminations shall be based on the above-listed submissions.\r\n<br><br>\r\n\r\n<b>2nd ELIMINATION  ROUND:</b> The teams selected after round 1 will be required to send the portfolios along with photo IDs of all the models who will walk the ramp during the stage round. The 2nd round of eliminations will be based both on the designs and these portfolios. The team leader is advised to be ready with at least 8 models before by the time of deadline of 1st elimination round.\r\n<br><br>\r\n\r\n<b>STAGE ROUND:</b> The selected teams will perform at Mood Indigo on 27th December 2018. The judging criteria has already been mentioned above. For more information, read the general rules listed below.<br><ul>\r\n<li>Time Limit: 7 minutes per team (empty stage to empty stage)</li>\r\n<li>Number of Models: 8-14 models</li></ul>\r\n<br>\r\n\r\n<b>GENERAL RULES:</b><ul>\r\n<li>Vogue is open only for college students</li>\r\n<li>There can be multiple teams from a single college</li>\r\n<li>Crossover teams can be formed between students of different colleges, all having valid college ID cards for the current year</li>\r\n<li>Time Limit: 7 minutes per team (empty stage to empty stage)</li>\r\n<li>Teams can ask for assistance from people outside the college such as choreographers, make-up artists, but these professionals will not be considered to be a part of the team</li>\r\n<li>Vulgarity of any kind would lead to disqualification of the team from the event. Hence, if the team feels that any stunt or costume design can be considered vulgar, it is strongly advised to consult the organizers before displaying it on stage. The decision of the organizers will be final in case of any disputes arising due to this</li>\r\n<li>Teams are suggested to inform the organizers of any kind of props they are planning to use. Use of water, fire, pets or any hazardous materials is not allowed. Teams are instructed to consult with the organizers before using any such material</li>\r\n<li>Teams are instructed to send the soundtrack/music to be used during their performance to the organizers through mail at least a week prior to the event </li>\r\n<li>Vogue being one of the flagship events of Mood Indigo, will be using professional lights brought in from outside. It would be best for the teams to inform the organizers of their light requirements in advance</li>\r\n<li>No branding on clothes will be allowed. Sponsors of colleges will be given compere mentions only </li>\r\n<li>The decision of the judges will be final and binding on all</li>\r\n<li>The Portfolio shoot shall be offered  only to the best model, independent of overall winners and the same  applies for best designer. Division of cash prizes and Designer outfit shoot is at the sole discretion of the team and the registered designer shall act as a liaison between the team and Mood Indigo. The recipient of the Designer outfit collection photoshoot, in case of the best designer, will have to be pre-informed to Mood Indigo</li>\r\n<li>The recipient of portfolio shoot and Designer outfit shoot need to drop an acceptance mail within one week of being informed by the organizers</li>\r\n<li>No animals or birds should be harmed in the making the designs. Doing so will lead to immediate disqualification</li></ul>",
-                    "prizes": "1.Winning Team: INR 20,000;\r\n2.First Runner-up Team: INR 12,000;\r\n3.Second Runner-up Team: INR 8,000;",
+                    "rules": "<br><b>TEAM SIZE: </b>\r\n<ul>\r\n<li>Designers:1-4 </li> <li>Models: 8-14</li> <li>Choreographer: 1</li><li> Makeup Artists: 1-4  (excluding the models)</li>\r\n</ul>\r\n<br><br>\r\n<b>THEME DESCRIPTION:</b>\r\n<br><br>\r\n<b>THEME </b> | From Reverie to Reality “Weaving fantasies” <br> \r\n<b>ADDITIONAL ELEMENT</b> | At least 2 outfits MUST feature BODITECTURE (Convertible fashion construction)\r\n<br><br>\r\n“A sole fantasy can transform endless realities.\"\r\n<br><br>\r\nFashion, is the manifestation of a fairytale, an embodiment of fantasies. It is about metamorphosis, about transforming yourself to play a part that other people behold.\r\n<br><br>\r\nFashion is all about the surprise, the enigma and the fantasy. As unrealistic as fairy tales are, there always exist realities that we can translate into our own fantasy. A potential reality that keeps us interested. A fantasy we desire.\r\n<br><br>\r\nFantasy represents transcendence. Wandering into a dimension that lies beyond the reach of time and space. It is as diverse as our imagination. One thing that transforms the princess within you or the mermaid within you into a tangible reality is precisely, Fashion.\r\n<br><br>\r\nIf we think about it, fashion is like a dream. It’s sometimes surreal and often fantastical. It’s where anxieties and aspirations play out, and the worst and best parts of our personalities become magnified. <br>Rules do not apply.\r\n<br><br>\r\nBut of course, Vogue is real and clothes are made of fabric, thread and hard work. <br>\r\nNot cosmic stardust and magic...\r\nSo come and work your magic through your designs. The possibilities are boundless.\r\n<br><br>\r\nEvery designer fantasizes and every fashionista dreams of showcasing these fantasies through their talent. Vogue provides an opportunity to showcase on the very theme of fantasy. \r\n<br><br>\r\nCome, transform your fantasies into reality. Maybe your reality into a fantasy.<br>\r\nPersonify your imagination.<br>\r\nIgnite other people.<br>\r\nHave the stage to yourself and embrace your biggest FANTASY.\r\n<br><br><br>\r\n<b>JUDGING CRITERIA:</b><ul>\r\n<li>Designers: Theme Originality, Depiction of Theme, Designing, Use of Props and Accessories, Use of fabrics</li>\r\n<li>Models: Ramp walk, Stage Presence, Poise, Overall Appearance</li>\r\n<li>Team: Choreography, Music and Narration, Co-ordination, Relevance to the theme, Overall Performance</li></ul>\r\n<br>\r\n<b>DEADLINES: </b><ul>\r\n<li>Last date for registration: 15th October 2018</li>\r\n<li>Last date for online submission of designs and write-ups: 20th October 2018</li></ul>\r\n<br>\r\n<b>STRUCTURE:</b><br>\r\nThe competition comprises of two elimination rounds and one on-stage round. The stage round would be themed, wherein the teams have to design their creations based on a common theme.<br><br>\r\n\r\n\r\n<b>1st ELIMINATION ROUND:</b> For the eliminations, designers have to mail the following to Vogue@moodi.org:\r\n<ul>\r\n<li>A soft copy of their designs for the stage round</li>\r\n<li>Write-ups explaining their designs for the stage round</li>\r\n<li>The portfolio of any three models who would participate</li>\r\n<li>The designers need to present at least 8 and a maximum of 14 dresses which will be based on this theme. Each set of design can have multiple numbers of accessories.</li></ul>\r\n\r\n\r\n<b>Note:</b> Only the designs submitted during this round will be allowed to be worn by the models in the stage round. Thus the submission should necessarily include the designs for the stage round. The first round of eliminations shall be based on the above-listed submissions.\r\n<br><br>\r\n\r\n<b>2nd ELIMINATION  ROUND:</b> The teams selected after round 1 will be required to send the portfolios along with photo IDs of all the models who will walk the ramp during the stage round. The 2nd round of eliminations will be based both on the designs and these portfolios. The team leader is advised to be ready with at least 8 models before by the time of deadline of 1st elimination round.\r\n<br><br>\r\n\r\n<b>STAGE ROUND:</b> The selected teams will perform at Mood Indigo on 27th December 2018. The judging criteria has already been mentioned above. For more information, read the general rules listed below.<br><ul>\r\n<li>Time Limit: 6 minutes per team (empty stage to empty stage)</li>\r\n<li>Number of Models: 8-14 models</li></ul>\r\n<br>\r\n\r\n<b>KHADI ROUND:</b> There will be a Round 2 promoted by Khadi India in which models have to showcase their outfits made from authentic khadi. All teams that are selected for Round 1 will perform in Round 2. <br><ul>\r\n<li>Time Limit: Overall 10 minutes (including all teams)</li>\r\n<li>Number of Models: 2 models per team</li></ul>\r\n<br>\r\n\r\n\r\n<b>GENERAL RULES:</b><ul>\r\n<li>Vogue is open only for college students</li>\r\n<li>There can be multiple teams from a single college</li>\r\n<li>Crossover teams can be formed between students of different colleges, all having valid college ID cards for the current year</li>\r\n<li>Time Limit: 7 minutes per team (empty stage to empty stage)</li>\r\n<li>Teams can ask for assistance from people outside the college such as choreographers, make-up artists, but these professionals will not be considered to be a part of the team</li>\r\n<li>Vulgarity of any kind would lead to disqualification of the team from the event. Hence, if the team feels that any stunt or costume design can be considered vulgar, it is strongly advised to consult the organizers before displaying it on stage. The decision of the organizers will be final in case of any disputes arising due to this</li>\r\n<li>Teams are suggested to inform the organizers of any kind of props they are planning to use. Use of water, fire, pets or any hazardous materials is not allowed. Teams are instructed to consult with the organizers before using any such material</li>\r\n<li>Teams are instructed to send the soundtrack/music to be used during their performance to the organizers through mail at least a week prior to the event </li>\r\n<li>Vogue being one of the flagship events of Mood Indigo, will be using professional lights brought in from outside. It would be best for the teams to inform the organizers of their light requirements in advance</li>\r\n<li>No branding on clothes will be allowed. Sponsors of colleges will be given compere mentions only </li>\r\n<li>The decision of the judges will be final and binding on all</li>\r\n<li>The Portfolio shoot shall be offered  only to the best model, independent of overall winners and the same  applies for best designer. Division of cash prizes and Designer outfit shoot is at the sole discretion of the team and the registered designer shall act as a liaison between the team and Mood Indigo. The recipient of the Designer outfit collection photoshoot, in case of the best designer, will have to be pre-informed to Mood Indigo</li>\r\n<li>The recipient of portfolio shoot and Designer outfit shoot need to drop an acceptance mail within one week of being informed by the organizers</li>\r\n<li>No animals or birds should be harmed in the making the designs. Doing so will lead to immediate disqualification</li></ul>",
+                    "prizes": "1.Winning Team: INR 20,000;\r\n2.First Runner-up Team: INR 14,000;\r\n3.Second Runner-up Team: INR 9,000;",
                     "subtitle": "Fashion Designing Competition",
                     "status": "",
                     "id": 21,
@@ -1028,13 +1077,13 @@
                     "LYP_img": "",
                     "LYP_logo": null,
                     "description": "Going beyond the horizons to search for the untapped, stating the obvious in the most ostentatious manner, speaking all but truth, sorry news, nothing but the news!        This year, test your skills as a journalist, give people the concise information of what they need to hear and become the part of this new culture, only at MI! The competition will be held in three rounds testing skills in almost all spheres of journalism. Teams who qualify for the first round will only be allowed to participate in further rounds. The final round of Panel Discussion will be conducted during MI",
-                    "rules": "To be declared!",
+                    "rules": "<ul><li>Each team may have 2-3 members</li>\r\n<li>There will be 2 rounds: article writing (elimination) and panel discussion (final)\r\n</li><li>Decision of the judges will be final and binding</li>\r\n</ul>\r\n<h4>Article Writing</h4>\r\n<ul><li>4 articles pertaining to a certain topic will be provided to all teams on the spot.</li>\r\n<li>The team is expected to present a concise article on that topic.</li>\r\n<li>Word Limit: 1500 words </li>\r\n<li>Teams will be given a maximum of 3 hours to complete their article.</li>\r\n<li>Articles will be judged on relevance to the topic, effectiveness, use of examples, adherence to word and time limits, etc.</li>\r\n<li>Plagiarism will invite penalty</li></ul>\r\n<h4>Panel Discussion:</h4>\r\n<ul><li>There will be 3 rounds of panel discussion, topics for which will be given 5 minutes in advance</li>\r\n<li>Each member must participate in at least one round</li>\r\n<li>Each round shall have a panel consisting of one member from each team and a moderator </li>\r\n<li>There will be 2 sections to each round; in the first, each panelist will be given 3 minutes to present their views, following which they may raise questions to the other panelists in the second section </li>\r\n<li>Participants will be judged on validity of questions, soundness of arguments, appropriate use of examples, etc.</li>\r\n<li>Any kind of unruly behaviour will lead to penalty</li></ul>",
                     "prizes": "1st Position 7000 INR;\r\n2nd Position 5000 INR;\r\n3rd Position 3000 INR;",
                     "subtitle": "Print Journalism Competition",
                     "status": "",
                     "id": 25,
-                    "minparticipants": 0,
-                    "maxparticipants": 0,
+                    "minparticipants": 2,
+                    "maxparticipants": 3,
                     "LYP_partner": ""
                 },
                 {
@@ -1065,7 +1114,7 @@
                     "LYP_img": "",
                     "LYP_logo": null,
                     "description": "Have you always longed for a cheering crowd while performing to your heart's content? If yes this is for you! Showcase your talent in front of an enthusiastic crowd and win exciting prizes. Never before has such a heavenly competition been framed. Let the crowd be your judge!",
-                    "rules": "<b>Team Size: </b>Solo+accompanist(if needed)<br />\r\n\r\n<b>Judging Criteria: </b>Crowd Engagement, Stage Presence and Overall Performance.<br /><br />\r\n\r\n<b>Participants are free to put up any performance </b><br />\r\n\r\n<b>Time Limit:</b>Up to 10 mins (including setup time)<br/>\r\n\r\n\r\n<h4>Eliminations </h4>\r\n<ul><li>Any of the performing arts are allowed in the competititon</li>\r\n<li>Any props/instruments required in the performance are to be brought by the participants themselves. Only a basic PA system will be provided by Mood Indigo</li>\r\n<li>Any backing track, if required, should be brought by the participant in their own pen drives or played using an AUX cable.</li>\r\n<li>The decision of the venue coordinators shall be final and binding. They can stop the performance at any point of time.</li>\r\n<li>The participants must set up their phones in stands provided by Mood Indigo and record their performance. They then must upload their videos with appropriate hashtags to be judged.</li>\r\n</ul>\r\n\r\n\r\n<h4>Finals </h4>\r\n<ul><li>There will be a finals round everday at the end of the day</li>\r\n<li>Winner of one day’s finals cannot participate in the competition again in the coming days</li>\r\n</ul>",
+                    "rules": "<b>Team Size: </b>Solo or Duet<br />\r\n\r\n<b>Judging Criteria: </b>Crowd Engagement, Stage Presence and Overall Performance.<br /><br />\r\n\r\n<b>Participants are free to put up any performance </b><br />\r\n\r\n<b>Time Limit:</b>Up to 10 mins (including setup time)<br/>\r\n\r\n\r\n<h4>Eliminations </h4>\r\n<ul><li>Any of the performing arts are allowed in the competititon</li>\r\n<li>Any props/instruments required in the performance are to be brought by the participants themselves. Only a basic PA system will be provided by Mood Indigo</li>\r\n<li>Any backing track, if required, should be brought by the participant in their own pen drives or played using an AUX cable.</li>\r\n<li>The decision of the venue coordinators shall be final and binding. They can stop the performance at any point of time.</li>\r\n<li>The participants must set up their phones in stands provided by Mood Indigo and record their performance. They then must upload their videos with appropriate hashtags to be judged.</li>\r\n</ul>\r\n\r\n\r\n<h4>Finals </h4>\r\n<ul><li>There will be a finals round everday at the end of the day</li>\r\n<li>Winner of one day’s finals cannot participate in the competition again in the coming days</li>\r\n</ul>",
                     "prizes": "To be announced",
                     "subtitle": "Talent Hunt Competition",
                     "status": "",
@@ -1078,193 +1127,225 @@
             "image": "34"
         }
     ],
-    "Arts and Ideas": [],
-    "Workshops": [],
-    "Informals": [
+    "Proshows": [
         {
-            "name": "Sherlocked",
-            "description": "Only the wittiest shall survive this",
+            "name": "International Music Festival",
+            "description": "One good thing about music - when it hits you, you feel no pain. International Music Festival presents a synergic blend of world-class performers showcasing diverse cultures and stimulating our senses with their exquisite musical performances. Groove to the amazing music from artists across the world, belonging to different cultures across the world. This unique medley of genres will surely provide a well needed break from the monotonous life and let you delve into the intoxicating sea of festive music",
             "events": [
                 {
-                    "name": "Room Escape",
-                    "description": "Addicted to those gaming apps where you have to solve the smallest and cleverest clues to escape the room? Well get ready to be trapped in our clues this time around, literally! You’ll be shut in a room with strangers, and the only way to come out will be to cooperate with each other. Work as a team to break the codes and solve the clues in the room and find the key to open the door. Be warned though! You could be stuck in there for while!",
-                    "image": "",
-                    "link": ""
+                    "name": "Aditi Ramesh",
+                    "description": "Aditi Ramesh is a jazz/blues/Carnatic vocalist, songwriter and producer based out of Mumbai. She is known for her strong hold on tonal modulations and her ability to mix classical carnatic music with jazz. Formerly a corporate lawyer since quitting in the end of 2016, her musicality has experienced  exponential growth in her soundscape, with her performance incorporating keys, drums and bass as well as the use of her eloquent voice as an instrument, used to create symphonic harmonies and intricate melodies.",
+                    "image": "/images/depts/Horizons/Aditi_Ramesh.jpg"
                 },
                 {
-                    "name": "Treasure Hunt",
-                    "description": "Well, who doesn't love an old-fashioned treasure hunt full of wordplay and misleading clues. Well just that this isn't an old-fashioned treasure hunt. Integrated with Snapchat to give you a much more immersive experience and make you believe you're a real-life pirate. This one you should not miss!",
-                    "image": "",
-                    "link": ""
+                    "name": "The Yellow Diary",
+                    "description": "A 5 member Music Collective hail from varied backgrounds, but have one thing in common -- their passion for music. With a blend of electronic music and rock, they are touted to be a composition powerhouse. They have released two EP’s this year titled ‘Marz’ & ‘Izafa’ consisting three songs each . The soundscape, of these songs have a large-room, anthemic and has a sing-along quality that will have you crooning to the lyrics as soon you hear them.",
+                    "image": "/images/depts/Horizons/The_Yellow_Diary.jpg"
                 },
                 {
-                    "name": "Scramble",
-                    "description": "Jigsaw puzzles were really when we were kids right? Well, this jigsaw puzzle has 3-D pieces and will leave you scratching your heads. Only the wittiest shall survive.",
-                    "image": "",
-                    "link": ""
+                    "name": "Between the Jars",
+                    "description": "Between The Jars… that is where this young and promising band from The Netherlands compose its music. This band, established in 2015, create an unique mixture of genres, best to be defined as psychedelic 70s rock. With their groovy feeling, they bring the crowd in ecstatic vibes. Their performance at Mood Indigo will be their first show outside Europe and also the first of their India tour, which consists of gigs in Bhayandar, Pune and another one in Mumbai. Their music is influenced by famous bands like Deep Purple, Led Zeppelin, The Doors and many more.",
+                    "image": "/images/depts/Horizons/Between_the_Jars.jpg"
+                },
+                {
+                    "name": "Keegan Oxland",
+                    "description": "Hailing from South Africa, Oxland has found a way to produce and play live sampled electronic drum rhythms. Incorporating big trap drops to hip hop while juggling his sticks making it a performance not to be missed! Find the hype on his social media",
+                    "image": "/images/depts/Horizons/Keegan_Oxland.jpg"
+                },
+                {
+                    "name": "Anthracite",
+                    "description": "Anthracite, a six-member Rap-Rock band hails from Mumbai. Since their origin in 2012, they’ve been in the local gig circuit of India. In 2016, they went on to become India’s first Linkin Park tribute act, with a setlist of over 40 songs. After three India tours and countless shows across the country, they were officially called to play a launch party gig for Linkin Park's latest album One More Light, at a special preview show in Mumbai which was recognized by Sony Music and Linkin Park.",
+                    "image": "/images/depts/Horizons/Anthracite.jpg"
+                },
+                {
+                    "name": "Jim Porto",
+                    "description": "Brazilian singer, songwriter and pianist Jim Porto had his first contact with music at a tender age of six - fascinated by the nimble hands of a friend running up and down the keyboard. He studied piano in his hometown, Rio Grande (RS), mixing classical music with popular styles, such as Samba and Bossa Nova. \r\nHe is accompanied by the Indian musicians - Avishek Dey on the Bass, Andrew Kanga on the drums and Ryan Sadri on the Saxophone",
+                    "image": "/images/depts/Horizons/Jim_Porto.jpg"
+                },
+                {
+                    "name": "Indian Air",
+                    "description": "Since his first awareness of Indian music and the sitar more than 20 years ago, the Austrian musician Klaus Falschlunger has become a master of the instrument and an active representative of the Indian-Music scene in Europe.\r\nThe whole emotional spectrum of the musician´s inner world comes alive in \"INDIAN AIR\".\r\nHe is accompanied by Clemens Rofner on double bass, and by the percussionist Tobias Steinberger on framedrums/kanjira.\r\nGrowing up with jazz and rock music, he discovered in his extensive travels to Asia, the Middle East and Europe, more and more the diversity of music.His creativity and versatility brought him together with many musicians and artists from India, Korea, USA and Europe.",
+                    "image": "/images/depts/Horizons/Indian_Air.jpg"
+                },
+                {
+                    "name": "Tarq Bowen",
+                    "description": "Tarq's unique blend of Blues, Soul and hard-hitting slide guitar interfaced with powerful yet gentle dynamic ability shows an understanding and skill far beyond his years. This has attracted the attention of Nick Mason (Pink Floyd) who recorded Tarq's debut single, remaining a big avid supporter of his music.\r\nLast year Tarq had the rare opportunity to be personally invited by Tony Visconti, to play alongside Nitin Sawhney and Stewart Copeland of The Police, in a 6 piece documentary which led to Tarq flying to L.A. to work with veteran producer Larry Klein.\r\n\r\nWhilst Tarq draws inspiration from the likes of Debussy, Nusrat Fateh Ali Khan and Chet Baker, his sound has been compared more accurately to artists such as Jeff Buckley and Howlin Wolf. \r\nPlaying with his live band Tarq's sound invites the audience on a magnetic journey infused with energy and soul, leaving a unique memory that will evolve every time you see him.\r\n\r\nTarq will feature his international Trio at the Mood Indigo festival, Tarq Bowen (UK) on Vocals & Guitars, Phil Wildenhues (NL) on Drums and Marc-Inti (BOL) on E-Bass. As a special guest Amit Mishra (IND) will join them on Tabla.",
+                    "image": "/images/depts/Horizons/Tarq_Bowen.jpg"
                 }
-            ]
+            ],
+            "image": "Last year"
         },
         {
-            "name": "Lumos",
-            "description": "Light up the Night!",
+            "name": "Theatrefest",
+            "description": "All the world's a stage. TheatreFest brings people from all aspects of Theatre under one roof and celebrates the sheer brilliance of theatrical performances. It offers an enthusiastic environment for interaction between the performers and the masses. Experience some of the most intelligent and emotionally stimulating acts you are ever likely to see. Collective sighs, pin-drop silences and everything in between will be your constant companions. Experience the plays and theatrical performances which will stir up your soul and leave you mesmerized with a smile on your face or a tear upon your cheek.",
             "events": [
                 {
-                    "name": "Silent Disco",
-                    "description": "The most infamous event in MI. The name says it all. A party where you could enjoy your own music and dance your heart out with friends. This is the stuff dreams are made off.",
-                    "image": "",
-                    "link": ""
+                    "name": "Dekh Behen",
+                    "description": "After 42 shows across four cities in just nine months, “Dekh Behen” comes to TheatreFest at Mood Indigo, IIT Bombay. Dekh Behen is a play written and directed by women with an all-female cast and crew. Set in the backdrop of an elaborate Punjabi wedding, this hilarious play is about women, by women, for anyone who wants to understand what it’s like to be a woman. This is a bittersweet comedy about sisters, wives, girlfriends, daughters, mothers, and above all – women. The play has left the audience laughing breathlessly with the hilarious exchanges between the characters. Plot Summary - A big fat Delhi wedding is underway. Merely hours before they need to put up their rehearsed item number, five bridesmaids catch up, gossip and bitch about their identical outfits. But that's not the only thing they have in common. They all dislike the bride. Akvarious Productions presents a bittersweet comedy about daughters, girlfriends, mothers and getting through one dramatic Indian wedding.",
+                    "image": "/images/depts/Horizons/Dekh_Behen.jpg"
                 },
                 {
-                    "name": "Casino Night",
-                    "description": "\"Raring to test out that poker face you've been practicing for so long? Well, look no more, coz you've come to the perfect place. The day might come to an end but we’re just getting started! Whether it's the spin of the roulette wheel that catches your eye, or the shouts of 'hit* and 'stay' from the blackjack table that draws you in, the excitement in the air just won't let you leave. \r\nSpin the wheel and play to your luck. May the odds be ever in your favor!\"",
-                    "image": "",
-                    "link": ""
+                    "name": "Stand Up",
+                    "description": "Akvarious Productions presents 'Stand Up - a serious play about comedy', starring BhaDiPa stars Nipun Dharmadhikari and Sarang Sathaye, with Abir Abrar (from Karwaan), Adhaar Khurana (from Boygiri), Kashin Shetty (winner of META Best Supporting Actor for The Interview), Omkar Kulkarni (from Aladdin), famous rapper SlowCheeta, and Zayn Khan (from Dekh Behen). Hold your seats for the uncontrollable laughter as this play unfolds into real-life yet crazy situations.",
+                    "image": "/images/depts/Horizons/Stand_Up.jpg"
+                },
+                {
+                    "name": "Anji",
+                    "description": "Dinesh Thakur’s Ank presents Vijay Tendulkar’s  Matchless Satirical  Comedy, ANJI. Undaunted by the fact that she is getting on in years but is yet to find the right match,  Anjali  Sharma (Anji) sets out to search for her dream man herself. The story of  Anji who holds forth her positive attitude inspite of trying situations and a life going nowhere, but is yet stumped in the face of a pitiless society. An  explosive climax persuades us to re-examine our value system, especially concerning women.",
+                    "image": "/images/depts/Horizons/Anji.jpg"
+                },
+                {
+                    "name": "Blueticks",
+                    "description": "It is simply about teenage love story these days, The internet has simplified 'finding love' but complicated 'staying in it' Relationships have transformed from cozy couples to curious love triangles, boy, girl and the notorious smartphone.\r\nBlue Ticks explores this bizarre chemistry between friendship and technology and takes you back to the good old days where communications were intimate and real.\r\nConsidered one of the most popular plays among youngsters, Roll on the floor laughing with the actors in this rib-tickling performance that is sure to leave you feeling nostalgic.",
+                    "image": "/images/depts/Horizons/Blueticks.jpg"
                 }
-            ]
+            ],
+            "image": "Last year"
         },
         {
-            "name": "Nostalgia Zone",
-            "description": "Back to your childhood days!",
+            "name": "HumorFest",
+            "description": "With the fearful strain that is on me night and day, if I did not laugh I should die. With performances from stand up comedians, one act plays, interactive workshops, clean roasts and what not, Mood Indigo's HumorFest promises to provide top class comedy acts that guarantees to tickle your funny bone! Enjoy quality performances from a spectrum of artists across varying genres in a stress busting environment. Get ready to be entertained by infectious laughter as the comedy artists work their magic of witty and sarcastic puns and one-liners!",
             "events": [
                 {
-                    "name": "Gully Cricket",
-                    "description": "Who doesn't love old styled Gully cricket with deewaar ka chauka and boundary ke bahar out",
-                    "image": "",
-                    "link": ""
+                    "name": "Abhishek Upmanyu",
+                    "description": "Standup comedian and internet sensation is known as a writer for On Air with AIB. He is also a co-founder of the popular Twitter handle GareebGuy. A Delhi boy who hardly qualifies to be one (he writes haikus and doesn’t drive a Scorpio), Abhishek Upmanyu is one of the finest young comedians in the country, representing fresh new talent on the scene. Known for killing it on stage, he hurls one cracker of a joke after another, thanks to his Shatabdi-fast delivery, unparalleled observational powers and skilled hands (that help him to write). A hardcore cat lover added to his charmingly shy demeanour is bait to his vast female following. The dark humour and sarcastic comments he unleashes to opine on the current state of affairs is both interesting and amusing, to say the least. Thanks to his quick tongue (he thinks faster than he can speak), many have suggested that he should cut a rap record, but his shy demeanour keeps him from it. The ‘say-it-like-it-is’ comedian started performing in 2013 and recently came out with a brand new show, Thoda Saaf Bol. He took the internet by storm with two simple videos on his YouTube channel. “Breakups, respecting elders and discrimination” and “Indian insults and comebacks”. Abhishek now lives in Mumbai, hoping to scale new heights of success within the comedy and live performance arena.",
+                    "image": "/images/depts/Horizons/Abhishek.jpg"
                 },
                 {
-                    "name": "Pillow Fight",
-                    "description": "A chance to walk into every teenage boy’s fantasy: a pillow fight in a girl’s slumber party. The only difference? Instead of giggling and snickering, there will be a bloodbath... of feathers. It’s because there exists no better feeling than smacking your friend right in the face with a pillow.",
-                    "image": "",
-                    "link": ""
+                    "name": "Karan Chauhan",
+                    "description": "Get ready for a combination of comedy, gags and illusion as India's first and foremost comedian illusionist Karan Chauhan tickles you into giggles. Combining the magic of comedy and the joy of magic, Karan has enchanted audiences across the globe. A familiar face from shows like the Great Indian Laughter Challenge and MTV reality show - Elevator Pitch, we will never get enough of him! Recipient of awards like Magician of the Year 2015 and Medal of Merlin from International Magicians Society, USA, this act is sure to leave you in splits!\r\nJoin us from 27th - 30th December!",
+                    "image": "/images/depts/Horizons/Karan.jpg"
                 },
                 {
-                    "name": "Life Size Pacman",
-                    "description": "Pacman. Everyone remembers that cute little yellow ball of love. What if you were him running through a maze from deadly bacterias trying to eat you up. That is exactly what this is about!",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Life Size Connect 4",
-                    "description": "Remember when we were kids we used to play Connect 4. Now we have grown up, so is the Connect 4.",
-                    "image": "",
-                    "link": ""
+                    "name": "The Shrink & The Nut Session by Atul Khatri & Dr Anjali Chhabria",
+                    "description": "'So many words to say and no way to say them'\r\nMental strength synced with internal stability counts a lot.\r\nThe shrink, Dr Anjali Chhabria is a famous Psychiatrist running her own clinic in Juhu. She also conducts workshops and seminars that help the masses deal with their traumas in life and move on. There isn’t a more right person to help these developing minds cope up with their troubles while also gaining awareness about a healthy mental health.\r\nThe nut, Atul Khatri has been a popular face on the television by appearing in advertisements for big brands like- Amazon, Muthoot Finance, Phillips and many more. There couldn’t be a man more apt than him to bring self-awareness in a more relatable and fun way.\r\nThe Shrink & the Nut will ensure you can live your life to the fullest, through their unique roadmap. Get a chance to come out of your blues!",
+                    "image": "/images/depts/Horizons/Shrink&Nut.jpg"
                 }
-            ]
+            ],
+            "image": "nahi hai"
         },
         {
-            "name": "Xtreme Sports",
-            "description": "Feel the adrenaline rush",
-            "events": []
-        },
-        {
-            "name": "Wacky Wonderland",
-            "description": "You won't find this anywhere else",
+            "name": "Eloquence",
+            "description": "With every experience, you alone are painting your own canvas, thought by thought, choice by choice, Through LitFest, Mood Indigo attempts to inspire college students by giving them an opportunity to interact with eminent personalities and know their views on a multitude of topics. Be it panel discussions, keynote speakers, poetry sessions or interviews - LitFest has it all. Boasting an elite lineup in the past, with names like Aamir Khan, Shashi Tharoor, Harsha Bhogle, Devendra Fadnavis, Arnab Goswami, this year's LitFest promises to raise the bar and come up with more innovative sessions and great orators!",
             "events": [
                 {
-                    "name": "Life Size Jenga",
-                    "description": "Pulling it out wrong has always had its concicevences. Well here to pulling out each block will have a cost to bear.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "3-A-Side Table Tennis",
-                    "description": "A wise man once said \" The more the merrier\". We took his advice. With 3 on 3 match its much more fun than the usual Table Tennis.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "MI Salon",
-                    "description": "In older times people used to practice shaving on balloons. We welcome you to MI Salon. You may win or cut your customer's face off. Either way, you will show us you barber-ian side .",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Cards against Humanity",
-                    "description": "A classic card game for all the peeps out there",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "What do you meme?",
-                    "description": "All the meme lords out there are invited. We have the templates ready. Play of your hand and create the most hilarious meme of them all.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Air Football",
-                    "description": "Football just got more interesting. You don't need your legs for this though. Do eat your mints before playing. Blow the hardest to win.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "4-Way Tug of War",
-                    "description": "Tug of War has been a sho of strength and unity. With double the number of people playing the stakes are also higher this time.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Whack-a-Mole",
-                    "description": "Classic Arcade Game. Scaled up to make more fun. Steal goodies from the Hammer-Man while he tries to smash your skull.",
-                    "image": "",
-                    "link": ""
+                    "name": "Kiran Bedi",
+                    "description": "The literature festival of Mood Indigo hosts the charismatic first woman ex-IPS and highest ranking officer, a social activist and a politician-Kiran Bedi. A former national tennis player and currently the Lieutenant Governor of Puducherry, Kiran Bedi is a force by herself!\r\nShe has also been a TV host of Aap Ki Kachehri where she helped to settle real life disputes. And with Navjyoti India Foundation she launched a campaign against drug abuse.\r\nDuring her tenure she was awarded with numerous trophies and honours, some of which worth mentioning are Suryadatta National Award, United Nations Medal, Mother Teresa Award for Social Justice, Woman of the Year Award, Ramon Magsaysay Award and President’s Gallantry Award\r\nAs an inspiration and the best role model to millions of people in India, especially the women, get ready for a tête-à-tête with Kiran ‘Crane’ Bedi on __.",
+                    "image": "/images/depts/Horizons/KB.jpg"
                 }
-            ]
+            ],
+            "image": "Last year"
         },
         {
-            "name": "Icebreakers",
-            "description": "Need help breaking the ice? We got our hammers ready",
+            "name": "Afternites",
+            "description": "Entertainment, Entertainment, Entertainment! Bringing the world's most amazing and unique performances promising to leave an everlasting impact, the Afternites at Mood Indigo will ensure the perfect end to the amazing experience that Mood Indigo is. Witness never seen before events which will bring you to the edge of your seats and blow your mind away! You surely don't want to miss the Afternites at Mood Indigo!",
             "events": [
                 {
-                    "name": "Speed Dating",
-                    "description": "The best part of the festival is meeting new people. If you know what I mean. Come try your luck !",
-                    "image": "",
-                    "link": ""
+                    "name": "Kupava Light Drawing",
+                    "description": "To be filled",
+                    "image": "/images/depts/Horizons/Kupava.jpg"
                 },
                 {
-                    "name": "People Bingo",
-                    "description": "Our own version of Bingo. People are your tickboxes. Find people with the given attributes and get all tickboxes signed. Discover friends in the process. Does it get any better?",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Speak Out",
-                    "description": "Might have seen this before. Doesn't look pretty with your mouth wide open but surely is fun.",
-                    "image": "",
-                    "link": ""
+                    "name": "Kua Bo Theater",
+                    "description": "Kua Bo started from the campus and proceeded to outdoor environments with the adaptability to different outdoor performing areas.  As a contemporary dance theatre of young generation, Kua Bo cares for Taiwan society and culture via our art and dance.",
+                    "image": "/images/depts/Horizons/KuaBo.jpg"
                 }
-            ]
+            ],
+            "image": "Last year"
         },
         {
-            "name": "Crossovers",
-            "description": "Get the competitive spirit flowing!",
+            "name": "Exhibitions",
+            "description": "Exhibitions provide the showcase of unique artforms to the visitors. To all the art lovers out there, this is a real treat. This year, we have a storytelling that walks you through your childhood through a display of pictures, a museum on wheels that takes you through the evolution of currency system in India and what not.",
+            "events": [],
+            "image": "Last year"
+        },
+        {
+            "name": "Night Arena and Night Flee",
+            "description": "After the power packed concerts, this is the event that lets you chill with pretty activities around you and bonfire and food at your service. Join some people while they play soothing music and enjoy the flee market and amazing activities that are in store for you.",
+            "events": [],
+            "image": "Last year"
+        },
+        {
+            "name": "MI Tour",
+            "description": "We target to give all the first timers in MI the experience that they will never forget. We plan to tour them through different events, games competitions and end it with the grandest of them all the Pronites events. Register as a part of MI Tour to get the VIP treatment and experience the best of MI in the 4 days",
+            "events": [],
+            "image": "Last year"
+        },
+        {
+            "name": "Talent Fiesta",
+            "description": "We take your fun seriously! Talent fiesta lets you choose your adventure from a vast range of sensational performances delivered by world class artists. Enjoy sensational shows from a wide spectrum of Illusionists, Dance crews, Magicians, Fringe artists and a lot more. Get ready for a breathtaking experience because our boys really are drippin' in finesse!",
             "events": [
                 {
-                    "name": "Hogathon",
-                    "description": "For too long many of us have been ridiculed and shamed for our humongous diet. This is a chance to put it to good use. Participate in our hogathon and win many exciting prizes while getting to eat mouth watering food. The more you eat, the more your chances to triumph. Win-win!",
-                    "image": "",
-                    "link": ""
+                    "name": "TSD Taiwanese Culture",
+                    "description": "With an ancient form of culture which offers people peace and prosperity, TSD Culture and Arts Creative team has successfully attracted a huge crowd for young generation's attention in Asia and is here to show the beauty of Taiwanese culture at Mood Indigo 2018. Jia-Jiang (Chinese words for General in ancient time) culture presents the wisdom of Taiwan's tradition of worship, which offers people peace and prosperity, prayers for fortune and disaster relief. TSD street dance group is formed on the basis of supporting this tradition and by adding the latest \"hip hop\" trend\" in the dance through which they have successfully attracted a huge crowd of young generations' attention in Asia.",
+                    "image": "/images/depts/Horizons/TSD.jpg"
                 },
                 {
-                    "name": "Beer Pong+Golf",
-                    "description": "Sadly we had to kick out the beer from the event but not the fun. A mixture of Golf with Beer Pong, this one you should not miss out on.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "The Spotlight",
-                    "description": "Do you have a 10-second talent you wanna show off to the world. This is your chance. If you can spin footballs on your fingertips or do backflips back to back, come join us for this show-off.",
-                    "image": "",
-                    "link": ""
+                    "name": "Julia Perron Laflamme",
+                    "description": "Welcome back in the 50’s! Julia and her big wheel Rocky are presenting an acrobatic and a funny show. On rockabilly music, it’s a unique circus show with flips, dance, comedy but also fire! You’ll be charmed !",
+                    "image": "/images/depts/Horizons/JPL.jpg"
                 }
-            ]
+            ],
+            "image": "X"
         },
         {
-            "name": "Streets and Waiting lines",
-            "description": "We won't ever leave you bored",
-            "events": []
+            "name": "Workshops",
+            "description": "-",
+            "events": [
+                {
+                    "name": "Magic Workshop",
+                    "description": "ALL SECRETS WILL BE REVEALED at the Magic workshop by Magician Shardul. Learn basic magic tricks and enjoy magical activities. At the end, leave in awe of the closing act.",
+                    "image": ""
+                },
+                {
+                    "name": "Culinery Workshop",
+                    "description": "Palate culinary studio brings to you a scrumptious cupcake frosting workshop. Decorate your own takeaway cupcakes with buttercream icing, sprinkles and yummy edible toppings.",
+                    "image": ""
+                },
+                {
+                    "name": "Zumba Workshop",
+                    "description": "Enjoy an exclusive zumba session with Sculptasse fitness studio. Dance to the beats of Spanish and Indian music and become fit.",
+                    "image": ""
+                },
+                {
+                    "name": "Pottery Workshop",
+                    "description": "This workshop by Rashi Jain will be an introduction to modeling human faces using terracotta clay and the basics of various hand building techniques. The class will begin with an introduction to the medium. Emphasis will be on exploring one’s own creative process and developing it in three dimensions.",
+                    "image": ""
+                },
+                {
+                    "name": "Warli and Madhubani Painting Workshop",
+                    "description": "Admire the beauty of Indian tribal folk art and create your own art marvels at the madhubani and warli fusion art workshop by Vandana.",
+                    "image": ""
+                },
+                {
+                    "name": "Makeup Workshop",
+                    "description": "BE YOUR OWN MAKEUP ARTIST with Rashi Singhat! Learn basic makeup tricks and get all your questions answered, with a live demonstration. Get yourself transformed this new years eve                                   P.S.  get your own makeup and learn to recreate the look.",
+                    "image": ""
+                },
+                {
+                    "name": "Slacklining workshop",
+                    "description": "Never stepped on a slackline? This is the workshop for you! We'll cover the fundamentals and an introduction to slacklining practice! Come ready to practice and enjoy the adventure of standing (on both feet) and walking on a slackline.",
+                    "image": ""
+                },
+                {
+                    "name": "Longboarding Workshop",
+                    "description": "Learn to ride a skateboard in less than 15 minutes, with some of the best skateboarders in Mumbai!!",
+                    "image": ""
+                },
+                {
+                    "name": "Storytelling Workshop",
+                    "description": "Emotional Intelligence through Storytelling: includes well-researched and easy to use psychology based activities to build mindfulness in everyday life. Using stories that form a part of our culture, visual art activities, theatre and role play, you will learn to master your latent fears, identify your motivators, and establish your own circle of inspiration.",
+                    "image": ""
+                },
+                {
+                    "name": "Parkouring Workshop",
+                    "description": "Footprint academy brings to you the complete fitness guide to help you improve agility, stamina through a couple of Cross Fit workouts and parkouring activities. It is about speed running with skillful movements using obstacles.",
+                    "image": ""
+                }
+            ],
+            "image": "-"
         }
-    ]
+    ],
+    "Workshops": []
 }
 
