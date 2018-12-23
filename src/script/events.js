@@ -74,4 +74,31 @@ export default function() {
         $(close).fadeOut();
         $(open).fadeIn();
     });
+
+    $('.form').on('click', function(){
+        var event = $(this).attr('data');
+        var event_name = '.form-' + event;
+        var event_span = "#"+event;
+        console.log($('.' + event).get(0));
+        var name = $(event_name).get(0).value;
+        var mobile_number = $(event_name).get(1).value;
+        console.log(event);
+        console.log(name);
+        console.log(mobile_number);
+        $.post("https://api2.moodi.org/wsreg/",
+            {
+              name: name,
+              mobile_number: mobile_number,
+              event_name:event
+            },
+            function(data, status){
+                if(status=="success"){
+                    $(event_span).innerHTML = data["details"];
+                }
+                else{
+                    $(event_span).innerHTML = "Mobile Number/Name is incorrect";
+                }
+            });
+    });
+
 }

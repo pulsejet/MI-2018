@@ -182,6 +182,23 @@
                     <img class="mi-evt-img" src={{event.image}}>
                   {% endif %}
                   <p>{{event.description}}</p>
+                  {% if genre.name=="Workshops" %}
+                    <form>
+                      Name:<br>
+                      <input type="text" name="name" style="border-radius: 25px;
+                        margin-bottom: 5px;
+                      " class="form-{{event.name}}">
+                      <br>
+                      Phone Number(10-digits):<br>
+                      <input id="form" data={{event.name}} type="text" name="mobile_number" style="
+                      border-radius: 25px;
+                      margin-bottom: 5px;
+                      " class="form-
+                      {{event.name}}"><br>
+                      <div class="button-right form" style="width: 25%;" data={{event.name}}>Submit</div>
+                    </form>
+                    <span id={{event.name}}></span>
+                  {% endif %}
                   {% if event.link %}
                     Check Them Out - <a class="mi-evt-link" href={{event.link}}>{{event.link}}</a>
                   {% endif %}
