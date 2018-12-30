@@ -1,265 +1,4 @@
 {
-    "Informals": [
-        {
-            "name": "Sherlocked",
-            "description": "Only the wittiest shall survive this",
-            "events": [
-                {
-                    "name": "Room Escape",
-                    "description": "Addicted to those gaming apps where you have to solve the smallest and cleverest clues to escape the room? Well get ready to be trapped in our clues this time around, literally! You’ll be shut in a room with strangers, and the only way to come out will be to cooperate with each other. Work as a team to break the codes and solve the clues in the room and find the key to open the door. Be warned though! You could be stuck in there for while!",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Treasure Hunt",
-                    "description": "Well, who doesn't love an old-fashioned treasure hunt full of wordplay and misleading clues. Well just that this isn't an old-fashioned treasure hunt. Integrated with Snapchat to give you a much more immersive experience and make you believe you're a real-life pirate. This one you should not miss!",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Scramble",
-                    "description": "Jigsaw puzzles were really when we were kids right? Well, this jigsaw puzzle has 3-D pieces and will leave you scratching your heads. Only the wittiest shall survive.",
-                    "image": "",
-                    "link": ""
-                }
-            ]
-        },
-        {
-            "name": "Lumos",
-            "description": "Light up the Night!",
-            "events": [
-                {
-                    "name": "Silent Disco",
-                    "description": "The most infamous event in MI. The name says it all. A party where you could enjoy your own music and dance your heart out with friends. This is the stuff dreams are made off.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Casino Night",
-                    "description": "\"Raring to test out that poker face you've been practicing for so long? Well, look no more, coz you've come to the perfect place. The day might come to an end but we’re just getting started! Whether it's the spin of the roulette wheel that catches your eye, or the shouts of 'hit* and 'stay' from the blackjack table that draws you in, the excitement in the air just won't let you leave. \r\nSpin the wheel and play to your luck. May the odds be ever in your favor!\"",
-                    "image": "",
-                    "link": ""
-                }
-            ]
-        },
-        {
-            "name": "Nostalgia Zone",
-            "description": "Back to your childhood days!",
-            "events": [
-                {
-                    "name": "Gully Cricket",
-                    "description": "Who doesn't love old styled Gully cricket with deewaar ka chauka and boundary ke bahar out",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Pillow Fight",
-                    "description": "A chance to walk into every teenage boy’s fantasy: a pillow fight in a girl’s slumber party. The only difference? Instead of giggling and snickering, there will be a bloodbath... of feathers. It’s because there exists no better feeling than smacking your friend right in the face with a pillow.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Life Size Pacman",
-                    "description": "Pacman. Everyone remembers that cute little yellow ball of love. What if you were him running through a maze from deadly bacterias trying to eat you up. That is exactly what this is about!",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Life Size Connect 4",
-                    "description": "Remember when we were kids we used to play Connect 4. Now we have grown up, so is the Connect 4.",
-                    "image": "",
-                    "link": ""
-                }
-            ]
-        },
-        {
-            "name": "Xtreme Sports",
-            "description": "Feel the adrenaline rush",
-            "events": []
-        },
-        {
-            "name": "Wacky Wonderland",
-            "description": "You won't find this anywhere else",
-            "events": [
-                {
-                    "name": "Life Size Jenga",
-                    "description": "Pulling it out wrong has always had its concicevences. Well here to pulling out each block will have a cost to bear.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "3-A-Side Table Tennis",
-                    "description": "A wise man once said \" The more the merrier\". We took his advice. With 3 on 3 match its much more fun than the usual Table Tennis.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "MI Salon",
-                    "description": "In older times people used to practice shaving on balloons. We welcome you to MI Salon. You may win or cut your customer's face off. Either way, you will show us you barber-ian side .",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Cards against Humanity",
-                    "description": "A classic card game for all the peeps out there",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "What do you meme?",
-                    "description": "All the meme lords out there are invited. We have the templates ready. Play of your hand and create the most hilarious meme of them all.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Air Football",
-                    "description": "Football just got more interesting. You don't need your legs for this though. Do eat your mints before playing. Blow the hardest to win.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "4-Way Tug of War",
-                    "description": "Tug of War has been a sho of strength and unity. With double the number of people playing the stakes are also higher this time.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Whack-a-Mole",
-                    "description": "Classic Arcade Game. Scaled up to make more fun. Steal goodies from the Hammer-Man while he tries to smash your skull.",
-                    "image": "",
-                    "link": ""
-                }
-            ]
-        },
-        {
-            "name": "Icebreakers",
-            "description": "Need help breaking the ice? We got our hammers ready",
-            "events": [
-                {
-                    "name": "Speed Dating",
-                    "description": "The best part of the festival is meeting new people. If you know what I mean. Come try your luck !",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "People Bingo",
-                    "description": "Our own version of Bingo. People are your tickboxes. Find people with the given attributes and get all tickboxes signed. Discover friends in the process. Does it get any better?",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Speak Out",
-                    "description": "Might have seen this before. Doesn't look pretty with your mouth wide open but surely is fun.",
-                    "image": "",
-                    "link": ""
-                }
-            ]
-        },
-        {
-            "name": "Crossovers",
-            "description": "Get the competitive spirit flowing!",
-            "events": [
-                {
-                    "name": "Hogathon",
-                    "description": "For too long many of us have been ridiculed and shamed for our humongous diet. This is a chance to put it to good use. Participate in our hogathon and win many exciting prizes while getting to eat mouth watering food. The more you eat, the more your chances to triumph. Win-win!",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "Beer Pong+Golf",
-                    "description": "Sadly we had to kick out the beer from the event but not the fun. A mixture of Golf with Beer Pong, this one you should not miss out on.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "The Spotlight",
-                    "description": "Do you have a 10-second talent you wanna show off to the world. This is your chance. If you can spin footballs on your fingertips or do backflips back to back, come join us for this show-off.",
-                    "image": "",
-                    "link": ""
-                },
-                {
-                    "name": "PUBG Mobile Challenge",
-                    "description": "Are you also one of those people that just can't quit PUBG Mobile? Well, if yes its about time you made some money off it. Come prepared with your trigger fingers ready and participate in the PUBG Mobile Challenge this Mood Indigo.",
-                    "image": "",
-                    "link": ""
-                }
-            ]
-        },
-        {
-            "name": "Streets and Waiting lines",
-            "description": "We won't ever leave you bored",
-            "events": []
-        }
-    ],
-    "Arts and Ideas": [],
-    "Concerts": [
-        {
-            "name": "EDM Nite",
-            "description": "EDM Night is one of the most electric nights of Mood Indigo with crowd coming from all over the country to enjoy concerts featuring top DJs from around the world. Since its inception in 2013, eminent DJs including Bassjackers, Vinai, Sander van Doorn, Borgeous, Nucleya have graced the coveted Gymkhana stage at Mood Indigo.",
-            "events": [
-                {
-                    "name": "Ummet Ozcan",
-                    "description": "In an age where very few artists break the mold and truly shine through as unique and innovative, Dutch star Ummet Ozcan is one of the exceptions to the rule. Not only because of his advanced studio knowledge and the impressive string of dance floor hits this resulted in, it’s also thanks to his enduring presence at worldwide mainstages these last years. A success story that’s about to enter new grounds.\r\n \r\nGrowing up in the known epicentre of dance music, The Netherlands, it isn’t difficult for Ozcan to plunge into dance music at an early age. “The EDM scene has been very big here since I was a teenager. We’ve had dance music playing on radio stations for over 20 years now”, he explains. So, as soon as he’s good and ready, music starts to come out of Ozcan’s studio.\r\nIt won’t take long before he gets the attention he deserves. Since achieving his first major success in 2011 with ‘Reboot’, which spends seven weeks at #1 on Beatport, the veteran DJ’s major hits have been sampled in his peers’ radio podcasts and played at festival mainstages all over the world.\r\n \r\nCatch him playing live on 27th December at Gymkhana grounds, IIT Bombay",
-                    "image": "/images/depts/Concerts/UO.jpg",
-                    "link": "https://www.ummetozcan.com/"
-                },
-                {
-                    "name": "Progressive Brothers",
-                    "description": "The Progressive Brothers is an Electronic/Dance Duo act consisting of Sunny Sharma and Karan Bhalla. Talk about the Pioneers of Electronic Music scene in India,and it’s nearly impossible that your ears haven’t caught up with name of this EDM-Pop Duo ‘The Progressive Brothers’. They have given world-class performances in almost every corner of the country and specialise in making sure you get off your seat and hit the stage to break a leg !The Progressive Brothers have shared stage with artists like DJ Snake, Dimitri Vegas Like Mike, David Guetta, Tiesto, Martin Garrix, Kygo, Afrojack, KSHMR, Clean Bandit, Steve Aoki and many more.",
-                    "image": "/images/depts/Concerts/PB.jpg",
-                    "link": "https://www.facebook.com/progressivebrothers/"
-                }
-            ]
-        },
-        {
-            "name": "Livewire Nite",
-            "description": "Livewire Night, of Mood Indigo, has been one of the grandest platforms for top international rock and metal bands to perform at in India. This night has pulled some of the top bands in the world  like Simple Plan, Porcupine Tree, Epica, Haken, Karnivool and many more! With state of the art production, and some of the best bands from all over the globe, this night has been the highlight of the festival for many metalheads up and down the country.",
-            "events": [
-                {
-                    "name": "Leprous",
-                    "description": "Leprous is a progressive metal band from Notodden, Norway, formed in 2001. Leprous' style is typically classified as progressive metal or progressive rock and it singled out for its progressive elements, peculiar harmonies, singing style, and blending of different genres. Their sound has also been categorized as experimental rock, avant-garde metal, and pop. However, the band's members do not affiliate themselves with a specific genre.\r\n\r\nEinar Solberg, one of the band’s founding members, claims inspiration from Radiohead, Massive Attack, Arvo Pärt, Susanne Sundfør, Behemoth, and The Prodigy in addition to more analogous progressive bands such as Porcupine Tree and The Dillinger Escape Plan.\r\n\r\nIn a time where progressive music is emerging and there are so many options available to new listeners, it takes serious guts and personality to turn heads anymore. Norway’s Leprous has done just that in recent years, and it has been such a joy to watch them emerge into the limelight of awareness within the progressive community. It is no wonder, however, as Leprous continues to mature and to cling ever closer to their hearts when crafting new music.\r\n\r\nLeprous is a visionary band that defies genre labelling, not just in the style, but also in their attitude. Leprous, however, is not a band that takes success resting on their hind quarters, as they believe in pushing boundaries, learning from their mistakes, and following their instincts. This was proved when they released their new album “Malina” this summer, and offered a left hook to the progressive world.",
-                    "image": "/images/depts/Concerts/Leprous.jpg",
-                    "link": "https://www.leprous.net/"
-                },
-                {
-                    "name": "aswekeepsearching",
-                    "description": "Aswekeepsearching has been turning heads and perking up ears over the world for a while now, spreading a message of positivity and good times in a way only they can, while keeping their feet planted firmly on the ground. \r\nTheir music is an aural painting, cathartic and unbiased, vividly colourful and infinitely kind. From the first bar of the music till the curtain drops, it is apparent that the four members, fuelled by idealism and the drive to build something beautiful, are set out to move mountains. The albums also see the use of instruments like the Violin, Viola, Cello, Sitar and the Tabla, having collaborated with like-minded artists on some songs, who've added their own unique colour to the bands soundscape.",
-                    "image": "/images/depts/Concerts/Awks.jpg",
-                    "link": "https://www.facebook.com/aswekeepsearching/?ref=br_rs"
-                }
-            ]
-        },
-        {
-            "name": "Fusion Nite",
-            "description": "We at Mood Indigo, have something for everyone. Fusion Night adds the Indian essence that has been missing from your concerts. Be there to revel in the glory of semi-classical and indie music. With performances by Anand Bhaskar Collective and Clinton Cerejo Collective, this Night has given Mood Indigo some of the most enchanting sets in it’s long 47 year history.",
-            "events": [
-                {
-                    "name": "Papon",
-                    "description": "Angaraag Mahanta, popularly known as Papon, is a singer, multi-instrumentalist, composer and record producer. Blessed with a voice that’s smooth and soulful at the same time, his innovative experiments are rich with ambient electronica, acoustic folk, electro ghazals to classical sounds. Papon can sing effortlessly in Hindi, Punjabi, Marathi, Tamil, Bengali, and Gujarati language.\r\n\r\nIn Bollywood, Papon’s rise to fame was with the songs like ‘Moh Moh Ke Dhage’ from Dum Laga Ke Haisha, ‘Kyon’ from Barfi ,‘Jiyein Kyun’ from the movie Dum Maro Dum, ‘Labon Ka Karobar’ for the movie Befikre etc. In 2018, Papon has lent his voice to songs in movie Sanju, Raid, Karwaan, Sui Dhaaga. Papon has been a pioneer of Indian independent music & has co-composed songs like ‘Har Ek Baat’ and ‘Naina Laagey’ with pioneering producers Midival Punditz. He has also collaborated with renowned composer-multi instrumentalist Karsh Kale on the track ‘Absence’ for Karsh Kale’s fifth studio album.\r\n\r\nHe was awarded as the Best Male Playback Singer 2016 at Star Screen Awards, Mirchi Music\r\nAwards, TOIFA, GIMA, IIFA-Madrid. Papon was also nominated for Best Male Playback Singer at the FILMFARE Awards and Zee Cine Awards in 2016. His concert on 29th December will be surely something to look forward for all the Indian music lovers!",
-                    "image": "/images/depts/Concerts/Pap.jpg",
-                    "link": "https://www.facebook.com/AngaraagPAPONMahanta/"
-                },
-                {
-                    "name": "After Acoustics",
-                    "description": "After Acoustics is a Pune based folk rock/country music band, established in 2014. The band's music comprises of peppy, foot tapping country songs that make the audience sing along with gusto, leading them to often be compared to Mumford and Sons.\r\nWhat sets them apart is their ridiculous enthusiasm and energy. It is physically impossible to watch them live and NOT leave with a giant smile plastered on your face.",
-                    "image": "/images/depts/Concerts/AA.jpg",
-                    "link": "https://www.afteracoustics.in/"
-                }
-            ]
-        },
-        {
-            "name": "Popular Nite",
-            "description": "Arguably the primus inter pares of the four concerts, the Popular Night has a rich legacy of having featured some of the biggest names in the Bollywood music industry. Having featured artists include music legends Asha Bhosle and R D Burman, ghazal maestros Jagjit Singh and Pankaj Udhas, Shankar–Ehsaan–Loy, Sonu Nigam, and Shaan, Popular Night never fails to provide a magical ending to the 4 day party, which is Mood Indigo",
-            "events": [
-                {
-                    "name": "Salim - Sulaiman",
-                    "description": "Salim and Sulaiman have been composing music for over a decade having scored for movies like Rab ne banadi jodi, Fashion, Roadside Romeo, Iqbal, Heroine, Chak De India to name a few. \r\n\r\nHaving worked on a wide range of genres they have developed a unique understanding of cinema and a keen sense of knowing when to score and when to leave silences depending on the performances.\r\n\r\nThe versatile duo has scored for a string of Bollywood movies, composed for several Indi-pop sensations including Viva, Asmaan, Shweta Shetty, Jasmine and Style Bhai among others, composed and produced hundreds of TV commercials.",
-                    "image": "/images/depts/Pronites/ss.jpg",
-                    "link": "https://www.facebook.com/salimsulaimanmusic/"
-                }
-            ]
-        }
-    ],
     "Competitions": [
         {
             "name": "Music",
@@ -477,7 +216,7 @@
                 {
                     "name": "Desi Beats",
                     "LYP_description": "The first winner of Desi Beats will get a one-day workshop at <b><u><a href=\"https://www.youtube.com/watch?v=U4_lNo95tU4&list=PLHuHXHyLu7BFQm9QGtBrAZxpDwaulPzOv\" target=\"_blank\">The Dance Project Studio</a></u></b> along with a dance video shoot which will be uploaded from Sony Music India's official YouTube Handle(20 M+ Subscribers). <b><u><a href=\"https://www.youtube.com/watch?v=U4_lNo95tU4&list=PLHuHXHyLu7BFQm9QGtBrAZxpDwaulPzOv\" target=\"_blank\">The Dance Project</a></u></b> is India’s first original digital dance property for YouTube which gives a common platform to the best of three worlds i.e Bollywood, TV & YouTube to showcase their talent.",
-                    "LYP_img": "./TDP.jpg",
+                    "LYP_img": "./TDP.png",
                     "LYP_logo": null,
                     "description": "\"  Still have that Bollywood rush racing in your veins?\r\nDoes the over-pompous dholak beats and  the throbbing\r\nrock guitars send your legs grooving? Come, spice up \r\nthe stage , scale up the temperature and unhinge the \r\ncrowd with your thumkas and jhatkas! So, go get that \r\njhumka and set your pagdi in place because Abhi toh \r\nparty shuru hui hai!      With stars like  Shahid Kapoor, \r\nSaroj Khan and Mudassar Khan as judges for the past\r\n years , Desi Beats is going to be as magnificent as \r\nthose Sanjay Leela Bhansali's sets!  \"",
                     "rules": "<b>Team Size: </b>8-15 + 2 CAs (for lights and sounds) compulsory<br />\r\n<b>Styles: </b>Bollywood<br />\r\n<b>Judging Criteria: </b>Choreography, Energy, Synchronization, Expressions, Stage utilization, Costumes, Innovation in song incorporation and reverse section into performance, Overall impact.<br />\r\n<b>Stage Specifications: </b>Closed Auditorium with the audience on one side of the stage.<br /><br/>\r\n\r\n\r\n\r\n<h4>Eliminations </h4>\r\n<ul><li>Teams must perform any sequence of their choice which remains true to Bollywood dance.</li>\r\n<li>Time Limit: 3-5 minutes (+1 min setup and clearance time)</li>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</ul><h4>Finals </h4>\r\n<ul><li>Perform an extended version of the piece performed in eliminations.</li>\r\n<li>Teams need to add a reverse section where they have to perform a minimum of 15 second part of their choreography in reverse</li>\r\n<li>Time Limit: 8-10 minutes (+2 minutes setup and clearance time)</li>\r\n<li>Teams can use non Bollywood songs for a maximum of 1 minute in their performance. (Only in finals)</li>\r\n\r\n\r\n\r\n\r\n</ul><h4>General Rules</h4>\r\n<ul><li>Only one team per college is allowed.</li>\r\n<li>Participants should use more than one songs in their performance.</li>\r\n<li>Only Hindi Bollywood tracks are allowed. No regional language or other songs allowed. (Use of any other tracks will result in high penalty)</li>\r\n<li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage.</li>\r\n<li>The losses/damage to the props is not the responsibility of organisers and will be heavily penalised</li>\r\n<li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium. Any team doing so will be awarded high penalty.</li>\r\n<li>Teams have to submit their tracks (in mp3 format only) and prodlist at  <a href=\"mailto:desibeats@moodi.org\"><u>desibeats@moodi.org</u></a> before 15th December 2018 11:59 PM with subject “College Name | Team Leader's MI number”.</li>\r\n<li>Teams are requested to submit their props list prior to the competition and props have to be shown during practice slot. (Props will not be allowed if you fail to show them in practice slots)</li>\r\n<li>The soundtrack should also be brought in a pen drive (in .mp3 format only) during Mood Indigo.</li>\r\n<li>Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has possibility of tampering/damaging the stage is STRICTLY not allowed.</li>\r\n<li>Vulgarity and obscenity at any point is strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly.</li>\r\n<li>Performers have to clear the stage in the given time after their performance otherwise they will be penalised heavily by the organisers.</li>\r\n<li>Violation of any of the above rules, will lead to heavy penalties.</li>\r\n<li>The decision of the judges shall be final and binding.</li>\r\n</ul>",
@@ -492,7 +231,7 @@
                 {
                     "name": "Indigo Saga",
                     "LYP_description": "The first winner of Indigo Saga will get a one-day workshop at <b><u><a href=\"https://www.youtube.com/watch?v=U4_lNo95tU4&list=PLHuHXHyLu7BFQm9QGtBrAZxpDwaulPzOv\" target=\"_blank\">The Dance Project Studio</a></u></b> along with a dance video shoot which will be uploaded from Sony Music India's official YouTube Handle(20 M+ Subscribers). <b><u><a href=\"https://www.youtube.com/watch?v=U4_lNo95tU4&list=PLHuHXHyLu7BFQm9QGtBrAZxpDwaulPzOv\" target=\"_blank\">The Dance Project</a></u></b> is India’s first original digital dance property for YouTube which gives a common platform to the best of three worlds i.e Bollywood, TV & YouTube to showcase their talent.",
-                    "LYP_img": "./TDP.jpg",
+                    "LYP_img": "./TDP.png",
                     "LYP_logo": null,
                     "description": "Who says dance isn't magical? It's time to live your own La La Land. Listen to that long-forgotten whisper and feel the rise and the fall of your breath.Break those shackles. Grab the moment and cast that entrancing spell on us!      Opportunity dances with those already on the dance floor.Come, grab it. Come, dance to live, to breathe, to be free, to be YOU.",
                     "rules": "<b>Team Size: </b>8-15 + 2 CAs (for lights and sounds) compulsory<br />\r\n<b>Styles: </b>Contemporary<br />\r\n<b>Judging Criteria: </b>Choreography, Concept and Depiction, Synchronization, Stage utilization, Expressions, Costumes, Overall impact Judges may ask questions regarding the performance and theme (if any) you are depicting<br />\r\n<b>Stage Specifications: </b>Closed Auditorium with the audience on one side of the stage<br /><br />\r\n\r\n\r\n\r\n<h4>Eliminations </h4>\r\n<ul><li>Teams are free to put up any performance.</li>\r\n<li>Only Contemporary Dance form is allowed.</li>\r\n<li>The performance doesn’t necessarily have to be thematic.</li>\r\n<li>Time Limit: 4-6 min (including voice over of maximum 50 secs, +1 min setup and clearance time).</li>\r\n\r\n\r\n\r\n</ul><h4>Finals </h4>\r\n<ul><li>Perform an extended version of the dance sequence performed in the eliminations.</li>\r\n<li>Time limit: 7-9 minutes (including voice over of maximum 90 secs)(+2 mins setup and clearance time)</li>\r\n\r\n</ul><h4>General Rules:</h4>\r\n<ul><li>Only one team per college is allowed.</li>\r\n<li>Participants may use more than one song in their performance, the length of lyrics (if any) should not exceed 1 mins</li>\r\n<li>Relevant voice over(s) is allowed according to given limit: (Eliminations - 50 seconds Semi-Finals & Finals - 90 seconds)</li>\r\n<li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>\r\n<li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage.</li>\r\n<li>Teams have to submit their tracks (in mp3 format only) and prop list at  <a href=\"mailto:indigosaga@moodi.org\"><u>indigosaga@moodi.org</u></a> before 15th December 2018, 11:59 PM with subject “College Name | Team Leader's MI number”, mentioning the exact time & duration where lyrical song(s) and voice over(s) have been used in the track.</li>\r\n<li>The losses/damage to the props is not the responsibility of organisers and will be heavily penalised</li>\r\n<li>Teams are requested to submit their props list prior to the competition and props have to be shown during practice slot. (Props will not be allowed if you fail to show them in practice slots)</li>\r\n<li>The soundtrack should also be brought in a pen drive (in .mp3 format only) during Mood Indigo.</li>\r\n<li>Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has possibility of tampering/damaging the stage is STRICTLY not allowed.</li>\r\n<li>Vulgarity and obscenity at any point is strictly not allowed. It can lead to immediate disqualification.Songs to be chosen accordingly.</li>\r\n<li>Performers have to clear the stage after their performance otherwise they will be penalised heavily by the organisers.</li>\r\n<li>Violation of any of the above rules, will lead to heavy penalties.</li>\r\n<li>The decision of the judges shall be final and binding.</li>\r\n</ul>",
@@ -686,8 +425,8 @@
                 {
                     "name": "Humor Us",
                     "LYP_description": "The top-3 winners of Humor Us - the stand up comedy competition, will get a special chance to perform at <a herf=\"www.canvaslaughclub.com\"><u>Canvas Laugh Club's</u></a> Laughter Launchpad - a perfect platform to start your professional Stand up career. The show will have a professional host and will be headlined by a Best in Stand up artist.",
-                    "LYP_img": "./CLC.jpg",
-                    "LYP_logo": "photos/CLC.jpg",
+                    "LYP_img": "./CLC.png",
+                    "LYP_logo": "photos/CLC.png",
                     "description": "You walk onto the stage and your heart beats louder. You know you have to deliver, something big! Face the audience, their anticipation, weariness and demand and leave them with a gratified smile only and only through your words. Stand-Up Comedy is considered to be one the most difficult thing to create and perform. Do you think you have what it takes? Are there times when all you can think about is how to make the situation funny? Do you consider Steve Martin and Russell Peters to be your idols? It’s not easy to go on stage and have people laugh at you, but if nothing thrills you more, then this competition is for you!",
                     "rules": "<b>Team Size: </b>Solo<br />\r\n\r\n<b>Rounds: </b>Eliminations & Finals<br />\r\n\r\n\r\n\r\n\r\n\r\n\r\n<b>Judging Criteria </b>Content, Quality of humour, Stage presence, Audience engagement, Clarity of thought, Wackiness, USP (Unique selling point)<br />\r\n\r\n<br />\r\n\r\n\r\n<h4>Eliminations </h4>\r\n<ul><li>Eliminations are to be conducted on-ground during the fest, where the participants have to put on a show of 3-4 minutes in front of a live audience.</li>\r\n\r\n\r\n\r\n\r\n\r\n</ul>\r\n\r\n\r\n\r\n<h4>Finals </h4>\r\n<ul><li>The participants who cleared the eliminations will be asked to prepare a sketch of maximum 5 minutes, to perform in front of a live audience.</li>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n</ul>\r\n\r\n<h4>General Rules </h4>\r\n<ul><li>Mono -acting, puppetry, musicals are not allowed though ventriloquism is allowed.</li>\r\n<li>Use of props is allowed, brought in by the participant himself.</li>\r\n<li>The organisers hold the discretion of allowing it on stage.</li>\r\n<li>Both English and Hindi are allowed. No other language is allowed.</li>\r\n<li>Decisions taken by the judge is absolute and binding.</li>\r\n<li>Use of obscenity/profanity (at the discretion of the judges) is not allowed and there should be no direct implications.</li>\r\n<li>Any Form of music is not allowed during the performance.</li>\r\n<li>Since the participants are called upon in a random order, each is required to be present at least 5 minutes prior to the start.</li>\r\n<li>Organisers will not be responsible if you are unable to show up on time and miss your slot.</li>\r\n</ul>",
                     "prizes": "1st Position 10000 INR;\r\n2nd Position 5000 INR;\r\n3rd Position 3000 INR;",
@@ -1010,7 +749,7 @@
                     "LYP_img": "",
                     "LYP_logo": null,
                     "description": "You have competed in that evergreen Best-out-of-the-waste competition. No big deal, everyone participates in that when they are 10. So why not give it just another shot, however, yes, there’s always a catch in such situations. So cutting out all the cliched stuff we bring you a fashion designing competition with a twist, where you must produce a dress out of garbage!  Just a li’l advice, choose less stinky material coz you’re gonna wear it.",
-                    "rules": "<b>Team Size: </b>2 - 4<br />\r\n\r\n<b>Rounds: </b>Single Round: Make an apparel (clothing or outfit which includes accessories/equipment worn or carried in a function) out of material which is normally thrown out as waste. Participants will have to make an outfit depending on the theme (which would be given on the spot) using the materials given.<br />\r\n\r\n\r\n<b>Judging Criteria: </b>Intelligent use of materials, Creativity, Overall appeal of dress and colour composition.<br />\r\n\r\n<br />\r\n<h4>General Rules: </h4>\r\n<ul><li>We will be providing teams with some material like newspaper, paper cups, glue, etc.</li>\r\n<li>Teams can make their dress using these materials only.</li>\r\n<li>No material (fresh/waste) is allowed to be used which is brought from outside the campus.</li>\r\n<li>At the end of 4 hours, one of the team members shall wear the dress.</li>\r\n<li>The decision of judges shall be final and binding.</li>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n</ul>",
+                    "rules": "<b>Team Size: </b>2 - 4<br />\r\n\r\n<b>Rounds: </b>Single Round: Make an apparel (clothing or outfit which includes accessories/equipment worn or carried in a function) out of material which is normally thrown out as waste. Participants will have to make an outfit depending on the theme (which would be given on the spot) using the materials given. Send in your entries by first December.<br />\r\n\r\n\r\n<b>Judging Criteria: </b>Intelligent use of materials, Creativity, Overall appeal of dress and colour composition.<br />\r\n\r\n<br />\r\n<h4>General Rules: </h4>\r\n<ul><li>We will be providing teams with some material like newspaper, paper cups, glue, etc.</li>\r\n<li>Teams can make their dress using these materials only.</li>\r\n<li>No material (fresh/waste) is allowed to be used which is brought from outside the campus.</li>\r\n<li>At the end of 4 hours, one of the team members shall wear the dress.</li>\r\n<li>The decision of judges shall be final and binding.</li>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n</ul>",
                     "prizes": "1st Position 6000 INR;\r\n2nd Position 4000 INR;\r\n3rd Position 2000 INR;",
                     "subtitle": "Fashion with Trash Competition",
                     "status": "",
@@ -1127,6 +866,7 @@
             "image": "34"
         }
     ],
+    "Arts and Ideas": [],
     "Proshows": [
         {
             "name": "International Music Festival",
@@ -1165,7 +905,7 @@
                 {
                     "name": "Indian Air",
                     "description": "Since his first awareness of Indian music and the sitar more than 20 years ago, the Austrian musician Klaus Falschlunger has become a master of the instrument and an active representative of the Indian-Music scene in Europe.\r\nThe whole emotional spectrum of the musician´s inner world comes alive in \"INDIAN AIR\".\r\nHe is accompanied by Clemens Rofner on double bass, and by the percussionist Tobias Steinberger on framedrums/kanjira.\r\nGrowing up with jazz and rock music, he discovered in his extensive travels to Asia, the Middle East and Europe, more and more the diversity of music.His creativity and versatility brought him together with many musicians and artists from India, Korea, USA and Europe.",
-                    "image": "/images/depts/Horizons/Indian_Air.jpg"
+                    "image": "/images/depts/Horizons/Indian_Air.jpeg"
                 },
                 {
                     "name": "Tarq Bowen",
@@ -1182,12 +922,12 @@
                 {
                     "name": "Dekh Behen",
                     "description": "After 42 shows across four cities in just nine months, “Dekh Behen” comes to TheatreFest at Mood Indigo, IIT Bombay. Dekh Behen is a play written and directed by women with an all-female cast and crew. Set in the backdrop of an elaborate Punjabi wedding, this hilarious play is about women, by women, for anyone who wants to understand what it’s like to be a woman. This is a bittersweet comedy about sisters, wives, girlfriends, daughters, mothers, and above all – women. The play has left the audience laughing breathlessly with the hilarious exchanges between the characters. Plot Summary - A big fat Delhi wedding is underway. Merely hours before they need to put up their rehearsed item number, five bridesmaids catch up, gossip and bitch about their identical outfits. But that's not the only thing they have in common. They all dislike the bride. Akvarious Productions presents a bittersweet comedy about daughters, girlfriends, mothers and getting through one dramatic Indian wedding.",
-                    "image": "/images/depts/Horizons/Dekh_Behen.jpg"
+                    "image": "/images/depts/Horizons/Dekh_Behen.jpeg"
                 },
                 {
                     "name": "Stand Up",
                     "description": "Akvarious Productions presents 'Stand Up - a serious play about comedy', starring BhaDiPa stars Nipun Dharmadhikari and Sarang Sathaye, with Abir Abrar (from Karwaan), Adhaar Khurana (from Boygiri), Kashin Shetty (winner of META Best Supporting Actor for The Interview), Omkar Kulkarni (from Aladdin), famous rapper SlowCheeta, and Zayn Khan (from Dekh Behen). Hold your seats for the uncontrollable laughter as this play unfolds into real-life yet crazy situations.",
-                    "image": "/images/depts/Horizons/Stand_Up.jpg"
+                    "image": "/images/depts/Horizons/Stand_Up.jpeg"
                 },
                 {
                     "name": "Anji",
@@ -1197,7 +937,7 @@
                 {
                     "name": "Blueticks",
                     "description": "It is simply about teenage love story these days, The internet has simplified 'finding love' but complicated 'staying in it' Relationships have transformed from cozy couples to curious love triangles, boy, girl and the notorious smartphone.\r\nBlue Ticks explores this bizarre chemistry between friendship and technology and takes you back to the good old days where communications were intimate and real.\r\nConsidered one of the most popular plays among youngsters, Roll on the floor laughing with the actors in this rib-tickling performance that is sure to leave you feeling nostalgic.",
-                    "image": "/images/depts/Horizons/Blueticks.jpg"
+                    "image": "/images/depts/Horizons/Blueticks.png"
                 }
             ],
             "image": "Last year"
@@ -1209,17 +949,42 @@
                 {
                     "name": "Abhishek Upmanyu",
                     "description": "Standup comedian and internet sensation is known as a writer for On Air with AIB. He is also a co-founder of the popular Twitter handle GareebGuy. A Delhi boy who hardly qualifies to be one (he writes haikus and doesn’t drive a Scorpio), Abhishek Upmanyu is one of the finest young comedians in the country, representing fresh new talent on the scene. Known for killing it on stage, he hurls one cracker of a joke after another, thanks to his Shatabdi-fast delivery, unparalleled observational powers and skilled hands (that help him to write). A hardcore cat lover added to his charmingly shy demeanour is bait to his vast female following. The dark humour and sarcastic comments he unleashes to opine on the current state of affairs is both interesting and amusing, to say the least. Thanks to his quick tongue (he thinks faster than he can speak), many have suggested that he should cut a rap record, but his shy demeanour keeps him from it. The ‘say-it-like-it-is’ comedian started performing in 2013 and recently came out with a brand new show, Thoda Saaf Bol. He took the internet by storm with two simple videos on his YouTube channel. “Breakups, respecting elders and discrimination” and “Indian insults and comebacks”. Abhishek now lives in Mumbai, hoping to scale new heights of success within the comedy and live performance arena.",
-                    "image": "/images/depts/Horizons/Abhishek.jpg"
+                    "image": "/images/depts/Horizons/Abhishek.JPG"
                 },
                 {
                     "name": "Karan Chauhan",
                     "description": "Get ready for a combination of comedy, gags and illusion as India's first and foremost comedian illusionist Karan Chauhan tickles you into giggles. Combining the magic of comedy and the joy of magic, Karan has enchanted audiences across the globe. A familiar face from shows like the Great Indian Laughter Challenge and MTV reality show - Elevator Pitch, we will never get enough of him! Recipient of awards like Magician of the Year 2015 and Medal of Merlin from International Magicians Society, USA, this act is sure to leave you in splits!\r\nJoin us from 27th - 30th December!",
-                    "image": "/images/depts/Horizons/Karan.jpg"
+                    "image": "/images/depts/Horizons/Karan.jpeg"
                 },
                 {
                     "name": "The Shrink & The Nut Session by Atul Khatri & Dr Anjali Chhabria",
                     "description": "'So many words to say and no way to say them'\r\nMental strength synced with internal stability counts a lot.\r\nThe shrink, Dr Anjali Chhabria is a famous Psychiatrist running her own clinic in Juhu. She also conducts workshops and seminars that help the masses deal with their traumas in life and move on. There isn’t a more right person to help these developing minds cope up with their troubles while also gaining awareness about a healthy mental health.\r\nThe nut, Atul Khatri has been a popular face on the television by appearing in advertisements for big brands like- Amazon, Muthoot Finance, Phillips and many more. There couldn’t be a man more apt than him to bring self-awareness in a more relatable and fun way.\r\nThe Shrink & the Nut will ensure you can live your life to the fullest, through their unique roadmap. Get a chance to come out of your blues!",
                     "image": "/images/depts/Horizons/Shrink&Nut.jpg"
+                },
+                {
+                    "name": "The Bell Icon",
+                    "description": "Ever heard of 4 crazy actors coming and having an insane time together? What could be better than fun escalating to more than four times! Catch Amol Parashar, Maanvi Gagroo, Naveen Kasturia and Shivankit Parihar have a candid time together at this Mood Indigo!Shivankit Singh Parihar is an actor and writer, known for TVF Bachelors (2016), Barely Speaking with Arnub (2014) and Shuruaat Ka Interval (2014).Shivankit Singh has been most integral actor for the channel 'The Screen Patti' where he is known for the character 'Raja Rabish Kumar' mimicking Indian journalist Ravish Kumar, Jogi Adityanath mimicking Uttar Pradesh CM Yogi Adityanath, mimicked people like Amitabh Bachchan, Baba Ramdev.Amol is an IIT Delhi alumni who quit his job to join the arts.Amol's performance in his films has been strongly appreciated by critics.He also starred in TVF's web series Bisht please and tripling.Maanvi Gargoo shot to fame with one of India’s earliest web series, Pitchers, and now plays Chanchal on TVF’s latest, Tripling — a slick-looking (evidence of higher production budgets) sibling road-trip drama.",
+                    "image": "/images/depts/Horizons/bell icon.jpg"
+                },
+                {
+                    "name": "Into the humor-Verse",
+                    "description": "\"What comes to your mind when you think of comedy? Stand-up? We are here to introduce the rest of the spectrum. Kautuk Srivastava is a Mumbai-based writer and comedian. He is currently a member of SnG Comedy, a popular comedy collective that has amassed 470000 subscribers and 61 million views. \r\n Seema is a self-taught ventriloquist - an Indian living in Nepal. She’s an in-house comic of Canvas Laugh Club and have been performing regularly in Mumbai Gurgaon and Noida\r\nAnsh is an engineer that started his journey with writing street plays and now is dominating the art of stand-up comedy.\r\nDevansh is an Indori stand-up comic that has opened for a lot of Hotshots stand-up comics now. He has now conquered the skill of Improv comedy.\r\nUjjwal is a hyperactive hinglish comic that does not only stand-up but also the less explored genre of musical comedy.\"",
+                    "image": "/images/depts/Horizons/Humorverse.jpg"
+                },
+                {
+                    "name": "Kunal Kamra",
+                    "description": "Kunal Kamra’s first-ever stand-up clip landed on YouTube a year ago. He started receiving death threats within 10 days. The 8-minute clip, Patriotism & the Government, revolved around the now-viral punchline, “Siachen mein hamaare jawaan lad rahe hain”. And now, Kamra, who first broke out as a “sure thing” opening act in the Mumbai stand-up scene a couple of years ago, is now a controversial figure whose cocky, anti-establishment brand of political humour has won him loyal fans as well as dedicated haters. He is also known nationwide for his youtube podcast “Shut Up Ya Kunal!”. At last count, the five episodes of Shut Up Ya Kunal had cumulatively been watched over two million times (the JNU Students episode alone had around 1.1 million views). Kamra’s mentions on twitter are usually filled with hate, often for his left-liberal political views (although he isn’t averse to ridiculing leaders across the spectrum).",
+                    "image": "/images/depts/Horizons/Kunal.jpg"
+                },
+                {
+                    "name": "RJ Naved",
+                    "description": "Naved Khan, popularly known as RJ Naved is an Indian Entertainer, TV host and Radio Jockey. He is best known for his show 'Delhi Ka Don' on Radio Mirchi. The daily feature 'Mirchi Murga' is undoubtedly the most unique element of the show. He mastered the art of mimicking people at a very early age and he often uses this talent to prank people on his show. Catch him at Mood Indigo to hear him talk about some of his never heard before funny experiences.",
+                    "image": "/images/depts/Horizons/Naved.jpg"
+                },
+                {
+                    "name": "Arnav Rao",
+                    "description": "Arnav ia lawyer turned standup comic from chennai. He managed to bag a spot in the popular Standup comedy competition- Comicstan.",
+                    "image": "/images/depts/Horizons/Arnav.jpg"
                 }
             ],
             "image": "nahi hai"
@@ -1278,19 +1043,64 @@
                 {
                     "name": "TSD Taiwanese Culture",
                     "description": "With an ancient form of culture which offers people peace and prosperity, TSD Culture and Arts Creative team has successfully attracted a huge crowd for young generation's attention in Asia and is here to show the beauty of Taiwanese culture at Mood Indigo 2018. Jia-Jiang (Chinese words for General in ancient time) culture presents the wisdom of Taiwan's tradition of worship, which offers people peace and prosperity, prayers for fortune and disaster relief. TSD street dance group is formed on the basis of supporting this tradition and by adding the latest \"hip hop\" trend\" in the dance through which they have successfully attracted a huge crowd of young generations' attention in Asia.",
-                    "image": "/images/depts/Horizons/TSD.jpg"
+                    "image": "/images/depts/Horizons/TSD.JPG"
                 },
                 {
                     "name": "Julia Perron Laflamme",
                     "description": "Welcome back in the 50’s! Julia and her big wheel Rocky are presenting an acrobatic and a funny show. On rockabilly music, it’s a unique circus show with flips, dance, comedy but also fire! You’ll be charmed !",
                     "image": "/images/depts/Horizons/JPL.jpg"
+                },
+                {
+                    "name": "Blackspades",
+                    "description": "Fame of India's got talent season (4 & 7)\r\n• Had done press conference with IGT judges.\r\n• Worked in Bollywood movie ( Hindi medium )\r\n• Gold medallist in Indian unite  Hip-Hop championship - 2015\r\n• Bronze medallist in Indian Hip-Hop Dance championship -2017 \r\n• Worked in Dil Dosti Dance for MTV channel",
+                    "image": "/images/depts/Horizons/blackspades.jpg"
+                },
+                {
+                    "name": "Feel Crew",
+                    "description": "The Feel Crew made their mark from ‘Dance Plus Season 4’. This group of Thane boys are better known for their performance on social issues. They are in the ‘Top 10’ in ‘Dance Plus S4’ right now.",
+                    "image": "/images/depts/Horizons/feel crew.png"
+                },
+                {
+                    "name": "Chorerocture Crew",
+                    "description": "Choreoculture Crew won gold medal at Dance World Cup 2017, an international competition held in Vancouver, Canada. Choreoculture is an International Dance Academy. They are also the proud creators of Gear of Dance - A group dance competition.",
+                    "image": "/images/depts/Horizons/Choreo.png"
+                },
+                {
+                    "name": "X1X Crew",
+                    "description": "X1X Crew started it’s journey from ‘Dance Plus Season 2’ and has performed in many award ceremonies like ‘Gold Awards 2018’, ‘17th ITA Awards 2017’ and ‘Star Screen Awards’. They were finalists in ‘India Banega Manch’ and X1X Crew Junior were finalists in ‘India’s got Talent Season 6’.",
+                    "image": "/images/depts/Horizons/X1X.jpg"
+                },
+                {
+                    "name": "Dynamic Dance Crew",
+                    "description": "Dynamic Dance Crew is an all style dance crew formed in 2012 by Swapnil Patil. Known by all because of their performance in many reality TV shows like ‘Dance Plus 3’, ‘India’s Got Talent’ and more. They were gold medalists at ‘Hip-Hop Unite Dance Championship 2015’ and bagged a bronze at ‘HHI India 2015’. Winners of ‘Mumbai Dream 2015’, ‘Spring Fest 2015’ and ‘The Street 2015’.",
+                    "image": "/images/depts/Horizons/Dynamic.jpg"
+                },
+                {
+                    "name": "Tuttix Crew",
+                    "description": "Tuttix is a dance crew well known for their tutting and robotics. They have performed in ‘India’s Got Talent Season 7’, and ‘Dance Plus Season 2’. They were placed third in ‘Indian Street Dance Championship 2016’ and were one of the ‘Top 12 contestants’ in the reality show ‘Dance Plus Season 3’. They have also worked in an upcoming Hollywood movie ‘HEARTBEATS 3D’.",
+                    "image": "/images/depts/Horizons/Tuttix.jpg"
+                },
+                {
+                    "name": "Mallakhamb Innovators",
+                    "description": "Mallakhamb Innovators is a group of 10 masters each of whom have mastered the art for more than 10 years. They won many reality TV shows like ‘Entertainment Ke Liye Kuch Bhi Karega Season 1’, Semi-Finalists of ‘India’s Got Talent Season 8’ and Runners up in ‘Mumbai’s Got Talent 2017’. They also performed in ‘Capital Day of Aditya Birla Group 2018’ in Jaipur. They have represented India in Russia, China and Israel. They are working in an upcoming movie ‘BHARAT’.",
+                    "image": ""
+                },
+                {
+                    "name": "F.I.D CREW",
+                    "description": "the famous in dark crew as known as F.I.D CREW the Indian parkour ( the activity or sport of moving rapidly through an area, typically in an urban environment, negotiating obstacles by running, jumping, and climbing.",
+                    "image": "/images/depts/Horizons/FID.jpg"
+                },
+                {
+                    "name": "Asphalt theater",
+                    "description": "Our destiny is : To create performances with the Surprise of the circus,The thrill of  theatre and the Humor of the clown. From which people come out with \"light\" in their eyes.\r\n\r\nAsphalt Theater is an ensemble of multi skilled performers.All actors play music,\r\njuggle, perform acrobatics, clown-around and communicate \"analogically\"...",
+                    "image": "/images/depts/Horizons/asphalt.jpg"
                 }
             ],
             "image": "X"
         },
         {
             "name": "Workshops",
-            "description": "-",
+            "description": ".",
             "events": [
                 {
                     "name": "Magic Workshop",
@@ -1341,9 +1151,324 @@
                     "name": "Parkouring Workshop",
                     "description": "Footprint academy brings to you the complete fitness guide to help you improve agility, stamina through a couple of Cross Fit workouts and parkouring activities. It is about speed running with skillful movements using obstacles.",
                     "image": ""
+                },
+                {
+                    "name": "Magic",
+                    "description": "ALL SECRETS WILL BE REVEALED at the Magic workshop by Magician Shardul. Learn basic magic tricks and enjoy magical activities. At the end, leave in awe of the closing act. \r\nwww.magicianshardul.com",
+                    "image": "/images/depts/Horizons/Magic.jpg"
+                },
+                {
+                    "name": "Parkouring and crossfit workshops",
+                    "description": "Footprint academy brings to you the complete fitness guide to help you  improve agility, stamina through a couple of Cross Fit workouts and parkouring activities. It is about speed running with skillful movements using obstacles.",
+                    "image": "/images/depts/Horizons/parkouring.jpg"
+                },
+                {
+                    "name": "Culinery craft",
+                    "description": "Palate culinary studio brings to you a scrumptious cupcake frosting workshop. Decorate your own take away cupcakes with buttercream icing, sprinkles and yummy edible toppings.",
+                    "image": "/images/depts/Horizons/Cupcake.jpg"
+                },
+                {
+                    "name": "Zumba",
+                    "description": "Enjoy an exclusive zumba session with Sculptasse fitness studio. Dance to the beats of Spanish and Indian music and become fit.",
+                    "image": "/images/depts/Horizons/Zumba workshop.jpg"
+                },
+                {
+                    "name": "Pottery Workshop",
+                    "description": "This workshop by Rashi Jain will be an introduction to modelling human faces using terracotta clay and the basics of various hand building techniques.The class will begin with an introduction to the medium. Emphasis will be on exploring one’s own creative process, and developing it in three dimension.",
+                    "image": "/images/depts/Horizons/pottery workshop.jpg"
+                },
+                {
+                    "name": "Warli and Madhubani",
+                    "description": "Admire the beauty of indian tribal folk art and create your own art marvels at the madhubani and warily fusion art workshop by Vanadana.",
+                    "image": "/images/depts/Horizons/Madhubani workshop.jpg"
+                },
+                {
+                    "name": "Makeup workshop",
+                    "description": "BE YOUR OWN MAKEUP ARTIST with Rashi Singhat! Learn basic makeup tricks and get all your questions answered, with a live demonstration. Get yourself transformed this new years eve                                   P.S.  get your own makeup and learn to recreate the look.",
+                    "image": "/images/depts/Horizons/Makeup workshop.jpg"
+                },
+                {
+                    "name": "Longboarding workshop",
+                    "description": "Experience skateboarding in less than 15 minutes, with some of the best skateboarders in Mumbai!!",
+                    "image": "/images/depts/Horizons/Longboarding workshop.jpg"
+                },
+                {
+                    "name": "Slacklining workshop",
+                    "description": "Never stepped on a slackline? This is the workshop for you! We'll cover the fundamentals and an introduction to slacklining practice! Come ready to practice and enjoy the adventure of standing (on both feet) and walking on a slackline.",
+                    "image": "/images/depts/Horizons/slacklining workshop.jpg"
+                },
+                {
+                    "name": "Martial arts",
+                    "description": "Thoughts of aggression often accompany while one thinks or speaks of martial arts. But this is all that one sees in movies. …….. brings to you a martial arts workshop. Learn some basic martial arts kicks and moves.",
+                    "image": "/images/depts/Horizons/martial arts workshop.jpg"
+                },
+                {
+                    "name": "Dance workshop",
+                    "description": "Enjoy an afternoon of high intensity bollywood hiphop dance with Dancefit, India’s largest dance youtube channel. Dance to the best of bollywood songs with Tejas Dhoke",
+                    "image": "/images/depts/Horizons/dance workshop.jpg"
                 }
             ],
-            "image": "-"
+            "image": "-XYZ"
+        }
+    ],
+    "Informals": [
+        {
+            "name": "Sherlocked",
+            "description": "Only the wittiest shall survive this",
+            "events": [
+                {
+                    "name": "Room Escape",
+                    "description": "Addicted to those gaming apps where you have to solve the smallest and cleverest clues to escape the room? Well get ready to be trapped in our clues this time around, literally! You’ll be shut in a room with strangers, and the only way to come out will be to cooperate with each other. Work as a team to break the codes and solve the clues in the room and find the key to open the door. Be warned though! You could be stuck in there for while!",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Treasure Hunt",
+                    "description": "Well, who doesn't love an old-fashioned treasure hunt full of wordplay and misleading clues. Well just that this isn't an old-fashioned treasure hunt. Integrated with Snapchat to give you a much more immersive experience and make you believe you're a real-life pirate. This one you should not miss!",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Scramble",
+                    "description": "Jigsaw puzzles were really when we were kids right? Well, this jigsaw puzzle has 3-D pieces and will leave you scratching your heads. Only the wittiest shall survive.",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Lumos",
+            "description": "Light up the Night!",
+            "events": [
+                {
+                    "name": "Silent Disco",
+                    "description": "The most infamous event in MI. The name says it all. A party where you could enjoy your own music and dance your heart out with friends. This is the stuff dreams are made off.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Casino Night",
+                    "description": "\"Raring to test out that poker face you've been practicing for so long? Well, look no more, coz you've come to the perfect place. The day might come to an end but we’re just getting started! Whether it's the spin of the roulette wheel that catches your eye, or the shouts of 'hit* and 'stay' from the blackjack table that draws you in, the excitement in the air just won't let you leave. \r\nSpin the wheel and play to your luck. May the odds be ever in your favor!\"",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Nostalgia Zone",
+            "description": "Back to your childhood days!",
+            "events": [
+                {
+                    "name": "Gully Cricket",
+                    "description": "Who doesn't love old styled Gully cricket with deewaar ka chauka and boundary ke bahar out",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Pillow Fight",
+                    "description": "A chance to walk into every teenage boy’s fantasy: a pillow fight in a girl’s slumber party. The only difference? Instead of giggling and snickering, there will be a bloodbath... of feathers. It’s because there exists no better feeling than smacking your friend right in the face with a pillow.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Life Size Pacman",
+                    "description": "Pacman. Everyone remembers that cute little yellow ball of love. What if you were him running through a maze from deadly bacterias trying to eat you up. That is exactly what this is about!",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Life Size Connect 4",
+                    "description": "Remember when we were kids we used to play Connect 4. Now we have grown up, so is the Connect 4.",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Xtreme Sports",
+            "description": "Feel the adrenaline rush",
+            "events": []
+        },
+        {
+            "name": "Wacky Wonderland",
+            "description": "You won't find this anywhere else",
+            "events": [
+                {
+                    "name": "Life Size Jenga",
+                    "description": "Pulling it out wrong has always had its concicevences. Well here to pulling out each block will have a cost to bear.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "3-A-Side Table Tennis",
+                    "description": "A wise man once said \" The more the merrier\". We took his advice. With 3 on 3 match its much more fun than the usual Table Tennis.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "MI Salon",
+                    "description": "In older times people used to practice shaving on balloons. We welcome you to MI Salon. You may win or cut your customer's face off. Either way, you will show us you barber-ian side .",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Cards against Humanity",
+                    "description": "A classic card game for all the peeps out there",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "What do you meme?",
+                    "description": "All the meme lords out there are invited. We have the templates ready. Play of your hand and create the most hilarious meme of them all.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Air Football",
+                    "description": "Football just got more interesting. You don't need your legs for this though. Do eat your mints before playing. Blow the hardest to win.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "4-Way Tug of War",
+                    "description": "Tug of War has been a sho of strength and unity. With double the number of people playing the stakes are also higher this time.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Whack-a-Mole",
+                    "description": "Classic Arcade Game. Scaled up to make more fun. Steal goodies from the Hammer-Man while he tries to smash your skull.",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Icebreakers",
+            "description": "Need help breaking the ice? We got our hammers ready",
+            "events": [
+                {
+                    "name": "Speed Dating",
+                    "description": "The best part of the festival is meeting new people. If you know what I mean. Come try your luck !",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "People Bingo",
+                    "description": "Our own version of Bingo. People are your tickboxes. Find people with the given attributes and get all tickboxes signed. Discover friends in the process. Does it get any better?",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Speak Out",
+                    "description": "Might have seen this before. Doesn't look pretty with your mouth wide open but surely is fun.",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Crossovers",
+            "description": "Get the competitive spirit flowing!",
+            "events": [
+                {
+                    "name": "Hogathon",
+                    "description": "For too long many of us have been ridiculed and shamed for our humongous diet. This is a chance to put it to good use. Participate in our hogathon and win many exciting prizes while getting to eat mouth watering food. The more you eat, the more your chances to triumph. Win-win!",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Beer Pong+Golf",
+                    "description": "Sadly we had to kick out the beer from the event but not the fun. A mixture of Golf with Beer Pong, this one you should not miss out on.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "The Spotlight",
+                    "description": "Do you have a 10-second talent you wanna show off to the world. This is your chance. If you can spin footballs on your fingertips or do backflips back to back, come join us for this show-off.",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "PUBG Mobile Challenge",
+                    "description": "Are you also one of those people that just can't quit PUBG Mobile? Well, if yes its about time you made some money off it. Come prepared with your trigger fingers ready and participate in the PUBG Mobile Challenge this Mood Indigo.",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "name": "Streets and Waiting lines",
+            "description": "We won't ever leave you bored",
+            "events": []
+        }
+    ],
+    "Concerts": [
+        {
+            "name": "EDM Nite",
+            "description": "EDM Night is one of the most electric nights of Mood Indigo with crowd coming from all over the country to enjoy concerts featuring top DJs from around the world. Since its inception in 2013, eminent DJs including Bassjackers, Vinai, Sander van Doorn, Borgeous, Nucleya have graced the coveted Gymkhana stage at Mood Indigo.",
+            "events": [
+                {
+                    "name": "Ummet Ozcan",
+                    "description": "In an age where very few artists break the mold and truly shine through as unique and innovative, Dutch star Ummet Ozcan is one of the exceptions to the rule. Not only because of his advanced studio knowledge and the impressive string of dance floor hits this resulted in, it’s also thanks to his enduring presence at worldwide mainstages these last years. A success story that’s about to enter new grounds.\r\n \r\nGrowing up in the known epicentre of dance music, The Netherlands, it isn’t difficult for Ozcan to plunge into dance music at an early age. “The EDM scene has been very big here since I was a teenager. We’ve had dance music playing on radio stations for over 20 years now”, he explains. So, as soon as he’s good and ready, music starts to come out of Ozcan’s studio.\r\nIt won’t take long before he gets the attention he deserves. Since achieving his first major success in 2011 with ‘Reboot’, which spends seven weeks at #1 on Beatport, the veteran DJ’s major hits have been sampled in his peers’ radio podcasts and played at festival mainstages all over the world.\r\n \r\nCatch him playing live on 27th December at Gymkhana grounds, IIT Bombay",
+                    "image": "/images/depts/Concerts/UO.jpg",
+                    "link": "https://www.ummetozcan.com/"
+                },
+                {
+                    "name": "Progressive Brothers",
+                    "description": "The Progressive Brothers is an Electronic/Dance Duo act consisting of Sunny Sharma and Karan Bhalla. Talk about the Pioneers of Electronic Music scene in India,and it’s nearly impossible that your ears haven’t caught up with name of this EDM-Pop Duo ‘The Progressive Brothers’. They have given world-class performances in almost every corner of the country and specialise in making sure you get off your seat and hit the stage to break a leg !The Progressive Brothers have shared stage with artists like DJ Snake, Dimitri Vegas Like Mike, David Guetta, Tiesto, Martin Garrix, Kygo, Afrojack, KSHMR, Clean Bandit, Steve Aoki and many more.",
+                    "image": "/images/depts/Concerts/PB.jpg",
+                    "link": "https://www.facebook.com/progressivebrothers/"
+                }
+            ]
+        },
+        {
+            "name": "Livewire Nite",
+            "description": "Livewire Night, of Mood Indigo, has been one of the grandest platforms for top international rock and metal bands to perform at in India. This night has pulled some of the top bands in the world  like Simple Plan, Porcupine Tree, Epica, Haken, Karnivool and many more! With state of the art production, and some of the best bands from all over the globe, this night has been the highlight of the festival for many metalheads up and down the country.",
+            "events": [
+                {
+                    "name": "Leprous",
+                    "description": "Leprous is a progressive metal band from Notodden, Norway, formed in 2001. Leprous' style is typically classified as progressive metal or progressive rock and it singled out for its progressive elements, peculiar harmonies, singing style, and blending of different genres. Their sound has also been categorized as experimental rock, avant-garde metal, and pop. However, the band's members do not affiliate themselves with a specific genre.\r\n\r\nEinar Solberg, one of the band’s founding members, claims inspiration from Radiohead, Massive Attack, Arvo Pärt, Susanne Sundfør, Behemoth, and The Prodigy in addition to more analogous progressive bands such as Porcupine Tree and The Dillinger Escape Plan.\r\n\r\nIn a time where progressive music is emerging and there are so many options available to new listeners, it takes serious guts and personality to turn heads anymore. Norway’s Leprous has done just that in recent years, and it has been such a joy to watch them emerge into the limelight of awareness within the progressive community. It is no wonder, however, as Leprous continues to mature and to cling ever closer to their hearts when crafting new music.\r\n\r\nLeprous is a visionary band that defies genre labelling, not just in the style, but also in their attitude. Leprous, however, is not a band that takes success resting on their hind quarters, as they believe in pushing boundaries, learning from their mistakes, and following their instincts. This was proved when they released their new album “Malina” this summer, and offered a left hook to the progressive world.",
+                    "image": "/images/depts/Concerts/Leprous.jpg",
+                    "link": "https://www.leprous.net/"
+                },
+                {
+                    "name": "aswekeepsearching",
+                    "description": "Aswekeepsearching has been turning heads and perking up ears over the world for a while now, spreading a message of positivity and good times in a way only they can, while keeping their feet planted firmly on the ground. \r\nTheir music is an aural painting, cathartic and unbiased, vividly colourful and infinitely kind. From the first bar of the music till the curtain drops, it is apparent that the four members, fuelled by idealism and the drive to build something beautiful, are set out to move mountains. The albums also see the use of instruments like the Violin, Viola, Cello, Sitar and the Tabla, having collaborated with like-minded artists on some songs, who've added their own unique colour to the bands soundscape.",
+                    "image": "/images/depts/Concerts/Awks.jpg",
+                    "link": "https://www.facebook.com/aswekeepsearching/?ref=br_rs"
+                }
+            ]
+        },
+        {
+            "name": "Fusion Nite",
+            "description": "We at Mood Indigo, have something for everyone. Fusion Night adds the Indian essence that has been missing from your concerts. Be there to revel in the glory of semi-classical and indie music. With performances by Anand Bhaskar Collective and Clinton Cerejo Collective, this Night has given Mood Indigo some of the most enchanting sets in it’s long 47 year history.",
+            "events": [
+                {
+                    "name": "Papon",
+                    "description": "Angaraag Mahanta, popularly known as Papon, is a singer, multi-instrumentalist, composer and record producer. Blessed with a voice that’s smooth and soulful at the same time, his innovative experiments are rich with ambient electronica, acoustic folk, electro ghazals to classical sounds. Papon can sing effortlessly in Hindi, Punjabi, Marathi, Tamil, Bengali, and Gujarati language.\r\n\r\nIn Bollywood, Papon’s rise to fame was with the songs like ‘Moh Moh Ke Dhage’ from Dum Laga Ke Haisha, ‘Kyon’ from Barfi ,‘Jiyein Kyun’ from the movie Dum Maro Dum, ‘Labon Ka Karobar’ for the movie Befikre etc. In 2018, Papon has lent his voice to songs in movie Sanju, Raid, Karwaan, Sui Dhaaga. Papon has been a pioneer of Indian independent music & has co-composed songs like ‘Har Ek Baat’ and ‘Naina Laagey’ with pioneering producers Midival Punditz. He has also collaborated with renowned composer-multi instrumentalist Karsh Kale on the track ‘Absence’ for Karsh Kale’s fifth studio album.\r\n\r\nHe was awarded as the Best Male Playback Singer 2016 at Star Screen Awards, Mirchi Music\r\nAwards, TOIFA, GIMA, IIFA-Madrid. Papon was also nominated for Best Male Playback Singer at the FILMFARE Awards and Zee Cine Awards in 2016. His concert on 29th December will be surely something to look forward for all the Indian music lovers!",
+                    "image": "/images/depts/Concerts/Pap.jpg",
+                    "link": "https://www.facebook.com/AngaraagPAPONMahanta/"
+                },
+                {
+                    "name": "After Acoustics",
+                    "description": "After Acoustics is a Pune based folk rock/country music band, established in 2014. The band's music comprises of peppy, foot tapping country songs that make the audience sing along with gusto, leading them to often be compared to Mumford and Sons.\r\nWhat sets them apart is their ridiculous enthusiasm and energy. It is physically impossible to watch them live and NOT leave with a giant smile plastered on your face.",
+                    "image": "/images/depts/Concerts/AA.jpg",
+                    "link": "https://www.afteracoustics.in/"
+                }
+            ]
+        },
+        {
+            "name": "Popular Nite",
+            "description": "Arguably the primus inter pares of the four concerts, the Popular Night has a rich legacy of having featured some of the biggest names in the Bollywood music industry. Having featured artists include music legends Asha Bhosle and R D Burman, ghazal maestros Jagjit Singh and Pankaj Udhas, Shankar–Ehsaan–Loy, Sonu Nigam, and Shaan, Popular Night never fails to provide a magical ending to the 4 day party, which is Mood Indigo",
+            "events": [
+                {
+                    "name": "Salim - Sulaiman",
+                    "description": "Salim and Sulaiman have been composing music for over a decade having scored for movies like Rab ne banadi jodi, Fashion, Roadside Romeo, Iqbal, Heroine, Chak De India to name a few. \r\n\r\nHaving worked on a wide range of genres they have developed a unique understanding of cinema and a keen sense of knowing when to score and when to leave silences depending on the performances.\r\n\r\nThe versatile duo has scored for a string of Bollywood movies, composed for several Indi-pop sensations including Viva, Asmaan, Shweta Shetty, Jasmine and Style Bhai among others, composed and produced hundreds of TV commercials.",
+                    "image": "/images/depts/Pronites/ss.jpg",
+                    "link": "https://www.facebook.com/salimsulaimanmusic/"
+                }
+            ]
         }
     ],
     "Workshops": []
