@@ -40,6 +40,9 @@ var manageEnvironment = function(environment) {
         if (str && str.length > 0) { return str; }
         return "https://moodi.org/";
     });
+    environment.addFilter('filexists', function(str) {
+        return (fs.existsSync('./src' + str)) ? str : false;
+    });
 }
 
 /* Gulp tasks */

@@ -178,7 +178,7 @@
               {% for event in genre.events %}
                 <p class="mi-gen-right-para">
                   <h3>{{event.name}}</h3>
-                  {% if event.image %}
+                  {% if (event.image | filexists) %}
                     <img class="mi-evt-img" src={{event.image}}>
                   {% endif %}
                   <p>{{event.description}}</p>
@@ -251,7 +251,7 @@
               {% for event in genre.events %}
                 <p class="mi-gen-right-para">
                   <h3>{{event.name}}</h3>
-                  {% if event.image %}
+                  {% if (event.image | filexists) %}
                     <img class="mi-evt-img" src={{event.image}}>
                   {% endif %}
                   <p>{{event.description}}</p>
@@ -306,7 +306,7 @@
               {% for event in genre.events %}
                 <p class="mi-gen-right-para">
                   <h3>{{event.name}}</h3>
-                  {% if event.image %}
+                  {% if (event.image | filexists) %}
                     <img class="mi-evt-img" src={{event.image}}>
                   {% endif %}
                   <p>{{event.description}}</p>
