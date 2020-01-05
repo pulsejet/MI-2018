@@ -12,7 +12,26 @@
         background-repeat: no-repeat;
     }
 
+    /* Archival */
+    .mi-comp-title {
+        font-size: 5em;
+        font-family: 'Lato';
+        font-weight: 900;
+        margin-bottom: 0.5em;
+        text-transform: uppercase;
+    }
+    .mi-comp-main {
+        width: 85%; max-width: 600px;
+        position: absolute; top: 40%; left: 40%;
+        transform: translate(-50%, -50%);
+    }
     @media (max-width: 900px) {
+        .mi-comp-title {
+            font-size: 2em;
+        }
+        .mi-comp-main {
+            top: 30%; left: 50%;
+        }
         #compi-iframe-container {
             background: linear-gradient(248deg, #14d0fd, #22c0fd);
             background-size: unset;
@@ -21,11 +40,15 @@
 </style>
 
 <div id="compi-iframe-container" class="full-body">
-    <iframe id="compi-iframe" class="full-iframe opacity-fadein" allowtransparency="true" rel="nofollow"></iframe>
+    <div class="mi-comp-main">
+        <div class="mi-comp-title"> Competitions </div>
+        Registrations for Mood Indigo 2018 have closed. See you next year!
+    </div>
+    <!-- <iframe id="compi-iframe" class="full-iframe opacity-fadein" allowtransparency="true" rel="nofollow"></iframe> -->
 </div>
 
 <script>
-    MoodI.initIFrameSub("#compi-iframe", "https://comp.moodi.org/get-ls");
+    // MoodI.initIFrameSub("#compi-iframe", "https://comp.moodi.org/get-ls");
 </script>
 
 {% endblock %}
