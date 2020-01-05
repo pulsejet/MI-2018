@@ -9,14 +9,39 @@
     #compi-iframe-container {
         background: linear-gradient(135deg, rgb(237,85,146), rgb(115,57,178));
     }
+    .mi-reg-title {
+        font-size: 5em;
+        font-family: 'Lato';
+        font-weight: 900;
+        margin-bottom: 0.5em;
+        text-transform: uppercase;
+    }
+    .mi-reg-main {
+        width: 85%; max-width: 600px;
+        position: absolute; top: 40%; left: 40%;
+        transform: translate(-50%, -50%);
+    }
+    @media (max-width: 900px) {
+        .mi-reg-title {
+            font-size: 3em;
+        }
+        .mi-reg-main {
+            top: 30%; left: 50%;
+        }
+    }
 </style>
 
 <div id="compi-iframe-container" class="full-body">
-    <iframe id="reg-iframe" class="full-iframe opacity-fadein" allowtransparency="true"></iframe>
+    <div class="mi-reg-main">
+        <div class="mi-reg-title"> Register </div>
+        Official website of Asia's largest college cultural festival, will be out soon! Register to live the best 4 days of your lives from 26th-29th December, 2019! Follow our Facebook and Instagram pages for regular updates.
+    </div>
+    <!-- <iframe id="reg-iframe" class="full-iframe opacity-fadein" allowtransparency="true"></iframe> -->
 </div>
 
+
 <script>
-    MoodI.initIFrameSub("#reg-iframe", "https://reg18.moodi.org");
+    // MoodI.initIFrameSub("#reg-iframe", "https://reg18.moodi.org");
 </script>
 
 {% endblock %}
