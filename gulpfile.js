@@ -34,11 +34,11 @@ var manageEnvironment = function(environment) {
     });
     environment.addFilter('micta', function(str) {
         if (str && str.length > 0) { return str; }
-        return "https://moodi.org/images/CTA.jpg";
+        return "https://2018.moodi.org/images/CTA.jpg";
     });
     environment.addFilter('miurl', function(str) {
         if (str && str.length > 0) { return str; }
-        return "https://moodi.org/";
+        return "https://2018.moodi.org/";
     });
     environment.addFilter('filexists', function(str) {
         return (fs.existsSync('./src' + str)) ? str : false;
